@@ -1,8 +1,14217 @@
 // Base de dados exemplo (pode ser expandida com o PDF real)
 const enderecos = [
-{ rua: "Avenida Rui Barbosa", cep: "11740-000" },
-{ rua: "Rua Cunha Moreira", cep: "11740-120" },
-{ rua: "Rua Antônio Olívio de Araújo", cep: "11740-210" }
+  {
+    "rua": "A (Est Ipanema)",
+    "cep": "11752-288"
+  },
+  {
+    "rua": "A (Est Ipanema)",
+    "cep": "11752-278"
+  },
+  {
+    "rua": "A (Pq Evelyn)",
+    "cep": "11751-554"
+  },
+  {
+    "rua": "A Direita",
+    "cep": "11743-466"
+  },
+  {
+    "rua": "A Esquerda",
+    "cep": "11743-464"
+  },
+  {
+    "rua": "Abel Francisco Caniçais",
+    "cep": "11742-628"
+  },
+  {
+    "rua": "Abelardo Mendonça de Oliveira",
+    "cep": "11747-370"
+  },
+  {
+    "rua": "Abilio Padovan",
+    "cep": "11747-342"
+  },
+  {
+    "rua": "Acapulco",
+    "cep": "11746-398"
+  },
+  {
+    "rua": "Aclimação",
+    "cep": "11741-222"
+  },
+  {
+    "rua": "Aclimação",
+    "cep": "11741-342"
+  },
+  {
+    "rua": "Acre",
+    "cep": "11746-294"
+  },
+  {
+    "rua": "Acre",
+    "cep": "11742-734"
+  },
+  {
+    "rua": "Acre (Baln Gaivota)",
+    "cep": "11754-658"
+  },
+  {
+    "rua": "Acre (Jd Luizamar)",
+    "cep": "11754-554"
+  },
+  {
+    "rua": "Acumas , dos",
+    "cep": "11755-752"
+  },
+  {
+    "rua": "Acuris , dos",
+    "cep": "11754-434"
+  },
+  {
+    "rua": "Adair Molina Veras",
+    "cep": "11754-680"
+  },
+  {
+    "rua": "Adalton dos Santos",
+    "cep": "11740-568"
+  },
+  {
+    "rua": "Adamantina",
+    "cep": "11754-820"
+  },
+  {
+    "rua": "Adão Pereira da Silva",
+    "cep": "11749-230"
+  },
+  {
+    "rua": "Adauto Pereira dos Santos",
+    "cep": "11746-740"
+  },
+  {
+    "rua": "Adelina Maria Oliveira",
+    "cep": "11755-542"
+  },
+  {
+    "rua": "Adelson Santos Martins",
+    "cep": "11755-550"
+  },
+  {
+    "rua": "Ademar de Oliveira Batista",
+    "cep": "11748-132"
+  },
+  {
+    "rua": "Aderito Marieto Lara",
+    "cep": "11747-020"
+  },
+  {
+    "rua": "Adhemar de Barros, Doutor",
+    "cep": "11748-482"
+  },
+  {
+    "rua": "Adolpho da Silva Figueira",
+    "cep": "11749-618"
+  },
+  {
+    "rua": "Aécio Mennucci",
+    "cep": "11740-092"
+  },
+  {
+    "rua": "Afanasi Petecof",
+    "cep": "11746-324"
+  },
+  {
+    "rua": "Afonso Francisco de Oliveira",
+    "cep": "11746-838"
+  },
+  {
+    "rua": "Afonso Maria Ratisbone, Padre",
+    "cep": "11740-832"
+  },
+  {
+    "rua": "Afonso Maria Ratisbone, Padre",
+    "cep": "11740-734"
+  },
+  {
+    "rua": "Afonso Meira Júnior",
+    "cep": "11740-128"
+  },
+  {
+    "rua": "Afonso Ribeira",
+    "cep": "11754-108"
+  },
+  {
+    "rua": "Afonso Tessitore, Capitão",
+    "cep": "11741-052"
+  },
+  {
+    "rua": "Afonso Tessitore, Capitão",
+    "cep": "11741-612"
+  },
+  {
+    "rua": "Afranio Drummond Murgel",
+    "cep": "11744-304"
+  },
+  {
+    "rua": "Agelim",
+    "cep": "11750-132"
+  },
+  {
+    "rua": "Agenor de Benedette",
+    "cep": "11748-130"
+  },
+  {
+    "rua": "Agenor Mariano",
+    "cep": "11748-248"
+  },
+  {
+    "rua": "Agostinho dos Santos Pereira",
+    "cep": "11746-736"
+  },
+  {
+    "rua": "Agostinho Rodrigues Luzirão",
+    "cep": "11744-280"
+  },
+  {
+    "rua": "Agostinho, Santo",
+    "cep": "11741-850"
+  },
+  {
+    "rua": "Aguapeú , do",
+    "cep": "11744-560"
+  },
+  {
+    "rua": "Aimorés",
+    "cep": "11749-152"
+  },
+  {
+    "rua": "Airton Marins",
+    "cep": "11751-320"
+  },
+  {
+    "rua": "Alacyr Ferreira Costa, Vereador",
+    "cep": "11747-164"
+  },
+  {
+    "rua": "Alagoas",
+    "cep": "11754-636"
+  },
+  {
+    "rua": "Albert Sabin",
+    "cep": "11749-396"
+  },
+  {
+    "rua": "Albert Sabin",
+    "cep": "11754-446"
+  },
+  {
+    "rua": "Albert Sabin",
+    "cep": "11754-048"
+  },
+  {
+    "rua": "Albertina, Dona",
+    "cep": "11740-042"
+  },
+  {
+    "rua": "Alberto Barbosa",
+    "cep": "11743-240"
+  },
+  {
+    "rua": "Alberto Duarte Ferreira",
+    "cep": "11740-082"
+  },
+  {
+    "rua": "Alberto Ferreira da Silva",
+    "cep": "11748-204"
+  },
+  {
+    "rua": "Alberto Marino, Maestro",
+    "cep": "11746-168"
+  },
+  {
+    "rua": "Alberto Mendes Júnior, Capitão",
+    "cep": "11749-630"
+  },
+  {
+    "rua": "Alberto Simões",
+    "cep": "11740-286"
+  },
+  {
+    "rua": "Alberto Simões",
+    "cep": "11740-334"
+  },
+  {
+    "rua": "Alcantara Machado",
+    "cep": "11740-814"
+  },
+  {
+    "rua": "Alcebiades Saraiva, Doutor",
+    "cep": "11746-084"
+  },
+  {
+    "rua": "Alceu Maynard de Araújo, Doutor",
+    "cep": "11746-160"
+  },
+  {
+    "rua": "Alceu Silva",
+    "cep": "11746-828"
+  },
+  {
+    "rua": "Alcides Cresoni",
+    "cep": "11754-684"
+  },
+  {
+    "rua": "Alcides Dominiski",
+    "cep": "11754-318"
+  },
+  {
+    "rua": "Alcides Marques",
+    "cep": "11746-278"
+  },
+  {
+    "rua": "Alcides Mendes Gonçalves",
+    "cep": "11757-046"
+  },
+  {
+    "rua": "Alcides Mendes Gonçalves",
+    "cep": "11754-030"
+  },
+  {
+    "rua": "Alderige Ferreira do Nascimento",
+    "cep": "11742-634"
+  },
+  {
+    "rua": "Alecrim",
+    "cep": "11750-138"
+  },
+  {
+    "rua": "Alemanha",
+    "cep": "11749-424"
+  },
+  {
+    "rua": "Alessandro Rangel Lima",
+    "cep": "11751-310"
+  },
+  {
+    "rua": "Alexandre da Alessandrini, Doutor",
+    "cep": "11741-816"
+  },
+  {
+    "rua": "Alexandre Dias de Lima",
+    "cep": "11749-602"
+  },
+  {
+    "rua": "Alexandre dos Santos",
+    "cep": "11748-048"
+  },
+  {
+    "rua": "Alfredo Almeida Frias",
+    "cep": "11742-736"
+  },
+  {
+    "rua": "Alfredo Bazzali",
+    "cep": "11746-250"
+  },
+  {
+    "rua": "Alfredo Lourenço dos Santos",
+    "cep": "11746-540"
+  },
+  {
+    "rua": "Alfredo Simões Dias",
+    "cep": "11747-222"
+  },
+  {
+    "rua": "Alfredo Simões Dias",
+    "cep": "11747-150"
+  },
+  {
+    "rua": "Alice Teixeira de Carvalho Saraiva, Professora",
+    "cep": "11746-144"
+  },
+  {
+    "rua": "Alidio Sales",
+    "cep": "11742-672"
+  },
+  {
+    "rua": "Alipio Simões",
+    "cep": "11742-646"
+  },
+  {
+    "rua": "Alipio Simões",
+    "cep": "11743-508"
+  },
+  {
+    "rua": "Almeida Júnior",
+    "cep": "11746-692"
+  },
+  {
+    "rua": "Alois Dohnal",
+    "cep": "11746-552"
+  },
+  {
+    "rua": "Altair Branco",
+    "cep": "11744-296"
+  },
+  {
+    "rua": "Álvaro Cura",
+    "cep": "11747-126"
+  },
+  {
+    "rua": "Álvaro dos Santos",
+    "cep": "11747-104"
+  },
+  {
+    "rua": "Alvino Gomes Rodrigues",
+    "cep": "11741-638"
+  },
+  {
+    "rua": "Alziro Ramiro dos Santos",
+    "cep": "11740-244"
+  },
+  {
+    "rua": "Amalve Pedro Muniz",
+    "cep": "11748-020"
+  },
+  {
+    "rua": "Amândio Augusto Martins",
+    "cep": "11747-880"
+  },
+  {
+    "rua": "Amapá",
+    "cep": "11746-360"
+  },
+  {
+    "rua": "Amapá",
+    "cep": "11754-572"
+  },
+  {
+    "rua": "Amaro, Santo",
+    "cep": "11754-830"
+  },
+  {
+    "rua": "Amaro da Silveira",
+    "cep": "11754-448"
+  },
+  {
+    "rua": "Amaro Domingues Prado",
+    "cep": "11754-610"
+  },
+  {
+    "rua": "Amaro Prado",
+    "cep": "11746-590"
+  },
+  {
+    "rua": "Amazonas",
+    "cep": "11747-816"
+  },
+  {
+    "rua": "Amazonas",
+    "cep": "11749-474"
+  },
+  {
+    "rua": "Amazonas",
+    "cep": "11746-336"
+  },
+  {
+    "rua": "Amazonas",
+    "cep": "11754-632"
+  },
+  {
+    "rua": "Amazonas",
+    "cep": "11742-746"
+  },
+  {
+    "rua": "Amélia Lopes de Oliveira Furtado",
+    "cep": "11742-740"
+  },
+  {
+    "rua": "Amélia Ribeiro Nicolini",
+    "cep": "11740-062"
+  },
+  {
+    "rua": "Amelio de Figueiredo",
+    "cep": "11746-686"
+  },
+  {
+    "rua": "América",
+    "cep": "11749-446"
+  },
+  {
+    "rua": "Americana",
+    "cep": "11742-540"
+  },
+  {
+    "rua": "Américo Landucci, Doutor",
+    "cep": "11740-848"
+  },
+  {
+    "rua": "Américo Nicolini",
+    "cep": "11740-170"
+  },
+  {
+    "rua": "Ametista",
+    "cep": "11747-848"
+  },
+  {
+    "rua": "Amoreiras",
+    "cep": "11744-770"
+  },
+  {
+    "rua": "Amparo",
+    "cep": "11746-410"
+  },
+  {
+    "rua": "Ana Conceição Carreira de Souza",
+    "cep": "11746-536"
+  },
+  {
+    "rua": "Ana de Jesus, Santa",
+    "cep": "11747-118"
+  },
+  {
+    "rua": "Ana de Jesus, Santa",
+    "cep": "11747-124"
+  },
+  {
+    "rua": "Ana de Mattos Meira",
+    "cep": "11740-102"
+  },
+  {
+    "rua": "Ana Dias",
+    "cep": "11747-234"
+  },
+  {
+    "rua": "Ana Lorena de Souza",
+    "cep": "11746-608"
+  },
+  {
+    "rua": "Ana Maria Martins Rivera",
+    "cep": "11746-550"
+  },
+  {
+    "rua": "Ana Marques de Araújo",
+    "cep": "11749-060"
+  },
+  {
+    "rua": "Anápolis",
+    "cep": "11754-622"
+  },
+  {
+    "rua": "Anastácio, Santo",
+    "cep": "11755-038"
+  },
+  {
+    "rua": "Anchieta",
+    "cep": "11752-158"
+  },
+  {
+    "rua": "Anchieta",
+    "cep": "11748-516"
+  },
+  {
+    "rua": "Anchieta",
+    "cep": "11741-272"
+  },
+  {
+    "rua": "Anchieta",
+    "cep": "11741-204"
+  },
+  {
+    "rua": "Anchieta, Padre",
+    "cep": "11746-012"
+  },
+  {
+    "rua": "Anchieta 2A",
+    "cep": "11741-278"
+  },
+  {
+    "rua": "Anchises Branco",
+    "cep": "11744-320"
+  },
+  {
+    "rua": "Andorinha",
+    "cep": "11740-266"
+  },
+  {
+    "rua": "André José Camargo",
+    "cep": "11754-172"
+  },
+  {
+    "rua": "André Ricardo Munhoz",
+    "cep": "11746-064"
+  },
+  {
+    "rua": "André Ruzsicska",
+    "cep": "11740-132"
+  },
+  {
+    "rua": "André, Santo",
+    "cep": "11746-432"
+  },
+  {
+    "rua": "André, Santo",
+    "cep": "11754-848"
+  },
+  {
+    "rua": "André, Santo",
+    "cep": "11747-802"
+  },
+  {
+    "rua": "André, Santo",
+    "cep": "11742-724"
+  },
+  {
+    "rua": "André, Santo",
+    "cep": "11742-512"
+  },
+  {
+    "rua": "André, Santo",
+    "cep": "11743-562"
+  },
+  {
+    "rua": "Anésia Aguiar",
+    "cep": "11743-394"
+  },
+  {
+    "rua": "Angatuba",
+    "cep": "11741-136"
+  },
+  {
+    "rua": "Angélica Colucci",
+    "cep": "11749-608"
+  },
+  {
+    "rua": "Angelina Picheli",
+    "cep": "11749-586"
+  },
+  {
+    "rua": "Angelino de Bortoli, Vereador",
+    "cep": "11746-772"
+  },
+  {
+    "rua": "Ângelo Bifulco",
+    "cep": "11740-510"
+  },
+  {
+    "rua": "Angico",
+    "cep": "11749-336"
+  },
+  {
+    "rua": "Angico",
+    "cep": "11749-128"
+  },
+  {
+    "rua": "Anhangabaú",
+    "cep": "11749-216"
+  },
+  {
+    "rua": "Anhanguéra",
+    "cep": "11749-028"
+  },
+  {
+    "rua": "Anjo da Guarda",
+    "cep": "11741-882"
+  },
+  {
+    "rua": "Anjo da Guarda",
+    "cep": "11742-442"
+  },
+  {
+    "rua": "Ankara",
+    "cep": "11749-392"
+  },
+  {
+    "rua": "Anna Constantina da Conceição",
+    "cep": "11749-190"
+  },
+  {
+    "rua": "Anonima",
+    "cep": "11754-122"
+  },
+  {
+    "rua": "Antenor Coradi",
+    "cep": "11742-468"
+  },
+  {
+    "rua": "Antídio Ribeiro",
+    "cep": "11744-152"
+  },
+  {
+    "rua": "Antonia Aparecida Neves da Silva",
+    "cep": "11742-470"
+  },
+  {
+    "rua": "Antoniel Paulo Barbosa",
+    "cep": "11743-272"
+  },
+  {
+    "rua": "Antonieta Guimarães de Andrade",
+    "cep": "11746-202"
+  },
+  {
+    "rua": "Antonio Agostinho dos Santos",
+    "cep": "11743-230"
+  },
+  {
+    "rua": "Antonio Alex Ferreira de Souza, Vereador",
+    "cep": "11743-274"
+  },
+  {
+    "rua": "Antonio Alves Quintas",
+    "cep": "11751-342"
+  },
+  {
+    "rua": "Antonio Alves Quintas",
+    "cep": "11747-226"
+  },
+  {
+    "rua": "Antonio Amâncio de Aguiar",
+    "cep": "11747-248"
+  },
+  {
+    "rua": "Antonio Assunção Filho",
+    "cep": "11747-292"
+  },
+  {
+    "rua": "Antonio Ataulo, Vereador",
+    "cep": "11742-662"
+  },
+  {
+    "rua": "Antonio Baena Fernandes",
+    "cep": "11749-080"
+  },
+  {
+    "rua": "Antonio Baena Ramos",
+    "cep": "11744-076"
+  },
+  {
+    "rua": "Antonio Balint",
+    "cep": "11741-894"
+  },
+  {
+    "rua": "Antonio Caniço",
+    "cep": "11748-252"
+  },
+  {
+    "rua": "Antônio Carlos de Aguiar",
+    "cep": "11743-396"
+  },
+  {
+    "rua": "Antonio Carlos de Almeida, Vereador",
+    "cep": "11741-260"
+  },
+  {
+    "rua": "Antonio Carlos dos Santos Prado",
+    "cep": "11746-718"
+  },
+  {
+    "rua": "Antonio Carlos Pereira",
+    "cep": "11747-250"
+  },
+  {
+    "rua": "Antônio Damião Rebouças",
+    "cep": "11742-792"
+  },
+  {
+    "rua": "Antonio de Jesus",
+    "cep": "11748-044"
+  },
+  {
+    "rua": "Antônio de Pádua Geraldo, Sargento",
+    "cep": "11741-758"
+  },
+  {
+    "rua": "Antonio de Padua Meira",
+    "cep": "11746-614"
+  },
+  {
+    "rua": "Antonio Domingos do Rosário",
+    "cep": "11748-194"
+  },
+  {
+    "rua": "Antonio Fascina",
+    "cep": "11754-414"
+  },
+  {
+    "rua": "Antonio Fascina",
+    "cep": "11755-862"
+  },
+  {
+    "rua": "Antonio Fascina",
+    "cep": "11754-400"
+  },
+  {
+    "rua": "Antonio Félix Moreira",
+    "cep": "11755-082"
+  },
+  {
+    "rua": "Antonio Ferreira de Souza Filho",
+    "cep": "11741-538"
+  },
+  {
+    "rua": "Antonio Fortes Gatto",
+    "cep": "11747-258"
+  },
+  {
+    "rua": "Antonio Francisco do Rosario",
+    "cep": "11755-546"
+  },
+  {
+    "rua": "Antonio Henrique",
+    "cep": "11755-532"
+  },
+  {
+    "rua": "Antonio José Pedrosa",
+    "cep": "11754-644"
+  },
+  {
+    "rua": "Antonio Juvenal das Neves Júnior",
+    "cep": "11747-244"
+  },
+  {
+    "rua": "Antonio Lamping Filho",
+    "cep": "11748-018"
+  },
+  {
+    "rua": "Antonio Leal da Silva",
+    "cep": "11749-090"
+  },
+  {
+    "rua": "Antonio Maria Siqueira, Dom",
+    "cep": "11742-010"
+  },
+  {
+    "rua": "Antonio Maria Siqueira, Dom",
+    "cep": "11740-754"
+  },
+  {
+    "rua": "Antonio Marques",
+    "cep": "11742-664"
+  },
+  {
+    "rua": "Antonio Marques Carreira",
+    "cep": "11740-344"
+  },
+  {
+    "rua": "Antonio Mendes Júnior",
+    "cep": "11746-014"
+  },
+  {
+    "rua": "Antonio Olivio de Araújo",
+    "cep": "11740-034"
+  },
+  {
+    "rua": "Antonio Prado",
+    "cep": "11748-186"
+  },
+  {
+    "rua": "Antonio Paranhos de Lima",
+    "cep": "11748-214"
+  },
+  {
+    "rua": "Antonio Parreiras",
+    "cep": "11746-684"
+  },
+  {
+    "rua": "Antonio Parreiras",
+    "cep": "11746-662"
+  },
+  {
+    "rua": "Antônio Procópio",
+    "cep": "11749-700"
+  },
+  {
+    "rua": "Antônio Procópio",
+    "cep": "11754-004"
+  },
+  {
+    "rua": "Antônio Procópio",
+    "cep": "11749-702"
+  },
+  {
+    "rua": "Antônio Procópio",
+    "cep": "11754-006"
+  },
+  {
+    "rua": "Antonio R. B. Dantas",
+    "cep": "11741-704"
+  },
+  {
+    "rua": "Antonio Ribeiro Nogueira Júnior, Doutor",
+    "cep": "11751-304"
+  },
+  {
+    "rua": "Antônio, Santo",
+    "cep": "11746-026"
+  },
+  {
+    "rua": "Antonio Sobral",
+    "cep": "11742-624"
+  },
+  {
+    "rua": "Antonio Vichino Vasquez",
+    "cep": "11740-406"
+  },
+  {
+    "rua": "Antonio Wilson Pontes Quintas",
+    "cep": "11747-152"
+  },
+  {
+    "rua": "Aparecida",
+    "cep": "11746-434"
+  },
+  {
+    "rua": "Aparecida Lima de Godoy",
+    "cep": "11751-628"
+  },
+  {
+    "rua": "Apiai",
+    "cep": "11750-554"
+  },
+  {
+    "rua": "Apollo Rodrigues Júnior, Vereador",
+    "cep": "11740-468"
+  },
+  {
+    "rua": "Apparecida Garcia Ramos",
+    "cep": "11742-796"
+  },
+  {
+    "rua": "Arable",
+    "cep": "11750-110"
+  },
+  {
+    "rua": "Araçatuba",
+    "cep": "11746-436"
+  },
+  {
+    "rua": "Araçatuba",
+    "cep": "11755-024"
+  },
+  {
+    "rua": "Araçatuba",
+    "cep": "11742-532"
+  },
+  {
+    "rua": "Aracy",
+    "cep": "11740-772"
+  },
+  {
+    "rua": "Aracy",
+    "cep": "11740-716"
+  },
+  {
+    "rua": "Arapehy",
+    "cep": "11747-040"
+  },
+  {
+    "rua": "Araponga",
+    "cep": "11749-264"
+  },
+  {
+    "rua": "Arapongas",
+    "cep": "11755-060"
+  },
+  {
+    "rua": "Ararangaba",
+    "cep": "11740-672"
+  },
+  {
+    "rua": "Ararangaba",
+    "cep": "11740-674"
+  },
+  {
+    "rua": "Araraquara",
+    "cep": "11741-144"
+  },
+  {
+    "rua": "Araraquara (Cid Jard Cel)",
+    "cep": "11747-774"
+  },
+  {
+    "rua": "Araraquara (Jd Campomar)",
+    "cep": "11748-280"
+  },
+  {
+    "rua": "Araras",
+    "cep": "11749-258"
+  },
+  {
+    "rua": "Arariba",
+    "cep": "11750-130"
+  },
+  {
+    "rua": "Arariboia",
+    "cep": "11740-598"
+  },
+  {
+    "rua": "Arariboia",
+    "cep": "11740-656"
+  },
+  {
+    "rua": "Arcelino de Araújo",
+    "cep": "11747-228"
+  },
+  {
+    "rua": "Arcelino de Matos",
+    "cep": "11747-700"
+  },
+  {
+    "rua": "Argélia",
+    "cep": "11749-384"
+  },
+  {
+    "rua": "Argentina",
+    "cep": "11749-448"
+  },
+  {
+    "rua": "Arimá Magalhães",
+    "cep": "11740-098"
+  },
+  {
+    "rua": "Ariovaldo Vianna, Doutor",
+    "cep": "11741-826"
+  },
+  {
+    "rua": "Ariovaldo Vianna, Doutor",
+    "cep": "11742-396"
+  },
+  {
+    "rua": "Aristeu Miguel",
+    "cep": "11741-550"
+  },
+  {
+    "rua": "Aristeu Rodrigues da Silva",
+    "cep": "11746-846"
+  },
+  {
+    "rua": "Aristides Gomes Assunção",
+    "cep": "11747-294"
+  },
+  {
+    "rua": "Aristides Mendonça de Oliveira",
+    "cep": "11746-526"
+  },
+  {
+    "rua": "Ariticaçã",
+    "cep": "11757-108"
+  },
+  {
+    "rua": "Arlindo Betio",
+    "cep": "11746-582"
+  },
+  {
+    "rua": "Armando Capellari",
+    "cep": "11740-582"
+  },
+  {
+    "rua": "Armando Diogo",
+    "cep": "11754-682"
+  },
+  {
+    "rua": "Armando Ferreira, Vereador",
+    "cep": "11755-434"
+  },
+  {
+    "rua": "Armando Ferreira, Vereador",
+    "cep": "11754-630"
+  },
+  {
+    "rua": "Armênia",
+    "cep": "11749-398"
+  },
+  {
+    "rua": "Armênia",
+    "cep": "11742-778"
+  },
+  {
+    "rua": "Armênia",
+    "cep": "11742-728"
+  },
+  {
+    "rua": "Armênia",
+    "cep": "11740-438"
+  },
+  {
+    "rua": "Arminda Loureiro",
+    "cep": "11741-608"
+  },
+  {
+    "rua": "Armindo Ferreira",
+    "cep": "11747-198"
+  },
+  {
+    "rua": "Arnaldo Baena Fernandes",
+    "cep": "11746-750"
+  },
+  {
+    "rua": "Arnaldo Dante, Padre",
+    "cep": "11741-798"
+  },
+  {
+    "rua": "Arnaldo Dante, Padre",
+    "cep": "11742-378"
+  },
+  {
+    "rua": "Arnaldo Ferazo, Vereador",
+    "cep": "11740-718"
+  },
+  {
+    "rua": "Arnaldo Marques Carreira",
+    "cep": "11746-822"
+  },
+  {
+    "rua": "Arnaldo Valente, Capitão",
+    "cep": "11742-632"
+  },
+  {
+    "rua": "Arouche",
+    "cep": "11748-502"
+  },
+  {
+    "rua": "Arrube Mouro",
+    "cep": "11749-234"
+  },
+  {
+    "rua": "Arthur Bernardes",
+    "cep": "11740-224"
+  },
+  {
+    "rua": "Arthur Maia de Almeida Ramos",
+    "cep": "11741-624"
+  },
+  {
+    "rua": "Arthur Slav Júnior",
+    "cep": "11742-510"
+  },
+  {
+    "rua": "Arthur Werner Kroger",
+    "cep": "11746-240"
+  },
+  {
+    "rua": "Artur Kruger",
+    "cep": "11754-236"
+  },
+  {
+    "rua": "Artur Rosa Ramos, Tenente",
+    "cep": "11742-554"
+  },
+  {
+    "rua": "Arturo Mainardi",
+    "cep": "11749-236"
+  },
+  {
+    "rua": "Arueira",
+    "cep": "11749-354"
+  },
+  {
+    "rua": "Arueira",
+    "cep": "11749-324"
+  },
+  {
+    "rua": "Ary Carneiro de Saraiva",
+    "cep": "11740-470"
+  },
+  {
+    "rua": "Ary Carneiro de Saraiva",
+    "cep": "11740-578"
+  },
+  {
+    "rua": "Ary Carneiro de Saraiva",
+    "cep": "11740-452"
+  },
+  {
+    "rua": "Ary Carneiro de Saraiva",
+    "cep": "11740-130"
+  },
+  {
+    "rua": "Ary Pinto Costa",
+    "cep": "11748-042"
+  },
+  {
+    "rua": "Assaí",
+    "cep": "11755-058"
+  },
+  {
+    "rua": "Assembléia de Deus",
+    "cep": "11746-752"
+  },
+  {
+    "rua": "Assis",
+    "cep": "11755-048"
+  },
+  {
+    "rua": "Associação , da",
+    "cep": "11742-774"
+  },
+  {
+    "rua": "Assunção",
+    "cep": "11749-470"
+  },
+  {
+    "rua": "Ataliba Nogueira, Doutor",
+    "cep": "11740-846"
+  },
+  {
+    "rua": "Atibaia",
+    "cep": "11747-876"
+  },
+  {
+    "rua": "Atílio Boccardo",
+    "cep": "11749-184"
+  },
+  {
+    "rua": "Atílio Carlos Pinto Fonseca, Engenheiro",
+    "cep": "11748-120"
+  },
+  {
+    "rua": "Atlântica",
+    "cep": "11741-188"
+  },
+  {
+    "rua": "Atlântica",
+    "cep": "11741-402"
+  },
+  {
+    "rua": "Attilio Fonseca, Professor",
+    "cep": "11743-300"
+  },
+  {
+    "rua": "Augusta Pompeu Fernandes",
+    "cep": "11751-318"
+  },
+  {
+    "rua": "Augusto A Loureiro",
+    "cep": "11741-602"
+  },
+  {
+    "rua": "Augusto Alves de Lima",
+    "cep": "11748-156"
+  },
+  {
+    "rua": "Augusto da Motta Pacheco, Doutor",
+    "cep": "11742-006"
+  },
+  {
+    "rua": "Augusto da Motta Pacheco, Doutor",
+    "cep": "11740-836"
+  },
+  {
+    "rua": "Augusto de Lima",
+    "cep": "11747-336"
+  },
+  {
+    "rua": "Augusto Pereira Araújo, Vereador",
+    "cep": "11747-320"
+  },
+  {
+    "rua": "Aurélio Campos",
+    "cep": "11741-276"
+  },
+  {
+    "rua": "Augusto Ribeiro de Carvalho, Professor",
+    "cep": "11740-606"
+  },
+  {
+    "rua": "Augusto Ribeiro de Carvalho, Professor",
+    "cep": "11740-720"
+  },
+  {
+    "rua": "Aurélio Campos",
+    "cep": "11741-256"
+  },
+  {
+    "rua": "Aurélio Ferrara",
+    "cep": "11746-042"
+  },
+  {
+    "rua": "Aurio José Mosolino",
+    "cep": "11743-270"
+  },
+  {
+    "rua": "Aurora",
+    "cep": "11741-866"
+  },
+  {
+    "rua": "Aurora",
+    "cep": "11742-430"
+  },
+  {
+    "rua": "Aurora de Brito Coutinho",
+    "cep": "11746-842"
+  },
+  {
+    "rua": "Auto Braz de Oliveira",
+    "cep": "11748-012"
+  },
+  {
+    "rua": "Avanhandava",
+    "cep": "11740-670"
+  },
+  {
+    "rua": "Avaré",
+    "cep": "11755-036"
+  },
+  {
+    "rua": "Avelino Ambrosio",
+    "cep": "11746-558"
+  },
+  {
+    "rua": "Ávila, Capitão",
+    "cep": "11740-428"
+  },
+  {
+    "rua": "Ayrton Pacheco de Toledo",
+    "cep": "11754-338"
+  },
+  {
+    "rua": "Azaleias , das",
+    "cep": "11741-422"
+  },
+  {
+    "rua": "B (Baln Laranjeiras)",
+    "cep": "11742-798"
+  },
+  {
+    "rua": "B (Baln Yuri)",
+    "cep": "11741-130"
+  },
+  {
+    "rua": "B (Est Ipanema)",
+    "cep": "11752-304"
+  },
+  {
+    "rua": "B (Est Ipanema)",
+    "cep": "11752-286"
+  },
+  {
+    "rua": "B (Jd Edel)",
+    "cep": "11747-252"
+  },
+  {
+    "rua": "B (Pq Evelyn)",
+    "cep": "11751-552"
+  },
+  {
+    "rua": "Babassus , dos",
+    "cep": "11754-442"
+  },
+  {
+    "rua": "Bagdad",
+    "cep": "11749-400"
+  },
+  {
+    "rua": "Bagé",
+    "cep": "11755-404"
+  },
+  {
+    "rua": "Bahia",
+    "cep": "11747-814"
+  },
+  {
+    "rua": "Bahia",
+    "cep": "11754-600"
+  },
+  {
+    "rua": "Bahia",
+    "cep": "11756-666"
+  },
+  {
+    "rua": "Bahia",
+    "cep": "11741-198"
+  },
+  {
+    "rua": "Bahia",
+    "cep": "11746-072"
+  },
+  {
+    "rua": "Bahia",
+    "cep": "11746-286"
+  },
+  {
+    "rua": "Bahia",
+    "cep": "11746-376"
+  },
+  {
+    "rua": "Baltazar Eusébio de Souza",
+    "cep": "11741-542"
+  },
+  {
+    "rua": "Balthazar Sebastião Ribeiro Nicolini",
+    "cep": "11747-094"
+  },
+  {
+    "rua": "Bananeiras",
+    "cep": "11744-800"
+  },
+  {
+    "rua": "Bandeirantes",
+    "cep": "11752-126"
+  },
+  {
+    "rua": "Bandeirantes",
+    "cep": "11748-292"
+  },
+  {
+    "rua": "Bandeirantes , dos",
+    "cep": "11746-046"
+  },
+  {
+    "rua": "Barra Funda",
+    "cep": "11756-708"
+  },
+  {
+    "rua": "Barretos",
+    "cep": "11755-022"
+  },
+  {
+    "rua": "Barretos",
+    "cep": "11740-450"
+  },
+  {
+    "rua": "Bartira",
+    "cep": "11747-038"
+  },
+  {
+    "rua": "Bastos",
+    "cep": "11755-018"
+  },
+  {
+    "rua": "Batatais",
+    "cep": "11747-776"
+  },
+  {
+    "rua": "Batista da Costa",
+    "cep": "11746-712"
+  },
+  {
+    "rua": "Bauru",
+    "cep": "11746-466"
+  },
+  {
+    "rua": "Bauru",
+    "cep": "11754-818"
+  },
+  {
+    "rua": "Bauru",
+    "cep": "11742-524"
+  },
+  {
+    "rua": "Bauru",
+    "cep": "11743-550"
+  },
+  {
+    "rua": "Bauru (Cid Jard Cel)",
+    "cep": "11747-862"
+  },
+  {
+    "rua": "Bauru (Jd Campomar)",
+    "cep": "11748-284"
+  },
+  {
+    "rua": "Bebedouro",
+    "cep": "11746-464"
+  },
+  {
+    "rua": "Bebedouro",
+    "cep": "11755-028"
+  },
+  {
+    "rua": "Beija Flor",
+    "cep": "11740-264"
+  },
+  {
+    "rua": "Beira Mar",
+    "cep": "11741-132"
+  },
+  {
+    "rua": "Beira Mar",
+    "cep": "11740-462"
+  },
+  {
+    "rua": "Beira Mar",
+    "cep": "11740-804"
+  },
+  {
+    "rua": "Beira Mar",
+    "cep": "11741-166"
+  },
+  {
+    "rua": "Beira Mar",
+    "cep": "11740-550"
+  },
+  {
+    "rua": "Beira Mar",
+    "cep": "11740-420"
+  },
+  {
+    "rua": "Belém",
+    "cep": "11754-626"
+  },
+  {
+    "rua": "Belmiro Casella",
+    "cep": "11749-194"
+  },
+  {
+    "rua": "Belmiro de Almeida",
+    "cep": "11746-640"
+  },
+  {
+    "rua": "Belo Horizonte",
+    "cep": "11755-416"
+  },
+  {
+    "rua": "Belo Horizonte",
+    "cep": "11756-682"
+  },
+  {
+    "rua": "Belo Horizonte",
+    "cep": "11752-140"
+  },
+  {
+    "rua": "Belo Horizonte",
+    "cep": "11748-064"
+  },
+  {
+    "rua": "Benedita de Parolis Viti",
+    "cep": "11740-126"
+  },
+  {
+    "rua": "Benedita Valério",
+    "cep": "11747-108"
+  },
+  {
+    "rua": "Benedito Antonio Muniz",
+    "cep": "11747-684"
+  },
+  {
+    "rua": "Benedito Calixto",
+    "cep": "11740-020"
+  },
+  {
+    "rua": "Benedito Calixto",
+    "cep": "11746-006"
+  },
+  {
+    "rua": "Benedito Carange",
+    "cep": "11743-302"
+  },
+  {
+    "rua": "Benedito Carlos Rodrigues",
+    "cep": "11743-414"
+  },
+  {
+    "rua": "Benedito Celestino",
+    "cep": "11740-156"
+  },
+  {
+    "rua": "Benedito de Oliveira Luz",
+    "cep": "11747-304"
+  },
+  {
+    "rua": "Benedito de Souza",
+    "cep": "11740-158"
+  },
+  {
+    "rua": "Benedito Domingos do Rosário",
+    "cep": "11746-856"
+  },
+  {
+    "rua": "Benedito Gonçalves Mendes",
+    "cep": "11743-416"
+  },
+  {
+    "rua": "Benedito Lacerda Filho",
+    "cep": "11747-134"
+  },
+  {
+    "rua": "Benedito Malvão Miranda",
+    "cep": "11741-098"
+  },
+  {
+    "rua": "Benedito Mariano",
+    "cep": "11755-538"
+  },
+  {
+    "rua": "Benedito Ribeiro",
+    "cep": "11742-514"
+  },
+  {
+    "rua": "Benedito Ribeiro",
+    "cep": "11743-560"
+  },
+  {
+    "rua": "Benedito Ribeiro de Carvalho",
+    "cep": "11740-596"
+  },
+  {
+    "rua": "Benedito Ricardo dos Passos",
+    "cep": "11746-610"
+  },
+  {
+    "rua": "Benedito Rosendo",
+    "cep": "11740-360"
+  },
+  {
+    "rua": "Benedito Silveira",
+    "cep": "11747-138"
+  },
+  {
+    "rua": "Benjamim Alves da Silva",
+    "cep": "11743-262"
+  },
+  {
+    "rua": "Bernadino de Souza Pereira",
+    "cep": "11746-656"
+  },
+  {
+    "rua": "Bernadino de Souza Pereira",
+    "cep": "11746-616"
+  },
+  {
+    "rua": "Bernarda, Madre",
+    "cep": "11742-004"
+  },
+  {
+    "rua": "Bernarda, Madre",
+    "cep": "11740-838"
+  },
+  {
+    "rua": "Bernardino de Campos",
+    "cep": "11755-046"
+  },
+  {
+    "rua": "Bernardo, São",
+    "cep": "11747-806"
+  },
+  {
+    "rua": "Bernardo, São",
+    "cep": "11742-720"
+  },
+  {
+    "rua": "Bias Fortes",
+    "cep": "11747-168"
+  },
+  {
+    "rua": "Biritiba",
+    "cep": "11741-200"
+  },
+  {
+    "rua": "Biritiba",
+    "cep": "11740-792"
+  },
+  {
+    "rua": "Biritiba",
+    "cep": "11740-602"
+  },
+  {
+    "rua": "Biritiba",
+    "cep": "11740-706"
+  },
+  {
+    "rua": "Blumenau",
+    "cep": "11752-130"
+  },
+  {
+    "rua": "Blumenau",
+    "cep": "11748-476"
+  },
+  {
+    "rua": "Boa Esperança do Sul",
+    "cep": "11741-360"
+  },
+  {
+    "rua": "Boa Esperança do Sul",
+    "cep": "11741-210"
+  },
+  {
+    "rua": "Boa Vista",
+    "cep": "11749-808"
+  },
+  {
+    "rua": "Bolívia",
+    "cep": "11749-480"
+  },
+  {
+    "rua": "Bogota",
+    "cep": "11756-732"
+  },
+  {
+    "rua": "Boite , da",
+    "cep": "11747-780"
+  },
+  {
+    "rua": "Bolivar",
+    "cep": "11749-444"
+  },
+  {
+    "rua": "Bom Pastor",
+    "cep": "11742-030"
+  },
+  {
+    "rua": "Bom Pastor",
+    "cep": "11743-650"
+  },
+  {
+    "rua": "Bororós",
+    "cep": "11750-516"
+  },
+  {
+    "rua": "Bororos",
+    "cep": "11750-444"
+  },
+  {
+    "rua": "Boston",
+    "cep": "11749-484"
+  },
+  {
+    "rua": "Botucatu",
+    "cep": "11741-354"
+  },
+  {
+    "rua": "Botucatu",
+    "cep": "11743-554"
+  },
+  {
+    "rua": "Brasil",
+    "cep": "11741-102"
+  },
+  {
+    "rua": "Brasil",
+    "cep": "11754-550"
+  },
+  {
+    "rua": "Brasil",
+    "cep": "11752-144"
+  },
+  {
+    "rua": "Brasilia Seckler",
+    "cep": "11747-828"
+  },
+  {
+    "rua": "Brasilino Marques dos Santos",
+    "cep": "11747-114"
+  },
+  {
+    "rua": "Brigida de Veras Domingues",
+    "cep": "11751-346"
+  },
+  {
+    "rua": "Brigida de Veras Domingues",
+    "cep": "11747-006"
+  },
+  {
+    "rua": "Brilhantes , dos",
+    "cep": "11741-888"
+  },
+  {
+    "rua": "Bromélias",
+    "cep": "11741-424"
+  },
+  {
+    "rua": "Bucus , dos",
+    "cep": "11755-708"
+  },
+  {
+    "rua": "Buenos Aires",
+    "cep": "11749-494"
+  },
+  {
+    "rua": "Buris , dos",
+    "cep": "11755-760"
+  },
+  {
+    "rua": "Butiás , dos",
+    "cep": "11754-454"
+  },
+  {
+    "rua": "C (Baln Beatriz)",
+    "cep": "11749-654"
+  },
+  {
+    "rua": "C (Baln Yuri)",
+    "cep": "11741-128"
+  },
+  {
+    "rua": "C (Est Ipanema)",
+    "cep": "11752-320"
+  },
+  {
+    "rua": "C (Est Ipanema)",
+    "cep": "11752-296"
+  },
+  {
+    "rua": "C (Jd Aguapeu)",
+    "cep": "11744-456"
+  },
+  {
+    "rua": "C (Pq Evelyn)",
+    "cep": "11751-550"
+  },
+  {
+    "rua": "Caaxaramas , dos",
+    "cep": "11755-772"
+  },
+  {
+    "rua": "Cabreuva",
+    "cep": "11749-346"
+  },
+  {
+    "rua": "Cabreuva",
+    "cep": "11749-118"
+  },
+  {
+    "rua": "Cabuçu",
+    "cep": "11742-448"
+  },
+  {
+    "rua": "Cabuçu",
+    "cep": "11743-616"
+  },
+  {
+    "rua": "Caçadores , dos",
+    "cep": "11743-642"
+  },
+  {
+    "rua": "Caçapava",
+    "cep": "11746-456"
+  },
+  {
+    "rua": "Cacau",
+    "cep": "11749-378"
+  },
+  {
+    "rua": "Cacau",
+    "cep": "11749-298"
+  },
+  {
+    "rua": "Caetano Lettieri",
+    "cep": "11740-612"
+  },
+  {
+    "rua": "Caetano, São",
+    "cep": "11754-836"
+  },
+  {
+    "rua": "Caetano, São",
+    "cep": "11747-804"
+  },
+  {
+    "rua": "Caetano, São",
+    "cep": "11742-718"
+  },
+  {
+    "rua": "Caete",
+    "cep": "11740-580"
+  },
+  {
+    "rua": "Café Filho, Presidente",
+    "cep": "11741-590"
+  },
+  {
+    "rua": "Caiarana",
+    "cep": "11750-122"
+  },
+  {
+    "rua": "Cajueiros",
+    "cep": "11744-790"
+  },
+  {
+    "rua": "Cajuru",
+    "cep": "11740-690"
+  },
+  {
+    "rua": "Cajuru",
+    "cep": "11740-714"
+  },
+  {
+    "rua": "Califórnia",
+    "cep": "11747-758"
+  },
+  {
+    "rua": "Cambará",
+    "cep": "11750-112"
+  },
+  {
+    "rua": "Cambé",
+    "cep": "11755-062"
+  },
+  {
+    "rua": "Cambuci",
+    "cep": "11749-334"
+  },
+  {
+    "rua": "Cambuci",
+    "cep": "11749-130"
+  },
+  {
+    "rua": "Cambuituva",
+    "cep": "11741-196"
+  },
+  {
+    "rua": "Camburiú",
+    "cep": "11746-304"
+  },
+  {
+    "rua": "Caminho , do",
+    "cep": "11741-288"
+  },
+  {
+    "rua": "Campinas",
+    "cep": "11746-438"
+  },
+  {
+    "rua": "Campinas",
+    "cep": "11741-106"
+  },
+  {
+    "rua": "Campinas",
+    "cep": "11754-128"
+  },
+  {
+    "rua": "Campinas",
+    "cep": "11742-716"
+  },
+  {
+    "rua": "Campinas",
+    "cep": "11741-160"
+  },
+  {
+    "rua": "Campinas",
+    "cep": "11752-150"
+  },
+  {
+    "rua": "Campinas",
+    "cep": "11748-298"
+  },
+  {
+    "rua": "Campinas (Cid Jard Cel)",
+    "cep": "11747-872"
+  },
+  {
+    "rua": "Campininha",
+    "cep": "11742-756"
+  },
+  {
+    "rua": "Campo Alegre",
+    "cep": "11752-148"
+  },
+  {
+    "rua": "Campos Ayres",
+    "cep": "11746-674"
+  },
+  {
+    "rua": "Campos Elíseos",
+    "cep": "11741-140"
+  },
+  {
+    "rua": "Campos Sales",
+    "cep": "11740-218"
+  },
+  {
+    "rua": "Camuci Martins de Castro",
+    "cep": "11740-868"
+  },
+  {
+    "rua": "Canada",
+    "cep": "11746-392"
+  },
+  {
+    "rua": "Canal , do",
+    "cep": "11754-450"
+  },
+  {
+    "rua": "Canario",
+    "cep": "11749-270"
+  },
+  {
+    "rua": "Candido Batista de Souza",
+    "cep": "11754-662"
+  },
+  {
+    "rua": "Canela",
+    "cep": "11749-348"
+  },
+  {
+    "rua": "Canjarana",
+    "cep": "11749-380"
+  },
+  {
+    "rua": "Canjarana",
+    "cep": "11749-296"
+  },
+  {
+    "rua": "Capichaba",
+    "cep": "11750-546"
+  },
+  {
+    "rua": "Capichaba",
+    "cep": "11750-474"
+  },
+  {
+    "rua": "Capivari",
+    "cep": "11746-412"
+  },
+  {
+    "rua": "Capuava",
+    "cep": "11750-550"
+  },
+  {
+    "rua": "Capuava",
+    "cep": "11750-478"
+  },
+  {
+    "rua": "Caramuru",
+    "cep": "11750-538"
+  },
+  {
+    "rua": "Caranas , dos",
+    "cep": "11755-766"
+  },
+  {
+    "rua": "Carandas , dos",
+    "cep": "11754-436"
+  },
+  {
+    "rua": "Carijós",
+    "cep": "11750-512"
+  },
+  {
+    "rua": "Carijos",
+    "cep": "11750-442"
+  },
+  {
+    "rua": "Carlos Agra Fernandes",
+    "cep": "11747-334"
+  },
+  {
+    "rua": "Carlos Alberto Carvalho Batista",
+    "cep": "11743-462"
+  },
+  {
+    "rua": "Carlos Botelho",
+    "cep": "11740-040"
+  },
+  {
+    "rua": "Carlos Dal Alba",
+    "cep": "11749-614"
+  },
+  {
+    "rua": "Carlos Duarte da Costa",
+    "cep": "11741-056"
+  },
+  {
+    "rua": "Carlos Eduardo Monteiro",
+    "cep": "11743-474"
+  },
+  {
+    "rua": "Carlos Frederico Munhoz Ferreira",
+    "cep": "11749-818"
+  },
+  {
+    "rua": "Carlos Gomes (CFFSP)",
+    "cep": "11748-484"
+  },
+  {
+    "rua": "Carlos Gomes de Camargo",
+    "cep": "11740-440"
+  },
+  {
+    "rua": "Carlos Gomes de Camargo",
+    "cep": "11742-712"
+  },
+  {
+    "rua": "Carlos João Donner",
+    "cep": "11750-260"
+  },
+  {
+    "rua": "Carlos João Donner",
+    "cep": "11749-052"
+  },
+  {
+    "rua": "Carlos José da Silva",
+    "cep": "11749-176"
+  },
+  {
+    "rua": "Carlos Mayr Filho",
+    "cep": "11748-192"
+  },
+  {
+    "rua": "Carlos Olzon",
+    "cep": "11751-590"
+  },
+  {
+    "rua": "Carlos Ramalho Foz",
+    "cep": "11746-216"
+  },
+  {
+    "rua": "Carlos, São",
+    "cep": "11754-822"
+  },
+  {
+    "rua": "Carlos, São",
+    "cep": "11756-686"
+  },
+  {
+    "rua": "Carmen I Scigliano",
+    "cep": "11741-708"
+  },
+  {
+    "rua": "Carlos, São (Cid Jard Cel)",
+    "cep": "11747-766"
+  },
+  {
+    "rua": "Carlos, São (Jd Campomar)",
+    "cep": "11748-282"
+  },
+  {
+    "rua": "Carlos Trevisan",
+    "cep": "11743-296"
+  },
+  {
+    "rua": "Carnaubas , das",
+    "cep": "11754-440"
+  },
+  {
+    "rua": "Casimiro Guimaraes Júnior, Vereador",
+    "cep": "11741-110"
+  },
+  {
+    "rua": "Casimiro Guimaraes Júnior, Vereador",
+    "cep": "11741-516"
+  },
+  {
+    "rua": "Cassimiro Dambroski",
+    "cep": "11748-184"
+  },
+  {
+    "rua": "Castor Zabala Domingues",
+    "cep": "11747-356"
+  },
+  {
+    "rua": "Catanduva",
+    "cep": "11746-400"
+  },
+  {
+    "rua": "Catanduva",
+    "cep": "11754-810"
+  },
+  {
+    "rua": "Catanduva",
+    "cep": "11756-654"
+  },
+  {
+    "rua": "Catanduva",
+    "cep": "11748-272"
+  },
+  {
+    "rua": "Catarina Gimenes Martinez",
+    "cep": "11754-670"
+  },
+  {
+    "rua": "Catarina, Santa",
+    "cep": "11746-310"
+  },
+  {
+    "rua": "Catarina, Santa",
+    "cep": "11754-592"
+  },
+  {
+    "rua": "Catarina, Santa",
+    "cep": "11748-480"
+  },
+  {
+    "rua": "Caterete",
+    "cep": "11749-214"
+  },
+  {
+    "rua": "Catharina Gehrti Garcia",
+    "cep": "11746-460"
+  },
+  {
+    "rua": "Catules , dos",
+    "cep": "11755-756"
+  },
+  {
+    "rua": "Causaco",
+    "cep": "11749-402"
+  },
+  {
+    "rua": "Cavussú",
+    "cep": "11747-754"
+  },
+  {
+    "rua": "Ceará",
+    "cep": "11749-476"
+  },
+  {
+    "rua": "Ceará",
+    "cep": "11746-288"
+  },
+  {
+    "rua": "Ceará",
+    "cep": "11754-664"
+  },
+  {
+    "rua": "Ceará",
+    "cep": "11756-700"
+  },
+  {
+    "rua": "Ceará",
+    "cep": "11742-758"
+  },
+  {
+    "rua": "Ceará",
+    "cep": "11742-762"
+  },
+  {
+    "rua": "Ceará I",
+    "cep": "11746-326"
+  },
+  {
+    "rua": "Ceará II",
+    "cep": "11746-374"
+  },
+  {
+    "rua": "Ceci",
+    "cep": "11749-042"
+  },
+  {
+    "rua": "Cecília, Santa",
+    "cep": "11741-874"
+  },
+  {
+    "rua": "Cecílio Alexandre Trindade",
+    "cep": "11748-160"
+  },
+  {
+    "rua": "Cedro",
+    "cep": "11749-362"
+  },
+  {
+    "rua": "Cedro",
+    "cep": "11749-312"
+  },
+  {
+    "rua": "Celeste de Jesus Alves dos Santos",
+    "cep": "11749-820"
+  },
+  {
+    "rua": "Célio Viudes Carrasco",
+    "cep": "11742-570"
+  },
+  {
+    "rua": "Celso Aires da Cunha",
+    "cep": "11747-338"
+  },
+  {
+    "rua": "Celso Alves Sorc, Major",
+    "cep": "11748-250"
+  },
+  {
+    "rua": "Celso Rodrigues",
+    "cep": "11747-362"
+  },
+  {
+    "rua": "Celso Silveira",
+    "cep": "11746-548"
+  },
+  {
+    "rua": "Cem",
+    "cep": "11757-198"
+  },
+  {
+    "rua": "Cem (Jd Anchieta Itanhaem)",
+    "cep": "11751-822"
+  },
+  {
+    "rua": "Cem A (Jd Anchieta Itanhaem)",
+    "cep": "11751-800"
+  },
+  {
+    "rua": "Cenilde Ribeiro de Souza",
+    "cep": "11747-284"
+  },
+  {
+    "rua": "Cento e Cinco (Jd Anchieta Itanhaem)",
+    "cep": "11751-810"
+  },
+  {
+    "rua": "Cento e Cinquenta (Jd Anchieta Itanhaem)",
+    "cep": "11751-844"
+  },
+  {
+    "rua": "Cento e Cinquenta e Cinco (Jd Anchieta Itanhaem)",
+    "cep": "11751-884"
+  },
+  {
+    "rua": "Cento e Cinquenta e Dois (Jd Anchieta Itanhaem)",
+    "cep": "11751-860"
+  },
+  {
+    "rua": "Cento e Cinquenta e Nove (Jd Anchieta Itanhaem)",
+    "cep": "11751-878"
+  },
+  {
+    "rua": "Cento e Cinquenta e Oito (Jd Anchieta Itanhaem)",
+    "cep": "11751-872"
+  },
+  {
+    "rua": "Cento e Cinquenta e Quatro (Jd Anchieta Itanhaem)",
+    "cep": "11751-882"
+  },
+  {
+    "rua": "Cento e Cinquenta e Seis (Jd Anchieta Itanhaem)",
+    "cep": "11751-886"
+  },
+  {
+    "rua": "Cento e Cinquenta e Sete (Jd Anchieta Itanhaem)",
+    "cep": "11751-866"
+  },
+  {
+    "rua": "Cento e Cinquenta e Três (Jd Anchieta Itanhaem)",
+    "cep": "11751-862"
+  },
+  {
+    "rua": "Cento e Cinquenta e Um (Jd Anchieta Itanhaem)",
+    "cep": "11751-846"
+  },
+  {
+    "rua": "Cento e Dez (Jd Anchieta Itanhaem)",
+    "cep": "11751-812"
+  },
+  {
+    "rua": "Cento e Dezenove (Jd Anchieta Itanhaem)",
+    "cep": "11751-840"
+  },
+  {
+    "rua": "Cento e Dezesseis (Jd Anchieta Itanhaem)",
+    "cep": "11751-816"
+  },
+  {
+    "rua": "Cento e Dezessete (Jd Anchieta Itanhaem)",
+    "cep": "11751-820"
+  },
+  {
+    "rua": "Cento e Dezoito (Jd Anchieta Itanhaem)",
+    "cep": "11751-838"
+  },
+  {
+    "rua": "Cento e Dois (Baln Beatriz)",
+    "cep": "11757-200"
+  },
+  {
+    "rua": "Cento e Dois (Jd Anchieta Itanhaem)",
+    "cep": "11751-788"
+  },
+  {
+    "rua": "Cento e Doze (Jd Anchieta Itanhaem)",
+    "cep": "11752-004"
+  },
+  {
+    "rua": "Cento e Doze A (Jd Anchieta Itanhaem)",
+    "cep": "11751-792"
+  },
+  {
+    "rua": "Cento e Nove (Jd Anchieta Itanhaem)",
+    "cep": "11751-836"
+  },
+  {
+    "rua": "Cento e Oito (Jd Anchieta Itanhaem)",
+    "cep": "11751-834"
+  },
+  {
+    "rua": "Cento e Onze (Jd Anchieta Itanhaem)",
+    "cep": "11752-002"
+  },
+  {
+    "rua": "Cento e Onze A (Jd Anchieta Itanhaem)",
+    "cep": "11751-814"
+  },
+  {
+    "rua": "Cento e Quarenta (Jd Anchieta Itanhaem)",
+    "cep": "11752-040"
+  },
+  {
+    "rua": "Cento e Quarenta e Cinco (Jd Anchieta Itanhaem)",
+    "cep": "11752-042"
+  },
+  {
+    "rua": "Cento e Quarenta e Dois (Jd Anchieta Itanhaem)",
+    "cep": "11752-018"
+  },
+  {
+    "rua": "Cento e Quarenta e Nove (Jd Anchieta Itanhaem)",
+    "cep": "11751-842"
+  },
+  {
+    "rua": "Cento e Quarenta e Oito (Jd Anchieta Itanhaem)",
+    "cep": "11752-064"
+  },
+  {
+    "rua": "Cento e Quarenta e Quatro (Jd Anchieta Itanhaem)",
+    "cep": "11752-022"
+  },
+  {
+    "rua": "Cento e Quarenta e Seis (Jd Anchieta Itanhaem)",
+    "cep": "11752-046"
+  },
+  {
+    "rua": "Cento e Quarenta e Seis A (Jd Anchieta Itanhaem)",
+    "cep": "11751-880"
+  },
+  {
+    "rua": "Cento e Quarenta e Sete (Jd Anchieta Itanhaem)",
+    "cep": "11752-062"
+  },
+  {
+    "rua": "Cento e Quarenta e Três (Jd Anchieta Itanhaem)",
+    "cep": "11752-020"
+  },
+  {
+    "rua": "Cento e Quarenta e Um (Jd Anchieta Itanhaem)",
+    "cep": "11752-016"
+  },
+  {
+    "rua": "Cento e Quatro (Jd Anchieta Itanhaem)",
+    "cep": "11751-806"
+  },
+  {
+    "rua": "Cento e Quatroze (Jd Anchieta Itanhaem)",
+    "cep": "11751-796"
+  },
+  {
+    "rua": "Cento e Quinze (Jd Anchieta Itanhaem)",
+    "cep": "11751-798"
+  },
+  {
+    "rua": "Cento e Seis (Jd Anchieta Itanhaem)",
+    "cep": "11751-830"
+  },
+  {
+    "rua": "Cento e Sessenta (Jd Anchieta Itanhaem)",
+    "cep": "11751-848"
+  },
+  {
+    "rua": "Cento e Sessenta e Cinco (Jd Anchieta Itanhaem)",
+    "cep": "11751-890"
+  },
+  {
+    "rua": "Cento e Sessenta e Dois (Jd Anchieta Itanhaem)",
+    "cep": "11751-864"
+  },
+  {
+    "rua": "Cento e Sessenta e Nove (Jd Anchieta Itanhaem)",
+    "cep": "11751-874"
+  },
+  {
+    "rua": "Cento e Sessenta e Oito (Jd Anchieta Itanhaem)",
+    "cep": "11751-870"
+  },
+  {
+    "rua": "Cento e Sessenta e Três (Jd Anchieta Itanhaem)",
+    "cep": "11751-868"
+  },
+  {
+    "rua": "Cento e Sessenta e Quatro (Jd Anchieta Itanhaem)",
+    "cep": "11751-888"
+  },
+  {
+    "rua": "Cento e Sessenta e Seis (Jd Anchieta Itanhaem)",
+    "cep": "11751-892"
+  },
+  {
+    "rua": "Cento e Sessenta e Sete (Jd Anchieta Itanhaem)",
+    "cep": "11751-894"
+  },
+  {
+    "rua": "Cento e Sessenta e Um (Jd Anchieta Itanhaem)",
+    "cep": "11751-850"
+  },
+  {
+    "rua": "Cento e Sete (Jd Anchieta Itanhaem)",
+    "cep": "11751-832"
+  },
+  {
+    "rua": "Cento e Setenta (Jd Anchieta Itanhaem)",
+    "cep": "11751-852"
+  },
+  {
+    "rua": "Cento e Setenta e Dois (Jd Anchieta Itanhaem)",
+    "cep": "11751-856"
+  },
+  {
+    "rua": "Cento e Setenta e Quatro (Jd Anchieta Itanhaem)",
+    "cep": "11751-876"
+  },
+  {
+    "rua": "Cento e Setenta e Seis (Jd Anchieta Itanhaem)",
+    "cep": "11751-896"
+  },
+  {
+    "rua": "Cento e Setenta e Sete (Jd Anchieta Itanhaem)",
+    "cep": "11751-898"
+  },
+  {
+    "rua": "Cento e Setenta e Três (Jd Anchieta Itanhaem)",
+    "cep": "11751-858"
+  },
+  {
+    "rua": "Cento e Setenta e Um (Jd Anchieta Itanhaem)",
+    "cep": "11751-854"
+  },
+  {
+    "rua": "Cento e Três (Jd Anchieta Itanhaem)",
+    "cep": "11751-790"
+  },
+  {
+    "rua": "Cento e Treze (Jd Anchieta Itanhaem)",
+    "cep": "11751-794"
+  },
+  {
+    "rua": "Cento e Trinta (Jd Anchieta Itanhaem)",
+    "cep": "11752-044"
+  },
+  {
+    "rua": "Cento e Trinta A (Jd Anchieta Itanhaem)",
+    "cep": "11752-060"
+  },
+  {
+    "rua": "Cento e Trinta e Cinco (Jd Anchieta Itanhaem)",
+    "cep": "11752-054"
+  },
+  {
+    "rua": "Cento e Trinta e Dois (Jd Anchieta Itanhaem)",
+    "cep": "11752-014"
+  },
+  {
+    "rua": "Cento e Trinta e Nove (Jd Anchieta Itanhaem)",
+    "cep": "11752-036"
+  },
+  {
+    "rua": "Cento e Trinta e Quatro (Jd Anchieta Itanhaem)",
+    "cep": "11752-034"
+  },
+  {
+    "rua": "Cento e Trinta e Seis (Jd Anchieta Itanhaem)",
+    "cep": "11752-056"
+  },
+  {
+    "rua": "Cento e Trinta e Sete (Jd Anchieta Itanhaem)",
+    "cep": "11752-058"
+  },
+  {
+    "rua": "Cento e Trinta e Um (Jd Anchieta Itanhaem)",
+    "cep": "11752-012"
+  },
+  {
+    "rua": "Cento e Um (Jd Anchieta Itanhaem)",
+    "cep": "11751-818"
+  },
+  {
+    "rua": "Cento e Vinte (Jd Anchieta Itanhaem)",
+    "cep": "11752-006"
+  },
+  {
+    "rua": "Cento e Vinte e Cinco (Jd Anchieta Itanhaem)",
+    "cep": "11752-048"
+  },
+  {
+    "rua": "Cento e Vinte e Dois (Jd Anchieta Itanhaem)",
+    "cep": "11752-010"
+  },
+  {
+    "rua": "Cento e Vinte e Nove (Jd Anchieta Itanhaem)",
+    "cep": "11752-038"
+  },
+  {
+    "rua": "Cento e Vinte e Oito (Jd Anchieta Itanhaem)",
+    "cep": "11752-030"
+  },
+  {
+    "rua": "Cento e Vinte e Quatro (Jd Anchieta Itanhaem)",
+    "cep": "11752-026"
+  },
+  {
+    "rua": "Cento e Vinte e Seis (Jd Anchieta Itanhaem)",
+    "cep": "11752-050"
+  },
+  {
+    "rua": "Cento e Vinte e Sete (Jd Anchieta Itanhaem)",
+    "cep": "11752-052"
+  },
+  {
+    "rua": "Cento e Vinte e Três (Jd Anchieta Itanhaem)",
+    "cep": "11752-024"
+  },
+  {
+    "rua": "Cento e Vinte e Um (Jd Anchieta Itanhaem)",
+    "cep": "11752-008"
+  },
+  {
+    "rua": "Central (Vl Pq Fluvial)",
+    "cep": "11748-040"
+  },
+  {
+    "rua": "Central Direita",
+    "cep": "11743-360"
+  },
+  {
+    "rua": "Central Esquerda",
+    "cep": "11743-342"
+  },
+  {
+    "rua": "Cerejeiras , das",
+    "cep": "11741-420"
+  },
+  {
+    "rua": "César Batista dos Santos",
+    "cep": "11744-264"
+  },
+  {
+    "rua": "Cesário Bastos",
+    "cep": "11740-060"
+  },
+  {
+    "rua": "Chacaras , das",
+    "cep": "11743-638"
+  },
+  {
+    "rua": "Charlotte Anna Ruzsicska",
+    "cep": "11740-134"
+  },
+  {
+    "rua": "Chicago",
+    "cep": "11749-490"
+  },
+  {
+    "rua": "Chile",
+    "cep": "11749-454"
+  },
+  {
+    "rua": "Chile",
+    "cep": "11746-386"
+  },
+  {
+    "rua": "Chiquito Domingues",
+    "cep": "11743-276"
+  },
+  {
+    "rua": "Chucri Sabongi",
+    "cep": "11740-552"
+  },
+  {
+    "rua": "Cícero Antônio dos Santos",
+    "cep": "11747-360"
+  },
+  {
+    "rua": "Cícero da Silva",
+    "cep": "11748-212"
+  },
+  {
+    "rua": "Cicero Martins dos Santos",
+    "cep": "11741-548"
+  },
+  {
+    "rua": "Cidade de Iguape",
+    "cep": "11740-340"
+  },
+  {
+    "rua": "Cinco",
+    "cep": "11740-466"
+  },
+  {
+    "rua": "Cinco",
+    "cep": "11743-568"
+  },
+  {
+    "rua": "Cinco (Baln Auri-Verde)",
+    "cep": "11741-520"
+  },
+  {
+    "rua": "Cinco (Baln Beatriz)",
+    "cep": "11757-202"
+  },
+  {
+    "rua": "Cinco (Baln California)",
+    "cep": "11754-240"
+  },
+  {
+    "rua": "Cinco (Baln P Alegre)",
+    "cep": "11740-576"
+  },
+  {
+    "rua": "Cinco (Baln S Marcos)",
+    "cep": "11754-062"
+  },
+  {
+    "rua": "Cinco (Baln Santista)",
+    "cep": "11741-156"
+  },
+  {
+    "rua": "Cinco (Chac B Retiro)",
+    "cep": "11750-568"
+  },
+  {
+    "rua": "Cinco (Chac B Retiro)",
+    "cep": "11750-494"
+  },
+  {
+    "rua": "Cinco (Chac Bopiranga)",
+    "cep": "11757-714"
+  },
+  {
+    "rua": "Cinco (Chac Jamaica)",
+    "cep": "11756-410"
+  },
+  {
+    "rua": "Cinco (Chac Lucel)",
+    "cep": "11755-626"
+  },
+  {
+    "rua": "Cinco (Chac Myawaki)",
+    "cep": "11747-744"
+  },
+  {
+    "rua": "Cinco (Est Ipanema)",
+    "cep": "11752-276"
+  },
+  {
+    "rua": "Cinco (Est Nautica)",
+    "cep": "11747-728"
+  },
+  {
+    "rua": "Cinco (Est S Pedro)",
+    "cep": "11755-444"
+  },
+  {
+    "rua": "Cinco (Est Santana I)",
+    "cep": "11752-082"
+  },
+  {
+    "rua": "Cinco (Est Savanah)",
+    "cep": "11752-336"
+  },
+  {
+    "rua": "Cinco (Jd Aguapeu)",
+    "cep": "11744-408"
+  },
+  {
+    "rua": "Cinco (Jd Edel)",
+    "cep": "11749-530"
+  },
+  {
+    "rua": "Cinco (Jd Esmeralda)",
+    "cep": "11750-298"
+  },
+  {
+    "rua": "Cinco (Jd Fenix)",
+    "cep": "11755-180"
+  },
+  {
+    "rua": "Cinco (Jd Imigrantes)",
+    "cep": "11747-670"
+  },
+  {
+    "rua": "Cinco (Jd Luizamar Mirim)",
+    "cep": "11754-508"
+  },
+  {
+    "rua": "Cinco (Jd Maramba)",
+    "cep": "11754-800"
+  },
+  {
+    "rua": "Cinco (Jd Palmeiras III)",
+    "cep": "11755-824"
+  },
+  {
+    "rua": "Cinco (Jd Pescador)",
+    "cep": "11747-694"
+  },
+  {
+    "rua": "Cinco (Jd Primavera)",
+    "cep": "11752-220"
+  },
+  {
+    "rua": "Cinco (Jd Rio Preto)",
+    "cep": "11747-644"
+  },
+  {
+    "rua": "Cinco (Jd Ritamar)",
+    "cep": "11740-862"
+  },
+  {
+    "rua": "Cinco (Jd S Fernando)",
+    "cep": "11749-824"
+  },
+  {
+    "rua": "Cinco (Jd S Joao)",
+    "cep": "11754-208"
+  },
+  {
+    "rua": "Cinco (Pq Jequitiba)",
+    "cep": "11741-016"
+  },
+  {
+    "rua": "Cinco (Pq Royalle)",
+    "cep": "11752-364"
+  },
+  {
+    "rua": "Cinco (Pq Vergara)",
+    "cep": "11744-068"
+  },
+  {
+    "rua": "Cinco (Puerta de Madrid)",
+    "cep": "11748-114"
+  },
+  {
+    "rua": "Cinco (Rec Antonella)",
+    "cep": "11741-010"
+  },
+  {
+    "rua": "Cinquenta (Chac Bopiranga)",
+    "cep": "11757-806"
+  },
+  {
+    "rua": "Cinco (Rec Imigrantes)",
+    "cep": "11755-278"
+  },
+  {
+    "rua": "Cinco (Rec Indaia)",
+    "cep": "11755-330"
+  },
+  {
+    "rua": "Cinco (Umuarama Pq Itanhaem)",
+    "cep": "11747-084"
+  },
+  {
+    "rua": "Cinquenta (Chac Jamaica)",
+    "cep": "11756-506"
+  },
+  {
+    "rua": "Cinquenta (Jd Anchieta Itanhaem)",
+    "cep": "11751-702"
+  },
+  {
+    "rua": "Cinquenta (Jd Maramba)",
+    "cep": "11755-158"
+  },
+  {
+    "rua": "Cinquenta (Pq Vergara)",
+    "cep": "11744-020"
+  },
+  {
+    "rua": "Cinquenta e Cinco (Chac Bopiranga)",
+    "cep": "11757-816"
+  },
+  {
+    "rua": "Cinquenta e Cinco (Chac Jamaica)",
+    "cep": "11756-516"
+  },
+  {
+    "rua": "Cinquenta e Cinco (Jd Anchieta Itanhaem)",
+    "cep": "11751-734"
+  },
+  {
+    "rua": "Cinquenta e Dois (Chac Bopiranga)",
+    "cep": "11757-810"
+  },
+  {
+    "rua": "Cinquenta e Dois (Chac Jamaica)",
+    "cep": "11756-510"
+  },
+  {
+    "rua": "Cinquenta e Dois (Jd Anchieta Itanhaem)",
+    "cep": "11751-718"
+  },
+  {
+    "rua": "Cinquenta e Dois (Jd Maramba)",
+    "cep": "11755-162"
+  },
+  {
+    "rua": "Cinquenta e Nove (Chac Bopiranga)",
+    "cep": "11757-824"
+  },
+  {
+    "rua": "Cinquenta e Nove (Jd Anchieta Itanhaem)",
+    "cep": "11751-706"
+  },
+  {
+    "rua": "Cinquenta e Oito (Baln Beatriz)",
+    "cep": "11749-680"
+  },
+  {
+    "rua": "Cinquenta e Oito (Chac Bopiranga)",
+    "cep": "11757-822"
+  },
+  {
+    "rua": "Cinquenta e Oito (Chac Jamaica)",
+    "cep": "11756-518"
+  },
+  {
+    "rua": "Cinquenta e Quatro (Baln Beatriz)",
+    "cep": "11749-676"
+  },
+  {
+    "rua": "Cinquenta e Quatro (Chac Bopiranga)",
+    "cep": "11757-814"
+  },
+  {
+    "rua": "Cinquenta e Quatro (Chac Jamaica)",
+    "cep": "11756-514"
+  },
+  {
+    "rua": "Cinquenta e Quatro (Jd Anchieta Itanhaem)",
+    "cep": "11751-728"
+  },
+  {
+    "rua": "Cinquenta e Seis (Baln Beatriz)",
+    "cep": "11749-678"
+  },
+  {
+    "rua": "Cinquenta e Seis (Chac Bopiranga)",
+    "cep": "11757-818"
+  },
+  {
+    "rua": "Cinquenta e Seis (Chac Jamaica)",
+    "cep": "11756-520"
+  },
+  {
+    "rua": "Cinquenta e Seis (Jd Anchieta Itanhaem)",
+    "cep": "11751-738"
+  },
+  {
+    "rua": "Cinquenta e Sete (Chac Bopiranga)",
+    "cep": "11757-820"
+  },
+  {
+    "rua": "Cinquenta e Sete (Chac Jamaica)",
+    "cep": "11756-522"
+  },
+  {
+    "rua": "Cinquenta e Sete (Jd Anchieta Itanhaem)",
+    "cep": "11751-704"
+  },
+  {
+    "rua": "Cinquenta e Três (Chac Bopiranga)",
+    "cep": "11757-812"
+  },
+  {
+    "rua": "Cinquenta e Três (Chac Jamaica)",
+    "cep": "11756-512"
+  },
+  {
+    "rua": "Cinquenta e Três (Jd Anchieta Itanhaem)",
+    "cep": "11751-726"
+  },
+  {
+    "rua": "Cinquenta e Três (Jd Maramba)",
+    "cep": "11755-164"
+  },
+  {
+    "rua": "Cinquenta e Um (Chac Bopiranga)",
+    "cep": "11757-808"
+  },
+  {
+    "rua": "Cinquenta e Um (Chac Jamaica)",
+    "cep": "11756-508"
+  },
+  {
+    "rua": "Cinquenta e Um (Jd Anchieta Itanhaem)",
+    "cep": "11751-716"
+  },
+  {
+    "rua": "Cinquenta e Um (Jd Maramba)",
+    "cep": "11755-160"
+  },
+  {
+    "rua": "Cipos , dos",
+    "cep": "11744-012"
+  },
+  {
+    "rua": "Cipreste",
+    "cep": "11750-136"
+  },
+  {
+    "rua": "Cipru",
+    "cep": "11756-716"
+  },
+  {
+    "rua": "Circular (Jd Regina)",
+    "cep": "11756-676"
+  },
+  {
+    "rua": "Clara Martins Zwarg",
+    "cep": "11749-560"
+  },
+  {
+    "rua": "Clara, Santa",
+    "cep": "11744-064"
+  },
+  {
+    "rua": "Clarice Ana Cordeiro de Mello",
+    "cep": "11746-534"
+  },
+  {
+    "rua": "Claudio Paiva de Oliveira",
+    "cep": "11746-748"
+  },
+  {
+    "rua": "Claudio Roberto Pedroso (Jd Luizamar Mirim)",
+    "cep": "11755-552"
+  },
+  {
+    "rua": "Clélia Vassão Longo , das",
+    "cep": "11755-764"
+  },
+  {
+    "rua": "Clemente Martins Ré",
+    "cep": "11740-150"
+  },
+  {
+    "rua": "Clementino Pires",
+    "cep": "11755-864"
+  },
+  {
+    "rua": "Cleuza Morato Pereira",
+    "cep": "11742-744"
+  },
+  {
+    "rua": "Clodomiro de Souza Silveira",
+    "cep": "11746-394"
+  },
+  {
+    "rua": "Clube , do (Cid Jard Cel)",
+    "cep": "11747-778"
+  },
+  {
+    "rua": "Coati",
+    "cep": "11749-016"
+  },
+  {
+    "rua": "Cochabamba",
+    "cep": "11749-486"
+  },
+  {
+    "rua": "Colombia",
+    "cep": "11746-364"
+  },
+  {
+    "rua": "Colombina, Poetisa",
+    "cep": "11741-628"
+  },
+  {
+    "rua": "Colombo",
+    "cep": "11746-078"
+  },
+  {
+    "rua": "Columbia",
+    "cep": "11749-434"
+  },
+  {
+    "rua": "Columbia",
+    "cep": "11756-720"
+  },
+  {
+    "rua": "Conceição de Itanhaem",
+    "cep": "11747-764"
+  },
+  {
+    "rua": "Concepcion Rodrigues Garcia",
+    "cep": "11743-412"
+  },
+  {
+    "rua": "Conchal",
+    "cep": "11741-492"
+  },
+  {
+    "rua": "Condê, Padre, de",
+    "cep": "11741-802"
+  },
+  {
+    "rua": "Condê, Padre, de",
+    "cep": "11742-382"
+  },
+  {
+    "rua": "Constância de Carvalho, Dona",
+    "cep": "11741-836"
+  },
+  {
+    "rua": "Constantina Campagna Silva",
+    "cep": "11749-196"
+  },
+  {
+    "rua": "Constantino Garcia Crespo",
+    "cep": "11743-358"
+  },
+  {
+    "rua": "Copauva",
+    "cep": "11749-342"
+  },
+  {
+    "rua": "Copauva",
+    "cep": "11749-122"
+  },
+  {
+    "rua": "Coqueiro",
+    "cep": "11750-126"
+  },
+  {
+    "rua": "Coqueiros , dos",
+    "cep": "11754-498"
+  },
+  {
+    "rua": "Coqueiros , dos",
+    "cep": "11743-646"
+  },
+  {
+    "rua": "Coral",
+    "cep": "11747-846"
+  },
+  {
+    "rua": "Cornélio Procopio",
+    "cep": "11755-056"
+  },
+  {
+    "rua": "Corrego , do",
+    "cep": "11741-176"
+  },
+  {
+    "rua": "Corumbá",
+    "cep": "11749-464"
+  },
+  {
+    "rua": "Corumbá",
+    "cep": "11754-566"
+  },
+  {
+    "rua": "Costa Rica",
+    "cep": "11746-384"
+  },
+  {
+    "rua": "Costão , do",
+    "cep": "11746-068"
+  },
+  {
+    "rua": "Cotinha Magalhães",
+    "cep": "11740-652"
+  },
+  {
+    "rua": "Cotinha Magalhães",
+    "cep": "11740-630"
+  },
+  {
+    "rua": "Cotinha Magalhães",
+    "cep": "11742-454"
+  },
+  {
+    "rua": "Cotovia",
+    "cep": "11749-274"
+  },
+  {
+    "rua": "Cristo Operario",
+    "cep": "11743-658"
+  },
+  {
+    "rua": "Cristovão Colombo",
+    "cep": "11742-372"
+  },
+  {
+    "rua": "Cruz, Santa",
+    "cep": "11755-042"
+  },
+  {
+    "rua": "Cruzeiro , do",
+    "cep": "11747-844"
+  },
+  {
+    "rua": "Cruzeiro do Sul",
+    "cep": "11743-656"
+  },
+  {
+    "rua": "Cuba",
+    "cep": "11740-204"
+  },
+  {
+    "rua": "Cunha Moreira",
+    "cep": "11740-038"
+  },
+  {
+    "rua": "Cuiabá",
+    "cep": "11755-410"
+  },
+  {
+    "rua": "Cuiabá",
+    "cep": "11748-084"
+  },
+  {
+    "rua": "Cumbica",
+    "cep": "11742-782"
+  },
+  {
+    "rua": "Cunhaporan",
+    "cep": "11740-594"
+  },
+  {
+    "rua": "Curio",
+    "cep": "11749-284"
+  },
+  {
+    "rua": "Curitiba",
+    "cep": "11754-576"
+  },
+  {
+    "rua": "Curitiba",
+    "cep": "11752-132"
+  },
+  {
+    "rua": "Curitiba",
+    "cep": "11748-090"
+  },
+  {
+    "rua": "Curitiba",
+    "cep": "11742-542"
+  },
+  {
+    "rua": "Curuas",
+    "cep": "11755-774"
+  },
+  {
+    "rua": "Custodio Tavares de Almeida",
+    "cep": "11746-724"
+  },
+  {
+    "rua": "D (Baln Beatriz)",
+    "cep": "11749-664"
+  },
+  {
+    "rua": "D (Baln Veneza)",
+    "cep": "11741-230"
+  },
+  {
+    "rua": "D (Est Ipanema)",
+    "cep": "11752-272"
+  },
+  {
+    "rua": "D (Est Ipanema)",
+    "cep": "11752-302"
+  },
+  {
+    "rua": "D (Jd Lindomar)",
+    "cep": "11754-082"
+  },
+  {
+    "rua": "D (Pq Evelyn)",
+    "cep": "11751-544"
+  },
+  {
+    "rua": "Dácio Evaristo Pires",
+    "cep": "11754-314"
+  },
+  {
+    "rua": "Dagmar",
+    "cep": "11741-312"
+  },
+  {
+    "rua": "Dagoberto Nogueira da Fonseca",
+    "cep": "11742-014"
+  },
+  {
+    "rua": "Dagoberto Nogueira da Fonseca",
+    "cep": "11740-750"
+  },
+  {
+    "rua": "Daisy",
+    "cep": "11741-324"
+  },
+  {
+    "rua": "Dalton Muller Pessoa",
+    "cep": "11747-092"
+  },
+  {
+    "rua": "Dalva Dati Ruivo, Professora",
+    "cep": "11746-274"
+  },
+  {
+    "rua": "Daniel Alves Ribeiro",
+    "cep": "11743-264"
+  },
+  {
+    "rua": "Daniel dos Santos Barros",
+    "cep": "11742-800"
+  },
+  {
+    "rua": "Daniel Gianotti",
+    "cep": "11743-392"
+  },
+  {
+    "rua": "Danilo Teixeira de Carvalho",
+    "cep": "11740-512"
+  },
+  {
+    "rua": "Danilo Teixeira de Carvalho",
+    "cep": "11740-534"
+  },
+  {
+    "rua": "David Birkett",
+    "cep": "11755-586"
+  },
+  {
+    "rua": "David Longo",
+    "cep": "11740-500"
+  },
+  {
+    "rua": "Demerval Pereira Leite",
+    "cep": "11740-010"
+  },
+  {
+    "rua": "D.E.R. , do (Baln Walquene)",
+    "cep": "11741-182"
+  },
+  {
+    "rua": "Dez (Baln Auri-Verde)",
+    "cep": "11741-530"
+  },
+  {
+    "rua": "Dez (Baln California)",
+    "cep": "11754-252"
+  },
+  {
+    "rua": "Dez (Baln S Marcos)",
+    "cep": "11754-074"
+  },
+  {
+    "rua": "Dez (Chac Bopiranga)",
+    "cep": "11757-724"
+  },
+  {
+    "rua": "Dez (Chac Jamaica)",
+    "cep": "11756-418"
+  },
+  {
+    "rua": "Dez (Est Ipanema)",
+    "cep": "11752-298"
+  },
+  {
+    "rua": "Dez (Est S Pedro)",
+    "cep": "11755-454"
+  },
+  {
+    "rua": "Dez (Est Santana I)",
+    "cep": "11752-112"
+  },
+  {
+    "rua": "Dez (Est Savanah)",
+    "cep": "11752-350"
+  },
+  {
+    "rua": "Dez (Jd Esmeralda)",
+    "cep": "11750-308"
+  },
+  {
+    "rua": "Dez (Jd Fenix)",
+    "cep": "11755-190"
+  },
+  {
+    "rua": "Dez (Jd Imigrantes)",
+    "cep": "11747-680"
+  },
+  {
+    "rua": "Dez (Jd Luizamar Mirim)",
+    "cep": "11754-514"
+  },
+  {
+    "rua": "Dez (Jd Magalhaes)",
+    "cep": "11740-610"
+  },
+  {
+    "rua": "Dez (Jd Maramba)",
+    "cep": "11755-078"
+  },
+  {
+    "rua": "Dez (Jd Pescador)",
+    "cep": "11747-708"
+  },
+  {
+    "rua": "Dez (Jd Primavera)",
+    "cep": "11752-232"
+  },
+  {
+    "rua": "Dez (Jd Rio Preto)",
+    "cep": "11747-626"
+  },
+  {
+    "rua": "Dez (Jd S Fernando)",
+    "cep": "11749-842"
+  },
+  {
+    "rua": "Dez (Jd S Joao)",
+    "cep": "11754-214"
+  },
+  {
+    "rua": "Dez (Jd Valeria)",
+    "cep": "11749-506"
+  },
+  {
+    "rua": "Dez (Pq Royalle)",
+    "cep": "11752-374"
+  },
+  {
+    "rua": "Dez (Rec Imigrantes)",
+    "cep": "11755-288"
+  },
+  {
+    "rua": "Dez (Rec Indaia)",
+    "cep": "11755-340"
+  },
+  {
+    "rua": "Dez (Res Pq Augustus)",
+    "cep": "11754-332"
+  },
+  {
+    "rua": "Dezenove (Baln California)",
+    "cep": "11754-288"
+  },
+  {
+    "rua": "Dezenove (Baln S Marcos)",
+    "cep": "11754-046"
+  },
+  {
+    "rua": "Dezenove (Baln Tropical)",
+    "cep": "11743-528"
+  },
+  {
+    "rua": "Dezenove (Chac Bopiranga)",
+    "cep": "11757-742"
+  },
+  {
+    "rua": "Dezenove (Chac Educ Santista)",
+    "cep": "11757-652"
+  },
+  {
+    "rua": "Dezenove (Chac Jamaica)",
+    "cep": "11756-436"
+  },
+  {
+    "rua": "Dezenove (Est Santana I)",
+    "cep": "11752-102"
+  },
+  {
+    "rua": "Dezenove (Jd Anchieta Itanhaem)",
+    "cep": "11751-622"
+  },
+  {
+    "rua": "Dezenove (Jd Cunhambebe)",
+    "cep": "11748-140"
+  },
+  {
+    "rua": "Dezenove (Jd Edel)",
+    "cep": "11749-550"
+  },
+  {
+    "rua": "Dezenove (Jd Esmeralda)",
+    "cep": "11750-326"
+  },
+  {
+    "rua": "Dezenove (Jd Fenix)",
+    "cep": "11755-206"
+  },
+  {
+    "rua": "Dezenove (Jd Luizamar Mirim)",
+    "cep": "11754-530"
+  },
+  {
+    "rua": "Dezenove (Jd Magalhaes)",
+    "cep": "11742-472"
+  },
+  {
+    "rua": "Dezenove (Jd Maramba)",
+    "cep": "11755-090"
+  },
+  {
+    "rua": "Dezenove (Jd Primavera)",
+    "cep": "11752-254"
+  },
+  {
+    "rua": "Dezenove (Jd Rio Preto)",
+    "cep": "11747-606"
+  },
+  {
+    "rua": "Dezenove (Jd Ritamar)",
+    "cep": "11741-766"
+  },
+  {
+    "rua": "Dezenove (Jd S Fernando)",
+    "cep": "11749-860"
+  },
+  {
+    "rua": "Dezenove (Jd S Joao)",
+    "cep": "11754-232"
+  },
+  {
+    "rua": "Dezenove (Pq Riomar)",
+    "cep": "11747-386"
+  },
+  {
+    "rua": "Dezenove (Pq Vergara)",
+    "cep": "11744-156"
+  },
+  {
+    "rua": "Dezenove (Rec Imigrantes)",
+    "cep": "11755-306"
+  },
+  {
+    "rua": "Dezenove (Rec Indaia)",
+    "cep": "11755-358"
+  },
+  {
+    "rua": "Dezenove (Res Pq Augustus)",
+    "cep": "11754-374"
+  },
+  {
+    "rua": "Dezesseis (Baln S Marcos)",
+    "cep": "11757-062"
+  },
+  {
+    "rua": "Dezesseis (Baln Tropical)",
+    "cep": "11742-578"
+  },
+  {
+    "rua": "Dezesseis (Chac Bopiranga)",
+    "cep": "11757-736"
+  },
+  {
+    "rua": "Dezesseis (Chac Jamaica)",
+    "cep": "11756-430"
+  },
+  {
+    "rua": "Dezesseis (Est Ipanema)",
+    "cep": "11752-316"
+  },
+  {
+    "rua": "Dezesseis (Est Santana I)",
+    "cep": "11752-110"
+  },
+  {
+    "rua": "Dezesseis (Jd Aguapeu)",
+    "cep": "11744-496"
+  },
+  {
+    "rua": "Dezesseis (Jd Edel)",
+    "cep": "11749-546"
+  },
+  {
+    "rua": "Dezesseis (Jd Esmeralda)",
+    "cep": "11750-320"
+  },
+  {
+    "rua": "Dezesseis (Jd Fenix)",
+    "cep": "11755-202"
+  },
+  {
+    "rua": "Dezesseis (Jd Luizamar Mirim)",
+    "cep": "11754-524"
+  },
+  {
+    "rua": "Dezesseis (Jd Ritamar)",
+    "cep": "11741-760"
+  },
+  {
+    "rua": "Dezesseis (Jd Maramba)",
+    "cep": "11755-084"
+  },
+  {
+    "rua": "Dezesseis (Jd Primavera)",
+    "cep": "11752-252"
+  },
+  {
+    "rua": "Dezesseis (Jd Rio Preto)",
+    "cep": "11747-614"
+  },
+  {
+    "rua": "Dezesseis (Jd S Fernando)",
+    "cep": "11749-854"
+  },
+  {
+    "rua": "Dezesseis (Jd Sta Terezinha)",
+    "cep": "11741-554"
+  },
+  {
+    "rua": "Dezesseis (Lot Res Guapurá)",
+    "cep": "11743-372"
+  },
+  {
+    "rua": "Dezesseis (Pq Royalle)",
+    "cep": "11752-390"
+  },
+  {
+    "rua": "Dezesseis (Pq Vergara)",
+    "cep": "11744-108"
+  },
+  {
+    "rua": "Dezesseis (Rec Imigrantes)",
+    "cep": "11755-300"
+  },
+  {
+    "rua": "Dezesseis (Rec Indaia)",
+    "cep": "11755-352"
+  },
+  {
+    "rua": "Dezesseis (Res Pq Augustus)",
+    "cep": "11754-364"
+  },
+  {
+    "rua": "Dezessete (Baln California)",
+    "cep": "11754-282"
+  },
+  {
+    "rua": "Dezessete (Baln Jd (Grandesp))",
+    "cep": "11749-238"
+  },
+  {
+    "rua": "Dezessete (Baln S Marcos)",
+    "cep": "11757-064"
+  },
+  {
+    "rua": "Dezessete (Chac Bopiranga)",
+    "cep": "11757-738"
+  },
+  {
+    "rua": "Dezessete (Chac Jamaica)",
+    "cep": "11756-432"
+  },
+  {
+    "rua": "Dezessete (Est S Pedro)",
+    "cep": "11754-634"
+  },
+  {
+    "rua": "Dezessete (Est Santana I)",
+    "cep": "11752-106"
+  },
+  {
+    "rua": "Dezessete (Jd Aguapeu)",
+    "cep": "11744-504"
+  },
+  {
+    "rua": "Dezessete (Jd Cunhambebe)",
+    "cep": "11748-126"
+  },
+  {
+    "rua": "Dezessete (Jd Esmeralda)",
+    "cep": "11750-322"
+  },
+  {
+    "rua": "Dezessete (Jd Fenix)",
+    "cep": "11755-204"
+  },
+  {
+    "rua": "Dezessete (Jd Maramba)",
+    "cep": "11755-086"
+  },
+  {
+    "rua": "Dezessete (Jd Primavera)",
+    "cep": "11752-248"
+  },
+  {
+    "rua": "Dezessete (Jd Rio Preto)",
+    "cep": "11747-612"
+  },
+  {
+    "rua": "Dezessete (Jd Ritamar)",
+    "cep": "11741-762"
+  },
+  {
+    "rua": "Dezessete (Jd S Fernando)",
+    "cep": "11749-856"
+  },
+  {
+    "rua": "Dezessete (Jd S Joao)",
+    "cep": "11754-228"
+  },
+  {
+    "rua": "Dezessete (Jd Sta Terezinha)",
+    "cep": "11741-556"
+  },
+  {
+    "rua": "Dezessete (Lot Res Guapurá)",
+    "cep": "11743-434"
+  },
+  {
+    "rua": "Dezessete (Pq Jequitiba)",
+    "cep": "11741-632"
+  },
+  {
+    "rua": "Dezessete (Pq Vergara)",
+    "cep": "11744-112"
+  },
+  {
+    "rua": "Dezessete (Rec Imigrantes)",
+    "cep": "11755-302"
+  },
+  {
+    "rua": "Dezessete (Rec Indaia)",
+    "cep": "11755-354"
+  },
+  {
+    "rua": "Dezessete (Res Pq Augustus)",
+    "cep": "11754-368"
+  },
+  {
+    "rua": "Dezoito (Baln California)",
+    "cep": "11754-286"
+  },
+  {
+    "rua": "Dezoito (Baln S Marcos)",
+    "cep": "11757-066"
+  },
+  {
+    "rua": "Dezoito (Baln Tropical)",
+    "cep": "11743-524"
+  },
+  {
+    "rua": "Dezoito (Chac Bopiranga)",
+    "cep": "11757-740"
+  },
+  {
+    "rua": "Dezoito (Chac Jamaica)",
+    "cep": "11756-434"
+  },
+  {
+    "rua": "Dezoito (Est Santana I)",
+    "cep": "11752-108"
+  },
+  {
+    "rua": "Dezoito (Jd Cunhambebe)",
+    "cep": "11748-146"
+  },
+  {
+    "rua": "Dezoito (Jd Esmeralda)",
+    "cep": "11750-324"
+  },
+  {
+    "rua": "Dezoito (Jd Fenix)",
+    "cep": "11755-208"
+  },
+  {
+    "rua": "Dezoito (Jd Maramba)",
+    "cep": "11755-088"
+  },
+  {
+    "rua": "Dezoito (Jd Primavera)",
+    "cep": "11752-250"
+  },
+  {
+    "rua": "Dezoito (Jd Rio Preto)",
+    "cep": "11747-608"
+  },
+  {
+    "rua": "Dezoito (Jd Ritamar)",
+    "cep": "11741-764"
+  },
+  {
+    "rua": "Dezoito (Jd S Fernando)",
+    "cep": "11749-858"
+  },
+  {
+    "rua": "Dezoito (Jd S Joao)",
+    "cep": "11754-230"
+  },
+  {
+    "rua": "Dezoito (Jd Sta Terezinha)",
+    "cep": "11741-558"
+  },
+  {
+    "rua": "Dezoito (Pq Riomar)",
+    "cep": "11747-384"
+  },
+  {
+    "rua": "Dezoito (Pq Vergara)",
+    "cep": "11744-116"
+  },
+  {
+    "rua": "Dezoito (Rec Imigrantes)",
+    "cep": "11755-304"
+  },
+  {
+    "rua": "Dezoito (Rec Indaia)",
+    "cep": "11755-356"
+  },
+  {
+    "rua": "Dezoito (Res Pq Augustus)",
+    "cep": "11754-372"
+  },
+  {
+    "rua": "Dezooito (Jd Edel)",
+    "cep": "11749-548"
+  },
+  {
+    "rua": "Diamante",
+    "cep": "11747-850"
+  },
+  {
+    "rua": "Diana",
+    "cep": "11742-776"
+  },
+  {
+    "rua": "Diana",
+    "cep": "11740-424"
+  },
+  {
+    "rua": "Diana",
+    "cep": "11742-730"
+  },
+  {
+    "rua": "Dilson Domingos Funaro, Ministro",
+    "cep": "11754-302"
+  },
+  {
+    "rua": "Dinamarca",
+    "cep": "11749-426"
+  },
+  {
+    "rua": "Diniz Antunes do Prado",
+    "cep": "11747-016"
+  },
+  {
+    "rua": "Dinorah Cruz, Professor",
+    "cep": "11740-084"
+  },
+  {
+    "rua": "Diomar Peixoto Louzada",
+    "cep": "11740-854"
+  },
+  {
+    "rua": "Dirce Lisse do Nascimento",
+    "cep": "11755-270"
+  },
+  {
+    "rua": "Dirce Lorena Ramos Monteiro (Baln Jd Itanhaem (Grandesp))",
+    "cep": "11750-268"
+  },
+  {
+    "rua": "Dirceu Sentoma",
+    "cep": "11747-884"
+  },
+  {
+    "rua": "Ditino Della Parte, Padre",
+    "cep": "11741-820"
+  },
+  {
+    "rua": "Ditino Della Parte, Padre",
+    "cep": "11742-390"
+  },
+  {
+    "rua": "Divino Justino da Silva",
+    "cep": "11740-864"
+  },
+  {
+    "rua": "Djalma Filoso, Doutor",
+    "cep": "11751-592"
+  },
+  {
+    "rua": "Dois (Baln Auri-Verde)",
+    "cep": "11741-104"
+  },
+  {
+    "rua": "Dois (Baln Marrocos)",
+    "cep": "11741-264"
+  },
+  {
+    "rua": "Dois (Baln Tropical)",
+    "cep": "11740-562"
+  },
+  {
+    "rua": "Dois (Chac B Retiro)",
+    "cep": "11750-562"
+  },
+  {
+    "rua": "Dois (Chac B Retiro)",
+    "cep": "11750-488"
+  },
+  {
+    "rua": "Dois (Chac Bopiranga)",
+    "cep": "11757-708"
+  },
+  {
+    "rua": "Dois (Chac Lucel)",
+    "cep": "11755-596"
+  },
+  {
+    "rua": "Dois (Chac Myawaki)",
+    "cep": "11747-738"
+  },
+  {
+    "rua": "Dois (Est Ipanema)",
+    "cep": "11752-290"
+  },
+  {
+    "rua": "Dois (Est Ipanema)",
+    "cep": "11752-292"
+  },
+  {
+    "rua": "Dois (Est S Pedro)",
+    "cep": "11755-438"
+  },
+  {
+    "rua": "Dois (Est Santana I)",
+    "cep": "11752-076"
+  },
+  {
+    "rua": "Dois (Est Savanah)",
+    "cep": "11752-342"
+  },
+  {
+    "rua": "Dois (Jd Aguapeu)",
+    "cep": "11744-384"
+  },
+  {
+    "rua": "Dois (Jd Bopiranga)",
+    "cep": "11749-572"
+  },
+  {
+    "rua": "Dois (Jd Diplomata)",
+    "cep": "11754-424"
+  },
+  {
+    "rua": "Dois (Jd Diplomata)",
+    "cep": "11754-420"
+  },
+  {
+    "rua": "Dois (Jd Edel)",
+    "cep": "11749-524"
+  },
+  {
+    "rua": "Dois (Jd Esmeralda)",
+    "cep": "11750-292"
+  },
+  {
+    "rua": "Dois (Jd Fenix)",
+    "cep": "11755-174"
+  },
+  {
+    "rua": "Dois (Jd Maramba)",
+    "cep": "11754-794"
+  },
+  {
+    "rua": "Dois (Jd Imigrantes)",
+    "cep": "11747-664"
+  },
+  {
+    "rua": "Dois (Jd Lindomar)",
+    "cep": "11757-036"
+  },
+  {
+    "rua": "Dois (Jd Luizamar Mirim)",
+    "cep": "11755-527"
+  },
+  {
+    "rua": "Dois (Jd Palmeiras III)",
+    "cep": "11755-794"
+  },
+  {
+    "rua": "Dois (Jd Paraiso)",
+    "cep": "11754-708"
+  },
+  {
+    "rua": "Dois (Jd Primavera)",
+    "cep": "11752-244"
+  },
+  {
+    "rua": "Dois (Jd Rainha do Mar)",
+    "cep": "11741-218"
+  },
+  {
+    "rua": "Dois (Jd Regina)",
+    "cep": "11754-118"
+  },
+  {
+    "rua": "Dois (Jd Regina)",
+    "cep": "11756-690"
+  },
+  {
+    "rua": "Dois (Jd Rio Preto)",
+    "cep": "11747-652"
+  },
+  {
+    "rua": "Dois (Jd S Joao)",
+    "cep": "11754-202"
+  },
+  {
+    "rua": "Dois (Pq Royalle)",
+    "cep": "11752-366"
+  },
+  {
+    "rua": "Dois (Puerta de Madrid)",
+    "cep": "11748-102"
+  },
+  {
+    "rua": "Dois (Rec Antonella)",
+    "cep": "11741-004"
+  },
+  {
+    "rua": "Dois (Rec Indaia)",
+    "cep": "11755-324"
+  },
+  {
+    "rua": "Dois (Res Pq Augustus)",
+    "cep": "11754-306"
+  },
+  {
+    "rua": "Dois (Vl Lili)",
+    "cep": "11740-880"
+  },
+  {
+    "rua": "Dois (Vl Rivera)",
+    "cep": "11746-506"
+  },
+  {
+    "rua": "Dolar , do (Cid Jard Cel)",
+    "cep": "11747-840"
+  },
+  {
+    "rua": "Domingos Baratella",
+    "cep": "11749-562"
+  },
+  {
+    "rua": "Domingos Bento da Silva",
+    "cep": "11749-512"
+  },
+  {
+    "rua": "Domingos Padula",
+    "cep": "11748-496"
+  },
+  {
+    "rua": "Domingos Peres Domingues",
+    "cep": "11748-010"
+  },
+  {
+    "rua": "Domingos, São",
+    "cep": "11741-846"
+  },
+  {
+    "rua": "Domingos, São",
+    "cep": "11742-414"
+  },
+  {
+    "rua": "Dora Lucia Garay Fabregues",
+    "cep": "11747-260"
+  },
+  {
+    "rua": "Doraci Tranquelin de Vincente",
+    "cep": "11755-070"
+  },
+  {
+    "rua": "Doraci Tranquelin de Vincente",
+    "cep": "11754-792"
+  },
+  {
+    "rua": "Dorival Mariano Silva",
+    "cep": "11746-824"
+  },
+  {
+    "rua": "Dorival Marques",
+    "cep": "11746-726"
+  },
+  {
+    "rua": "Doze (Baln California)",
+    "cep": "11754-256"
+  },
+  {
+    "rua": "Doze (Baln S Marcos)",
+    "cep": "11757-050"
+  },
+  {
+    "rua": "Doze (Chac Bopiranga)",
+    "cep": "11757-728"
+  },
+  {
+    "rua": "Doze (Chac Jamaica)",
+    "cep": "11756-422"
+  },
+  {
+    "rua": "Doze (Est Ipanema)",
+    "cep": "11752-322"
+  },
+  {
+    "rua": "Doze (Est S Pedro)",
+    "cep": "11755-458"
+  },
+  {
+    "rua": "Doze (Est Santana I)",
+    "cep": "11752-114"
+  },
+  {
+    "rua": "Doze (Est Savanah)",
+    "cep": "11752-346"
+  },
+  {
+    "rua": "Doze (Jd Aguapeu)",
+    "cep": "11744-360"
+  },
+  {
+    "rua": "Doze (Jd Esmeralda)",
+    "cep": "11750-312"
+  },
+  {
+    "rua": "Doze (Jd Fenix)",
+    "cep": "11755-194"
+  },
+  {
+    "rua": "Doze (Jd Luizamar Mirim)",
+    "cep": "11754-518"
+  },
+  {
+    "rua": "Doze (Jd Maramba)",
+    "cep": "11755-072"
+  },
+  {
+    "rua": "Doze (Jd Paraiso)",
+    "cep": "11754-712"
+  },
+  {
+    "rua": "Doze (Jd Pescador)",
+    "cep": "11747-686"
+  },
+  {
+    "rua": "Doze (Jd Primavera)",
+    "cep": "11752-236"
+  },
+  {
+    "rua": "Doze (Jd Rio Preto)",
+    "cep": "11747-622"
+  },
+  {
+    "rua": "Doze (Jd S Fernando)",
+    "cep": "11749-846"
+  },
+  {
+    "rua": "Doze (Jd S Joao)",
+    "cep": "11754-218"
+  },
+  {
+    "rua": "Doze (Jd Sta Terezinha)",
+    "cep": "11741-546"
+  },
+  {
+    "rua": "Doze (Jd Valeria)",
+    "cep": "11749-500"
+  },
+  {
+    "rua": "Doze (Pq Baln Itanhaem)",
+    "cep": "11742-648"
+  },
+  {
+    "rua": "Doze (Pq Royalle)",
+    "cep": "11752-382"
+  },
+  {
+    "rua": "Doze (Pq Vergara)",
+    "cep": "11744-088"
+  },
+  {
+    "rua": "Doze (Rec Imigrantes)",
+    "cep": "11755-292"
+  },
+  {
+    "rua": "Doze (Rec Indaia)",
+    "cep": "11755-344"
+  },
+  {
+    "rua": "Doze (Res Pq Augustus)",
+    "cep": "11754-340"
+  },
+  {
+    "rua": "Duarte Leopoldo e Silva, Dom",
+    "cep": "11740-234"
+  },
+  {
+    "rua": "Duílio Filippini",
+    "cep": "11747-826"
+  },
+  {
+    "rua": "Dulce, Irmã",
+    "cep": "11747-300"
+  },
+  {
+    "rua": "Durval Costa",
+    "cep": "11749-566"
+  },
+  {
+    "rua": "Durval Emilson Leoni",
+    "cep": "11749-570"
+  },
+  {
+    "rua": "Durval Muylaert",
+    "cep": "11741-828"
+  },
+  {
+    "rua": "Durval Muylaert",
+    "cep": "11742-398"
+  },
+  {
+    "rua": "Durval Serrano",
+    "cep": "11751-572"
+  },
+  {
+    "rua": "Durvalina Augusta Martins",
+    "cep": "11743-284"
+  },
+  {
+    "rua": "E (Baln Yuri)",
+    "cep": "11741-126"
+  },
+  {
+    "rua": "E (Est Ipanema)",
+    "cep": "11752-312"
+  },
+  {
+    "rua": "E (Lot Res Guapurá)",
+    "cep": "11743-378"
+  },
+  {
+    "rua": "E (Pq Evelyn)",
+    "cep": "11751-542"
+  },
+  {
+    "rua": "Edgard Martins",
+    "cep": "11748-122"
+  },
+  {
+    "rua": "Edidalto Luiz Nascimento",
+    "cep": "11743-348"
+  },
+  {
+    "rua": "Edina Maria Neres Pacheco Lorena",
+    "cep": "11743-450"
+  },
+  {
+    "rua": "Edith Honorato da Silva",
+    "cep": "11748-022"
+  },
+  {
+    "rua": "Edith Prettyman Moreira",
+    "cep": "11755-520"
+  },
+  {
+    "rua": "Ediwirges Nunes",
+    "cep": "11741-576"
+  },
+  {
+    "rua": "Edmundo Gomes Estriga",
+    "cep": "11746-770"
+  },
+  {
+    "rua": "Edson Baptista de Andrade, Doutor",
+    "cep": "11746-210"
+  },
+  {
+    "rua": "Edson Bello, Vereador",
+    "cep": "11740-504"
+  },
+  {
+    "rua": "Edson Gabriel dos Santos",
+    "cep": "11749-064"
+  },
+  {
+    "rua": "Eduardo Campos",
+    "cep": "11751-614"
+  },
+  {
+    "rua": "Eduardo Castro de Araújo",
+    "cep": "11740-370"
+  },
+  {
+    "rua": "Eduardo Castro de Araújo",
+    "cep": "11742-806"
+  },
+  {
+    "rua": "Eduardo da Silva Leite",
+    "cep": "11743-542"
+  },
+  {
+    "rua": "Eduardo Ferreira Santana",
+    "cep": "11749-672"
+  },
+  {
+    "rua": "Eduardo Fornaciari",
+    "cep": "11751-634"
+  },
+  {
+    "rua": "Eduardo Gomes da Rocha, Vereador",
+    "cep": "11740-522"
+  },
+  {
+    "rua": "Eduardo Pedro Mariano",
+    "cep": "11746-142"
+  },
+  {
+    "rua": "Eduardo Pedro Mariano",
+    "cep": "11746-130"
+  },
+  {
+    "rua": "Efigênia Alves da Cunha",
+    "cep": "11743-236"
+  },
+  {
+    "rua": "Egas Muniz de Arruda Botelho",
+    "cep": "11740-392"
+  },
+  {
+    "rua": "Eldorado",
+    "cep": "11747-812"
+  },
+  {
+    "rua": "Eli Silva Martins",
+    "cep": "11751-616"
+  },
+  {
+    "rua": "Eliane Siqueira Lorena",
+    "cep": "11751-578"
+  },
+  {
+    "rua": "Eliezer Cardoso dos Santos",
+    "cep": "11743-282"
+  },
+  {
+    "rua": "Eliseu Visconti",
+    "cep": "11746-654"
+  },
+  {
+    "rua": "Elisa Maria de Aquino",
+    "cep": "11747-230"
+  },
+  {
+    "rua": "Elisa Maria de Oliveira",
+    "cep": "11754-772"
+  },
+  {
+    "rua": "Eliseario Soares Albergaria",
+    "cep": "11755-548"
+  },
+  {
+    "rua": "Eliza F. Fornaciari",
+    "cep": "11743-290"
+  },
+  {
+    "rua": "Elza Augusto de Siqueira",
+    "cep": "11743-506"
+  },
+  {
+    "rua": "Elza Galvão Branco",
+    "cep": "11742-028"
+  },
+  {
+    "rua": "Emerson da Silva",
+    "cep": "11743-202"
+  },
+  {
+    "rua": "Emidio de Sousa",
+    "cep": "11746-002"
+  },
+  {
+    "rua": "Emídio de Souza",
+    "cep": "11743-250"
+  },
+  {
+    "rua": "Emídio de Souza",
+    "cep": "11742-750"
+  },
+  {
+    "rua": "Emídio de Souza",
+    "cep": "11740-418"
+  },
+  {
+    "rua": "Emidio Pereira de Castro",
+    "cep": "11746-830"
+  },
+  {
+    "rua": "Emília",
+    "cep": "11754-112"
+  },
+  {
+    "rua": "Emilia Alves Müller",
+    "cep": "11740-536"
+  },
+  {
+    "rua": "Emilia Alves Müller",
+    "cep": "11743-514"
+  },
+  {
+    "rua": "Emilia Alves Müller",
+    "cep": "11742-614"
+  },
+  {
+    "rua": "Emiliano Pedroso",
+    "cep": "11746-200"
+  },
+  {
+    "rua": "Emiliano Ribeiro da Silva",
+    "cep": "11754-660"
+  },
+  {
+    "rua": "Emílio Justo",
+    "cep": "11746-238"
+  },
+  {
+    "rua": "Emílio Paulo",
+    "cep": "11748-190"
+  },
+  {
+    "rua": "Ênio Astrath",
+    "cep": "11746-852"
+  },
+  {
+    "rua": "Enseada, da",
+    "cep": "11746-152"
+  },
+  {
+    "rua": "Enseada, da",
+    "cep": "11746-074"
+  },
+  {
+    "rua": "Equador",
+    "cep": "11749-438"
+  },
+  {
+    "rua": "Equador",
+    "cep": "11746-396"
+  },
+  {
+    "rua": "Eraldo de Oliveira",
+    "cep": "11749-806"
+  },
+  {
+    "rua": "Eraldo Eugenio de Oliveira Vianti",
+    "cep": "11754-238"
+  },
+  {
+    "rua": "Erich Sielka",
+    "cep": "11749-616"
+  },
+  {
+    "rua": "Érico Veríssimo",
+    "cep": "11741-582"
+  },
+  {
+    "rua": "Ernestino Alves Mascarenhas, Vereador",
+    "cep": "11742-464"
+  },
+  {
+    "rua": "Ernesto Mariano dos Santos",
+    "cep": "11743-418"
+  },
+  {
+    "rua": "Ernesto Zwarg",
+    "cep": "11740-508"
+  },
+  {
+    "rua": "Ernesto Zwarg Júnior, Vereador",
+    "cep": "11740-036"
+  },
+  {
+    "rua": "Escudo , do",
+    "cep": "11747-838"
+  },
+  {
+    "rua": "Esmeralda",
+    "cep": "11747-854"
+  },
+  {
+    "rua": "Espanhóis , dos",
+    "cep": "11748-408"
+  },
+  {
+    "rua": "Espirito Santo",
+    "cep": "11746-328"
+  },
+  {
+    "rua": "Espirito Santo",
+    "cep": "11754-590"
+  },
+  {
+    "rua": "Estados Unidos",
+    "cep": "11749-442"
+  },
+  {
+    "rua": "Estados Unidos",
+    "cep": "11746-366"
+  },
+  {
+    "rua": "Estanislau Geronimo",
+    "cep": "11743-268"
+  },
+  {
+    "rua": "Estela Balaço",
+    "cep": "11749-612"
+  },
+  {
+    "rua": "Ester Sanches Lopes",
+    "cep": "11741-560"
+  },
+  {
+    "rua": "Esther",
+    "cep": "11741-392"
+  },
+  {
+    "rua": "Esther",
+    "cep": "11741-192"
+  },
+  {
+    "rua": "Euclides da Silva",
+    "cep": "11751-332"
+  },
+  {
+    "rua": "Euclides Galdino da Costa",
+    "cep": "11751-358"
+  },
+  {
+    "rua": "Eulicia Chaves Souza",
+    "cep": "11754-146"
+  },
+  {
+    "rua": "Europa",
+    "cep": "11749-386"
+  },
+  {
+    "rua": "Europa",
+    "cep": "11746-056"
+  },
+  {
+    "rua": "Evandro Danton Ferreira Gandra",
+    "cep": "11746-220"
+  },
+  {
+    "rua": "Everest , do",
+    "cep": "11746-034"
+  },
+  {
+    "rua": "Ewaldo Ramalho Foz",
+    "cep": "11746-154"
+  },
+  {
+    "rua": "Existente (Baln S Marcos)",
+    "cep": "11754-060"
+  },
+  {
+    "rua": "Ezequiel Correa de Araújo, Major",
+    "cep": "11757-704"
+  },
+  {
+    "rua": "Ezequiel Correa de Araújo, Major",
+    "cep": "11749-722"
+  },
+  {
+    "rua": "F (Baln Beatriz)",
+    "cep": "11757-192"
+  },
+  {
+    "rua": "F (Baln Yuri)",
+    "cep": "11741-124"
+  },
+  {
+    "rua": "F (Pq Evelyn)",
+    "cep": "11751-568"
+  },
+  {
+    "rua": "F (Rec Bandeirantes)",
+    "cep": "11749-698"
+  },
+  {
+    "rua": "Fábio Oliveira de Barros",
+    "cep": "11746-166"
+  },
+  {
+    "rua": "Faria Lima, Brigadeiro",
+    "cep": "11741-588"
+  },
+  {
+    "rua": "Feirantes , dos",
+    "cep": "11748-470"
+  },
+  {
+    "rua": "Felício de Lima",
+    "cep": "11746-678"
+  },
+  {
+    "rua": "Felisberto de Jesus Fiarresgo",
+    "cep": "11754-624"
+  },
+  {
+    "rua": "Fernando Otaviano Toledo Fabregues",
+    "cep": "11751-636"
+  },
+  {
+    "rua": "Figueira",
+    "cep": "11750-134"
+  },
+  {
+    "rua": "Flacides Ferreira",
+    "cep": "11754-646"
+  },
+  {
+    "rua": "Flacides Ferreira",
+    "cep": "11755-402"
+  },
+  {
+    "rua": "Flamboyan",
+    "cep": "11749-370"
+  },
+  {
+    "rua": "Flamboyan",
+    "cep": "11749-306"
+  },
+  {
+    "rua": "Flávio Dohnal",
+    "cep": "11748-026"
+  },
+  {
+    "rua": "Flávio Prado",
+    "cep": "11746-728"
+  },
+  {
+    "rua": "Flores , das",
+    "cep": "11741-886"
+  },
+  {
+    "rua": "Flores , das",
+    "cep": "11742-446"
+  },
+  {
+    "rua": "Florianopolis",
+    "cep": "11749-462"
+  },
+  {
+    "rua": "Florianopolis",
+    "cep": "11754-594"
+  },
+  {
+    "rua": "Florianópolis",
+    "cep": "11752-136"
+  },
+  {
+    "rua": "Florida",
+    "cep": "11741-694"
+  },
+  {
+    "rua": "Florides Menezes da Silva",
+    "cep": "11747-886"
+  },
+  {
+    "rua": "Fluvial (Fluvila)",
+    "cep": "11748-076"
+  },
+  {
+    "rua": "Fluvial (Vl Pq Fluvial)",
+    "cep": "11748-054"
+  },
+  {
+    "rua": "Fortaleza",
+    "cep": "11756-704"
+  },
+  {
+    "rua": "Fortaleza",
+    "cep": "11754-640"
+  },
+  {
+    "rua": "Fortaleza",
+    "cep": "11748-080"
+  },
+  {
+    "rua": "França",
+    "cep": "11749-430"
+  },
+  {
+    "rua": "França",
+    "cep": "11747-808"
+  },
+  {
+    "rua": "França, da",
+    "cep": "11740-886"
+  },
+  {
+    "rua": "França, da",
+    "cep": "11741-698"
+  },
+  {
+    "rua": "Francelino Romão",
+    "cep": "11740-368"
+  },
+  {
+    "rua": "Francelino Romão",
+    "cep": "11742-812"
+  },
+  {
+    "rua": "Francis Louis Morrell",
+    "cep": "11740-870"
+  },
+  {
+    "rua": "Francis Louis Morrell",
+    "cep": "11741-706"
+  },
+  {
+    "rua": "Francisco André de Lima",
+    "cep": "11751-354"
+  },
+  {
+    "rua": "Francisco Antonio Mendes Caruso",
+    "cep": "11741-258"
+  },
+  {
+    "rua": "Francisco Antonio Mendes Caruso",
+    "cep": "11741-274"
+  },
+  {
+    "rua": "Francisco de Araújo Filho",
+    "cep": "11742-612"
+  },
+  {
+    "rua": "Francisco Augusto Saraiva Fanueli, Engenheiro",
+    "cep": "11751-308"
+  },
+  {
+    "rua": "Francisco Braulio Ennes Riberiro",
+    "cep": "11749-576"
+  },
+  {
+    "rua": "Francisco Cesar",
+    "cep": "11747-272"
+  },
+  {
+    "rua": "Francisco de Assis Rodrigues da Silva",
+    "cep": "11742-530"
+  },
+  {
+    "rua": "Francisco de Assis, São",
+    "cep": "11742-810"
+  },
+  {
+    "rua": "Francisco Eugenio do Amaral, Doutor",
+    "cep": "11740-592"
+  },
+  {
+    "rua": "Francisco Lopes Teixeira Forte",
+    "cep": "11743-424"
+  },
+  {
+    "rua": "Francisco Mauricio",
+    "cep": "11754-692"
+  },
+  {
+    "rua": "Francisco Medici",
+    "cep": "11748-494"
+  },
+  {
+    "rua": "Francisco Monteiro da Silva",
+    "cep": "11748-050"
+  },
+  {
+    "rua": "Francisco Piva",
+    "cep": "11740-850"
+  },
+  {
+    "rua": "Francisco Rodrigues Gomes",
+    "cep": "11747-280"
+  },
+  {
+    "rua": "Francisco S Nicolini",
+    "cep": "11747-296"
+  },
+  {
+    "rua": "Francisco Sanches",
+    "cep": "11743-246"
+  },
+  {
+    "rua": "Francisco, São",
+    "cep": "11756-718"
+  },
+  {
+    "rua": "Francisco, São",
+    "cep": "11741-840"
+  },
+  {
+    "rua": "Francisco, São",
+    "cep": "11742-408"
+  },
+  {
+    "rua": "Francisco Theodoro Ramos",
+    "cep": "11740-780"
+  },
+  {
+    "rua": "Franco , do",
+    "cep": "11747-800"
+  },
+  {
+    "rua": "Fraternidade , da",
+    "cep": "11741-890"
+  },
+  {
+    "rua": "Fraternidade , da",
+    "cep": "11743-652"
+  },
+  {
+    "rua": "Frederico de Souza Queiroz Filho, Doutor",
+    "cep": "11746-246"
+  },
+  {
+    "rua": "Frederico Jorge Muller",
+    "cep": "11749-592"
+  },
+  {
+    "rua": "Frederico Walter",
+    "cep": "11742-652"
+  },
+  {
+    "rua": "Fundadores, dos",
+    "cep": "11746-148"
+  },
+  {
+    "rua": "Fundadores, dos",
+    "cep": "11746-126"
+  },
+  {
+    "rua": "G (Baln Paranapuan)",
+    "cep": "11754-010"
+  },
+  {
+    "rua": "G (Est Ipanema)",
+    "cep": "11752-324"
+  },
+  {
+    "rua": "G (Pq Evelyn)",
+    "cep": "11751-566"
+  },
+  {
+    "rua": "G (Rec Bandeirantes)",
+    "cep": "11749-696"
+  },
+  {
+    "rua": "Gabiroba",
+    "cep": "11749-338"
+  },
+  {
+    "rua": "Gabiroba",
+    "cep": "11749-126"
+  },
+  {
+    "rua": "Gabriel Leite do Amaral",
+    "cep": "11746-190"
+  },
+  {
+    "rua": "Gameleira",
+    "cep": "11749-382"
+  },
+  {
+    "rua": "Gameleira",
+    "cep": "11749-292"
+  },
+  {
+    "rua": "Garcia Bento",
+    "cep": "11746-652"
+  },
+  {
+    "rua": "Gaspar Ricardo",
+    "cep": "11746-302"
+  },
+  {
+    "rua": "Genaro de Luca",
+    "cep": "11749-624"
+  },
+  {
+    "rua": "Genival Ribeiro Rodrigues",
+    "cep": "11747-868"
+  },
+  {
+    "rua": "Gentil Alves Carneiro",
+    "cep": "11748-202"
+  },
+  {
+    "rua": "Gentil Gomes Rodrigues",
+    "cep": "11741-620"
+  },
+  {
+    "rua": "Gentil José de Matos",
+    "cep": "11749-248"
+  },
+  {
+    "rua": "Gentil Perez",
+    "cep": "11746-804"
+  },
+  {
+    "rua": "Gentil Perez",
+    "cep": "11747-832"
+  },
+  {
+    "rua": "Gentil Perez",
+    "cep": "11747-102"
+  },
+  {
+    "rua": "Gentil Perez",
+    "cep": "11747-246"
+  },
+  {
+    "rua": "Geraldo Bezerra da Silva",
+    "cep": "11743-298"
+  },
+  {
+    "rua": "Geraldo de Souza",
+    "cep": "11749-466"
+  },
+  {
+    "rua": "Geraldo Paulon Moreno",
+    "cep": "11754-784"
+  },
+  {
+    "rua": "Geraldo Russomano",
+    "cep": "11749-688"
+  },
+  {
+    "rua": "Geraldo Russomano",
+    "cep": "11757-134"
+  },
+  {
+    "rua": "Geraldo, São",
+    "cep": "11741-878"
+  },
+  {
+    "rua": "Gertrudes, Santa",
+    "cep": "11747-762"
+  },
+  {
+    "rua": "Gês",
+    "cep": "11749-030"
+  },
+  {
+    "rua": "Geza Hary",
+    "cep": "11749-690"
+  },
+  {
+    "rua": "Geza Hary",
+    "cep": "11757-130"
+  },
+  {
+    "rua": "Gigetto Candia",
+    "cep": "11746-300"
+  },
+  {
+    "rua": "Gilberto Notaro",
+    "cep": "11746-522"
+  },
+  {
+    "rua": "Gilberto Oliveira da Guia, Cabo",
+    "cep": "11748-256"
+  },
+  {
+    "rua": "Gilberto Pompeu",
+    "cep": "11746-576"
+  },
+  {
+    "rua": "Gileno da Silva",
+    "cep": "11747-200"
+  },
+  {
+    "rua": "Gilmar Jose Carneiro",
+    "cep": "11741-486"
+  },
+  {
+    "rua": "Gimirim",
+    "cep": "11747-162"
+  },
+  {
+    "rua": "Gino Arduini",
+    "cep": "11747-128"
+  },
+  {
+    "rua": "Giusepe Sarto",
+    "cep": "11749-600"
+  },
+  {
+    "rua": "Gloria de Souza",
+    "cep": "11754-320"
+  },
+  {
+    "rua": "Gofredo da Silva Telles",
+    "cep": "11740-820"
+  },
+  {
+    "rua": "Goiabeiras",
+    "cep": "11744-720"
+  },
+  {
+    "rua": "Goiania",
+    "cep": "11746-334"
+  },
+  {
+    "rua": "Goiania",
+    "cep": "11748-086"
+  },
+  {
+    "rua": "Goiás",
+    "cep": "11746-290"
+  },
+  {
+    "rua": "Goiás",
+    "cep": "11754-574"
+  },
+  {
+    "rua": "Goiás",
+    "cep": "11756-692"
+  },
+  {
+    "rua": "Goiás",
+    "cep": "11740-448"
+  },
+  {
+    "rua": "Goitacazes I",
+    "cep": "11746-316"
+  },
+  {
+    "rua": "Goitacazes II",
+    "cep": "11746-370"
+  },
+  {
+    "rua": "Gonçalo Monteiro",
+    "cep": "11746-292"
+  },
+  {
+    "rua": "Gregorio Campos",
+    "cep": "11746-722"
+  },
+  {
+    "rua": "Guaianazes",
+    "cep": "11749-038"
+  },
+  {
+    "rua": "Guaicurus",
+    "cep": "11750-508"
+  },
+  {
+    "rua": "Guaicurus",
+    "cep": "11750-438"
+  },
+  {
+    "rua": "Guapeva",
+    "cep": "11749-340"
+  },
+  {
+    "rua": "Guapeva",
+    "cep": "11749-124"
+  },
+  {
+    "rua": "Guapiruvu",
+    "cep": "11750-116"
+  },
+  {
+    "rua": "Guaporé",
+    "cep": "11754-568"
+  },
+  {
+    "rua": "Guaporé",
+    "cep": "11750-432"
+  },
+  {
+    "rua": "Guara",
+    "cep": "11749-044"
+  },
+  {
+    "rua": "Guaraçai",
+    "cep": "11741-152"
+  },
+  {
+    "rua": "Guaraçai",
+    "cep": "11741-484"
+  },
+  {
+    "rua": "Guaraciaba",
+    "cep": "11747-050"
+  },
+  {
+    "rua": "Guaracui",
+    "cep": "11750-108"
+  },
+  {
+    "rua": "Guarani",
+    "cep": "11746-048"
+  },
+  {
+    "rua": "Guaranis",
+    "cep": "11749-022"
+  },
+  {
+    "rua": "Guarany",
+    "cep": "11740-590"
+  },
+  {
+    "rua": "Guararema",
+    "cep": "11746-404"
+  },
+  {
+    "rua": "Guaratingueta",
+    "cep": "11750-466"
+  },
+  {
+    "rua": "Guaraú",
+    "cep": "11756-684"
+  },
+  {
+    "rua": "Guaraúna",
+    "cep": "11749-036"
+  },
+  {
+    "rua": "Guarirobas , das",
+    "cep": "11754-484"
+  },
+  {
+    "rua": "Guarujá",
+    "cep": "11747-858"
+  },
+  {
+    "rua": "Guarulhos",
+    "cep": "11754-856"
+  },
+  {
+    "rua": "Guatemala",
+    "cep": "11746-390"
+  },
+  {
+    "rua": "Guaxupe",
+    "cep": "11741-358"
+  },
+  {
+    "rua": "Guido Padovan",
+    "cep": "11743-280"
+  },
+  {
+    "rua": "Guido Toccollini",
+    "cep": "11747-136"
+  },
+  {
+    "rua": "Guilherme Menzel Filho",
+    "cep": "11741-834"
+  },
+  {
+    "rua": "Guilherme dos Santos Silva",
+    "cep": "11746-406"
+  },
+  {
+    "rua": "Guilherme Hergersheimer",
+    "cep": "11742-466"
+  },
+  {
+    "rua": "Guilherme Loyolla Oliveira",
+    "cep": "11740-506"
+  },
+  {
+    "rua": "Guilherme Menzel Filho",
+    "cep": "11742-404"
+  },
+  {
+    "rua": "Guilherme Roberto da Costa",
+    "cep": "11746-184"
+  },
+  {
+    "rua": "Guilhermina",
+    "cep": "11747-824"
+  },
+  {
+    "rua": "Guy Pierre Berjeaut",
+    "cep": "11746-032"
+  },
+  {
+    "rua": "H (Baln Yuri)",
+    "cep": "11741-498"
+  },
+  {
+    "rua": "H (Est Ipanema)",
+    "cep": "11752-326"
+  },
+  {
+    "rua": "H (Jd Lindomar)",
+    "cep": "11754-086"
+  },
+  {
+    "rua": "H (Lot Res Guapurá)",
+    "cep": "11743-444"
+  },
+  {
+    "rua": "H (Pq Evelyn)",
+    "cep": "11751-564"
+  },
+  {
+    "rua": "H (Rec Bandeirantes)",
+    "cep": "11749-694"
+  },
+  {
+    "rua": "H Cinco (Pq Alvorada)",
+    "cep": "11748-446"
+  },
+  {
+    "rua": "H Dez (Pq Alvorada)",
+    "cep": "11748-442"
+  },
+  {
+    "rua": "H Nove (Pq Alvorada)",
+    "cep": "11748-426"
+  },
+  {
+    "rua": "H Oito (Pq Alvorada)",
+    "cep": "11748-424"
+  },
+  {
+    "rua": "H Onze (Pq Alvorada)",
+    "cep": "11748-428"
+  },
+  {
+    "rua": "H Quatro (Pq Alvorada)",
+    "cep": "11748-460"
+  },
+  {
+    "rua": "H Seis (Pq Alvorada)",
+    "cep": "11748-422"
+  },
+  {
+    "rua": "H Sete (Pq Alvorada)",
+    "cep": "11748-448"
+  },
+  {
+    "rua": "Hans Entholzer",
+    "cep": "11746-598"
+  },
+  {
+    "rua": "Harry Forssell",
+    "cep": "11746-694"
+  },
+  {
+    "rua": "Harry Forssell",
+    "cep": "11746-546"
+  },
+  {
+    "rua": "Harry Forssell",
+    "cep": "11746-756"
+  },
+  {
+    "rua": "Heber Cemencio de Santana",
+    "cep": "11751-348"
+  },
+  {
+    "rua": "Heinz Wallentowitz",
+    "cep": "11754-316"
+  },
+  {
+    "rua": "Hélio Borba Vita",
+    "cep": "11740-116"
+  },
+  {
+    "rua": "Hélio Borba Vita",
+    "cep": "11740-376"
+  },
+  {
+    "rua": "Helio Marietto",
+    "cep": "11748-030"
+  },
+  {
+    "rua": "Heloísa",
+    "cep": "11754-138"
+  },
+  {
+    "rua": "Helvécio de Souza",
+    "cep": "11740-526"
+  },
+  {
+    "rua": "Henri Colson",
+    "cep": "11741-822"
+  },
+  {
+    "rua": "Henri Colson",
+    "cep": "11742-392"
+  },
+  {
+    "rua": "Henrique Bernardelli",
+    "cep": "11746-668"
+  },
+  {
+    "rua": "Henrique Julio de Lima",
+    "cep": "11746-696"
+  },
+  {
+    "rua": "Henrique Scigliano",
+    "cep": "11740-872"
+  },
+  {
+    "rua": "Henrique Van Kasteren, Cônego",
+    "cep": "11754-304"
+  },
+  {
+    "rua": "Heraldo Barbuy, Professor",
+    "cep": "11746-242"
+  },
+  {
+    "rua": "Hercilia Mariano da Costa",
+    "cep": "11746-594"
+  },
+  {
+    "rua": "Hermes de Abreu Ferreira",
+    "cep": "11746-186"
+  },
+  {
+    "rua": "Herminia Cappellini",
+    "cep": "11749-058"
+  },
+  {
+    "rua": "Herminia Dias de Matos",
+    "cep": "11749-246"
+  },
+  {
+    "rua": "Herta Müller",
+    "cep": "11747-348"
+  },
+  {
+    "rua": "Hildebranda Costa Oliveira",
+    "cep": "11744-328"
+  },
+  {
+    "rua": "Hildete Carneiro da Cunha",
+    "cep": "11747-082"
+  },
+  {
+    "rua": "Hipolita de Brito, Dona",
+    "cep": "11741-856"
+  },
+  {
+    "rua": "Hipolita de Brito, Dona",
+    "cep": "11742-422"
+  },
+  {
+    "rua": "Holanda",
+    "cep": "11749-406"
+  },
+  {
+    "rua": "Honduras",
+    "cep": "11756-722"
+  },
+  {
+    "rua": "Honduras",
+    "cep": "11749-440"
+  },
+  {
+    "rua": "Honduras",
+    "cep": "11746-388"
+  },
+  {
+    "rua": "Honduras",
+    "cep": "11756-656"
+  },
+  {
+    "rua": "Horizontal Norte (Fluvila)",
+    "cep": "11748-072"
+  },
+  {
+    "rua": "Horizontal Norte (Vl Pq Fluvial)",
+    "cep": "11748-052"
+  },
+  {
+    "rua": "Hortencias , das",
+    "cep": "11742-038"
+  },
+  {
+    "rua": "Horto , do",
+    "cep": "11746-508"
+  },
+  {
+    "rua": "Horto , do",
+    "cep": "11747-004"
+  },
+  {
+    "rua": "Horto Florestal",
+    "cep": "11754-500"
+  },
+  {
+    "rua": "Hugo Augusto Slivack",
+    "cep": "11746-226"
+  },
+  {
+    "rua": "Hugo Fornaciari",
+    "cep": "11746-574"
+  },
+  {
+    "rua": "Hugo Polastrini",
+    "cep": "11746-706"
+  },
+  {
+    "rua": "Humaitá",
+    "cep": "11750-528"
+  },
+  {
+    "rua": "Humaitá",
+    "cep": "11750-456"
+  },
+  {
+    "rua": "Humberto Ataulo",
+    "cep": "11740-306"
+  },
+  {
+    "rua": "Humberto Ataulo",
+    "cep": "11740-210"
+  },
+  {
+    "rua": "Humberto Ladallardo",
+    "cep": "11742-626"
+  },
+  {
+    "rua": "Humberto Mainardi",
+    "cep": "11749-180"
+  },
+  {
+    "rua": "I (Baln Veneza)",
+    "cep": "11741-340"
+  },
+  {
+    "rua": "I (Baln Yuri)",
+    "cep": "11741-502"
+  },
+  {
+    "rua": "I (Lot Res Guapurá)",
+    "cep": "11743-442"
+  },
+  {
+    "rua": "I (Pq Evelyn)",
+    "cep": "11751-562"
+  },
+  {
+    "rua": "Ian Robert Dubugras",
+    "cep": "11749-574"
+  },
+  {
+    "rua": "Iara",
+    "cep": "11749-222"
+  },
+  {
+    "rua": "Ibiána",
+    "cep": "11740-816"
+  },
+  {
+    "rua": "Ida Beletatto Martins",
+    "cep": "11754-560"
+  },
+  {
+    "rua": "Idilio Soares, Dom",
+    "cep": "11741-792"
+  },
+  {
+    "rua": "Idilio Soares, Dom",
+    "cep": "11742-368"
+  },
+  {
+    "rua": "Iemanjá",
+    "cep": "11749-224"
+  },
+  {
+    "rua": "Ignacio Alesunas",
+    "cep": "11757-044"
+  },
+  {
+    "rua": "Ignacio Alesunas",
+    "cep": "11754-050"
+  },
+  {
+    "rua": "Iguaçá",
+    "cep": "11746-362"
+  },
+  {
+    "rua": "Ilça Nuvolli",
+    "cep": "11749-610"
+  },
+  {
+    "rua": "Imbauva",
+    "cep": "11749-344"
+  },
+  {
+    "rua": "Imbauva",
+    "cep": "11749-120"
+  },
+  {
+    "rua": "Imbuia",
+    "cep": "11749-360"
+  },
+  {
+    "rua": "Imbuia",
+    "cep": "11749-316"
+  },
+  {
+    "rua": "Inácio, Santo",
+    "cep": "11741-848"
+  },
+  {
+    "rua": "Inácio, Santo",
+    "cep": "11742-416"
+  },
+  {
+    "rua": "Inaja",
+    "cep": "11749-226"
+  },
+  {
+    "rua": "Indaias , dos",
+    "cep": "11755-748"
+  },
+  {
+    "rua": "Inga",
+    "cep": "11749-376"
+  },
+  {
+    "rua": "Inga",
+    "cep": "11749-300"
+  },
+  {
+    "rua": "Ingleses , dos",
+    "cep": "11748-406"
+  },
+  {
+    "rua": "Institucional 1",
+    "cep": "11755-566"
+  },
+  {
+    "rua": "Internacional",
+    "cep": "11748-216"
+  },
+  {
+    "rua": "Ionete Ferreira Souza E Silva",
+    "cep": "11740-318"
+  },
+  {
+    "rua": "Ipanema",
+    "cep": "11747-058"
+  },
+  {
+    "rua": "Ipiranga",
+    "cep": "11750-544"
+  },
+  {
+    "rua": "Ipiranga",
+    "cep": "11754-134"
+  },
+  {
+    "rua": "Ipiranga",
+    "cep": "11746-076"
+  },
+  {
+    "rua": "Ipiranga",
+    "cep": "11750-472"
+  },
+  {
+    "rua": "Ipiranga",
+    "cep": "11741-786"
+  },
+  {
+    "rua": "Iracema",
+    "cep": "11750-464"
+  },
+  {
+    "rua": "Ipiranga",
+    "cep": "11740-822"
+  },
+  {
+    "rua": "Iracema",
+    "cep": "11750-536"
+  },
+  {
+    "rua": "Iracema",
+    "cep": "11740-786"
+  },
+  {
+    "rua": "Iracema",
+    "cep": "11747-068"
+  },
+  {
+    "rua": "Iracema Donnarummo Vieira",
+    "cep": "11749-632"
+  },
+  {
+    "rua": "Iracy",
+    "cep": "11747-090"
+  },
+  {
+    "rua": "Iraibas , das",
+    "cep": "11755-762"
+  },
+  {
+    "rua": "Irapuan",
+    "cep": "11747-014"
+  },
+  {
+    "rua": "Iraubas , das",
+    "cep": "11754-472"
+  },
+  {
+    "rua": "Isabel Menezes Hangai",
+    "cep": "11749-564"
+  },
+  {
+    "rua": "Isabel Oliveira Martins",
+    "cep": "11747-756"
+  },
+  {
+    "rua": "Isabel, Santa",
+    "cep": "11754-826"
+  },
+  {
+    "rua": "Isaias Jose Gomes",
+    "cep": "11748-218"
+  },
+  {
+    "rua": "Isaura Antunes Garzon",
+    "cep": "11751-596"
+  },
+  {
+    "rua": "Isolina Pupo Duarte",
+    "cep": "11754-308"
+  },
+  {
+    "rua": "Istambul",
+    "cep": "11749-390"
+  },
+  {
+    "rua": "Ita",
+    "cep": "11749-144"
+  },
+  {
+    "rua": "Itaboca",
+    "cep": "11749-208"
+  },
+  {
+    "rua": "Itaguaçaba",
+    "cep": "11740-658"
+  },
+  {
+    "rua": "Itai",
+    "cep": "11749-026"
+  },
+  {
+    "rua": "Itajaí",
+    "cep": "11752-152"
+  },
+  {
+    "rua": "Itália",
+    "cep": "11749-428"
+  },
+  {
+    "rua": "Itália",
+    "cep": "11748-520"
+  },
+  {
+    "rua": "Italianos , dos",
+    "cep": "11748-402"
+  },
+  {
+    "rua": "Itanhaém",
+    "cep": "11754-140"
+  },
+  {
+    "rua": "Itanhaém",
+    "cep": "11741-088"
+  },
+  {
+    "rua": "Itanhaém",
+    "cep": "11750-530"
+  },
+  {
+    "rua": "Itanhaém",
+    "cep": "11754-606"
+  },
+  {
+    "rua": "Itanhaém",
+    "cep": "11750-458"
+  },
+  {
+    "rua": "Itanhaém",
+    "cep": "11752-124"
+  },
+  {
+    "rua": "Itanhaém",
+    "cep": "11748-270"
+  },
+  {
+    "rua": "Itaóca",
+    "cep": "11750-522"
+  },
+  {
+    "rua": "Itaoca",
+    "cep": "11750-450"
+  },
+  {
+    "rua": "Itapecerica",
+    "cep": "11749-032"
+  },
+  {
+    "rua": "Itapecurus",
+    "cep": "11750-510"
+  },
+  {
+    "rua": "Itapecurus",
+    "cep": "11750-440"
+  },
+  {
+    "rua": "Itapema",
+    "cep": "11740-668"
+  },
+  {
+    "rua": "Itapema",
+    "cep": "11740-704"
+  },
+  {
+    "rua": "Itapetininga",
+    "cep": "11750-552"
+  },
+  {
+    "rua": "Itapetininga",
+    "cep": "11750-480"
+  },
+  {
+    "rua": "Itapeva",
+    "cep": "11750-542"
+  },
+  {
+    "rua": "Itapeva",
+    "cep": "11750-470"
+  },
+  {
+    "rua": "Itapura",
+    "cep": "11740-694"
+  },
+  {
+    "rua": "Itapura",
+    "cep": "11740-692"
+  },
+  {
+    "rua": "Itaquaquecetuba",
+    "cep": "11749-140"
+  },
+  {
+    "rua": "Itararé",
+    "cep": "11747-874"
+  },
+  {
+    "rua": "Itu",
+    "cep": "11746-408"
+  },
+  {
+    "rua": "Itú",
+    "cep": "11748-288"
+  },
+  {
+    "rua": "Itú",
+    "cep": "11749-160"
+  },
+  {
+    "rua": "Itupeva",
+    "cep": "11740-664"
+  },
+  {
+    "rua": "Itupeva",
+    "cep": "11740-662"
+  },
+  {
+    "rua": "Ivaldo Firmino dos Santos",
+    "cep": "11742-656"
+  },
+  {
+    "rua": "Ivan Alexandre Mateos de Barros",
+    "cep": "11740-410"
+  },
+  {
+    "rua": "Ivo, Santo",
+    "cep": "11746-584"
+  },
+  {
+    "rua": "J (Baln Yuri)",
+    "cep": "11741-504"
+  },
+  {
+    "rua": "J (Lot Res Guapurá)",
+    "cep": "11743-432"
+  },
+  {
+    "rua": "J (Pq Evelyn)",
+    "cep": "11751-560"
+  },
+  {
+    "rua": "J (Rec Bandeirantes)",
+    "cep": "11749-684"
+  },
+  {
+    "rua": "J (Res Pq Augustus)",
+    "cep": "11754-348"
+  },
+  {
+    "rua": "Jabuticabeiras",
+    "cep": "11744-780"
+  },
+  {
+    "rua": "Jacaranda",
+    "cep": "11749-358"
+  },
+  {
+    "rua": "Jacaranda",
+    "cep": "11749-318"
+  },
+  {
+    "rua": "Jacarei",
+    "cep": "11746-450"
+  },
+  {
+    "rua": "Jacarezinho",
+    "cep": "11755-054"
+  },
+  {
+    "rua": "Jacatauva",
+    "cep": "11750-106"
+  },
+  {
+    "rua": "Jaci",
+    "cep": "11747-062"
+  },
+  {
+    "rua": "Jaci",
+    "cep": "11749-012"
+  },
+  {
+    "rua": "Jacome Fajardo",
+    "cep": "11740-072"
+  },
+  {
+    "rua": "Jacques Costeau",
+    "cep": "11754-312"
+  },
+  {
+    "rua": "Jacutirao",
+    "cep": "11749-368"
+  },
+  {
+    "rua": "Jacutirao",
+    "cep": "11749-308"
+  },
+  {
+    "rua": "Jacy",
+    "cep": "11740-802"
+  },
+  {
+    "rua": "Jacy",
+    "cep": "11740-608"
+  },
+  {
+    "rua": "Jacy",
+    "cep": "11742-450"
+  },
+  {
+    "rua": "Jacy",
+    "cep": "11740-724"
+  },
+  {
+    "rua": "Jahu",
+    "cep": "11754-816"
+  },
+  {
+    "rua": "Jahu",
+    "cep": "11748-498"
+  },
+  {
+    "rua": "Jaime Augusto Pinheiro",
+    "cep": "11740-778"
+  },
+  {
+    "rua": "Jaime de Castro",
+    "cep": "11740-112"
+  },
+  {
+    "rua": "Jaime de Castro",
+    "cep": "11740-394"
+  },
+  {
+    "rua": "Jaime Pinheiro de Souza",
+    "cep": "11747-122"
+  },
+  {
+    "rua": "Jakson Pitelli",
+    "cep": "11751-618"
+  },
+  {
+    "rua": "Jandaia",
+    "cep": "11749-266"
+  },
+  {
+    "rua": "Japão",
+    "cep": "11748-518"
+  },
+  {
+    "rua": "Japoneses , dos",
+    "cep": "11748-410"
+  },
+  {
+    "rua": "Jaqueiras",
+    "cep": "11744-730"
+  },
+  {
+    "rua": "Jaras , dos",
+    "cep": "11755-890"
+  },
+  {
+    "rua": "Jarbas Lopes Moreira",
+    "cep": "11754-686"
+  },
+  {
+    "rua": "Jardim Coronel",
+    "cep": "11747-834"
+  },
+  {
+    "rua": "Jardim da Estação",
+    "cep": "11754-786"
+  },
+  {
+    "rua": "Jardinopólis",
+    "cep": "11747-160"
+  },
+  {
+    "rua": "Jarinas , das",
+    "cep": "11754-486"
+  },
+  {
+    "rua": "Jasmim",
+    "cep": "11750-142"
+  },
+  {
+    "rua": "Jatai",
+    "cep": "11750-120"
+  },
+  {
+    "rua": "Jatai",
+    "cep": "11749-166"
+  },
+  {
+    "rua": "Jataibas , das",
+    "cep": "11754-480"
+  },
+  {
+    "rua": "Jatoba",
+    "cep": "11749-374"
+  },
+  {
+    "rua": "Jatoba",
+    "cep": "11749-302"
+  },
+  {
+    "rua": "Jaú",
+    "cep": "11756-678"
+  },
+  {
+    "rua": "Javaris , dos",
+    "cep": "11755-892"
+  },
+  {
+    "rua": "Jayme Lino dos Santos",
+    "cep": "11742-644"
+  },
+  {
+    "rua": "Jequirituba",
+    "cep": "11757-584"
+  },
+  {
+    "rua": "Jequitiba",
+    "cep": "11750-124"
+  },
+  {
+    "rua": "Jequitirás , dos",
+    "cep": "11755-770"
+  },
+  {
+    "rua": "Jerivas , dos",
+    "cep": "11754-438"
+  },
+  {
+    "rua": "Jeronimo Santana",
+    "cep": "11746-158"
+  },
+  {
+    "rua": "Jesus Acácio Peixoto",
+    "cep": "11749-174"
+  },
+  {
+    "rua": "Jesus Eiras Porben",
+    "cep": "11747-368"
+  },
+  {
+    "rua": "Jesus Ferreira Diniz",
+    "cep": "11746-806"
+  },
+  {
+    "rua": "Joana Lima dos Santos",
+    "cep": "11749-580"
+  },
+  {
+    "rua": "Joanita Xavier Braz",
+    "cep": "11749-822"
+  },
+  {
+    "rua": "João Alves de Oliveira",
+    "cep": "11754-766"
+  },
+  {
+    "rua": "João Alves de Oliveira",
+    "cep": "11754-008"
+  },
+  {
+    "rua": "João Alves Ferreira",
+    "cep": "11740-086"
+  },
+  {
+    "rua": "João Alves Neto",
+    "cep": "11747-688"
+  },
+  {
+    "rua": "João Andrade Júnior",
+    "cep": "11743-228"
+  },
+  {
+    "rua": "João Antonio",
+    "cep": "11743-238"
+  },
+  {
+    "rua": "João Araújo Neto",
+    "cep": "11754-036"
+  },
+  {
+    "rua": "João Baptista Dias",
+    "cep": "11747-130"
+  },
+  {
+    "rua": "João Barbi",
+    "cep": "11741-584"
+  },
+  {
+    "rua": "João Barna Filho",
+    "cep": "11748-500"
+  },
+  {
+    "rua": "João Batista de Carvalho, Padre",
+    "cep": "11741-804"
+  },
+  {
+    "rua": "João Batista de Carvalho, Padre",
+    "cep": "11742-384"
+  },
+  {
+    "rua": "João Batista Leal",
+    "cep": "11740-004"
+  },
+  {
+    "rua": "João Batista Oliveira",
+    "cep": "11750-270"
+  },
+  {
+    "rua": "João Bechir, Vereador",
+    "cep": "11747-332"
+  },
+  {
+    "rua": "João Bernardo Nogueira",
+    "cep": "11748-024"
+  },
+  {
+    "rua": "João Cândido de Souza",
+    "cep": "11743-306"
+  },
+  {
+    "rua": "João Capistrano Pereira",
+    "cep": "11746-578"
+  },
+  {
+    "rua": "João Carlos Marques Barbosa",
+    "cep": "11748-188"
+  },
+  {
+    "rua": "João Celestino da Costa",
+    "cep": "11746-562"
+  },
+  {
+    "rua": "João Coelho",
+    "cep": "11751-326"
+  },
+  {
+    "rua": "João da Guia",
+    "cep": "11742-566"
+  },
+  {
+    "rua": "João Daniel, Padre",
+    "cep": "11746-308"
+  },
+  {
+    "rua": "João de Almeida Baptista",
+    "cep": "11742-622"
+  },
+  {
+    "rua": "João Evangelista Honório Alves",
+    "cep": "11748-260"
+  },
+  {
+    "rua": "João Farah",
+    "cep": "11746-010"
+  },
+  {
+    "rua": "João Ferreira",
+    "cep": "11747-882"
+  },
+  {
+    "rua": "João Gabriel Agliasco",
+    "cep": "11754-066"
+  },
+  {
+    "rua": "João Mariano",
+    "cep": "11740-058"
+  },
+  {
+    "rua": "- Rua João Mariano 115 Clique e Retire Correios",
+    "cep": "11740-959"
+  },
+  {
+    "rua": "João Mariano Ferreira",
+    "cep": "11740-068"
+  },
+  {
+    "rua": "João Mariano Ferreira",
+    "cep": "11740-154"
+  },
+  {
+    "rua": "João Moreira Neto",
+    "cep": "11749-830"
+  },
+  {
+    "rua": "João Moura dos Santos",
+    "cep": "11740-298"
+  },
+  {
+    "rua": "João Paulo da Luz",
+    "cep": "11741-168"
+  },
+  {
+    "rua": "João Paulo da Luz",
+    "cep": "11741-416"
+  },
+  {
+    "rua": "João Paulo II, Papa",
+    "cep": "11740-502"
+  },
+  {
+    "rua": "João Pedro Orsi",
+    "cep": "11740-118"
+  },
+  {
+    "rua": "João Pedro Orsi",
+    "cep": "11740-374"
+  },
+  {
+    "rua": "João Pedron",
+    "cep": "11740-346"
+  },
+  {
+    "rua": "João Pereira dos Santos",
+    "cep": "11754-652"
+  },
+  {
+    "rua": "João Pessoa",
+    "cep": "11755-406"
+  },
+  {
+    "rua": "João Pires dos Santos",
+    "cep": "11748-198"
+  },
+  {
+    "rua": "João Pompeu",
+    "cep": "11740-176"
+  },
+  {
+    "rua": "João Quinto",
+    "cep": "11749-628"
+  },
+  {
+    "rua": "João Ramos",
+    "cep": "11746-580"
+  },
+  {
+    "rua": "João Ramos Blanco",
+    "cep": "11740-404"
+  },
+  {
+    "rua": "João Ramos Gomes",
+    "cep": "11740-168"
+  },
+  {
+    "rua": "João Ribeiro da Silva Filho",
+    "cep": "11748-230"
+  },
+  {
+    "rua": "João Rita",
+    "cep": "11755-540"
+  },
+  {
+    "rua": "João Rufino",
+    "cep": "11747-096"
+  },
+  {
+    "rua": "João, São",
+    "cep": "11755-740"
+  },
+  {
+    "rua": "João, São",
+    "cep": "11741-844"
+  },
+  {
+    "rua": "João, São",
+    "cep": "11742-412"
+  },
+  {
+    "rua": "João, São",
+    "cep": "11747-328"
+  },
+  {
+    "rua": "João Selymes",
+    "cep": "11746-090"
+  },
+  {
+    "rua": "João Theobaldo Pamplona",
+    "cep": "11748-474"
+  },
+  {
+    "rua": "João Tonina",
+    "cep": "11746-194"
+  },
+  {
+    "rua": "João Viana",
+    "cep": "11747-240"
+  },
+  {
+    "rua": "Joaquim Alves Filho",
+    "cep": "11742-584"
+  },
+  {
+    "rua": "Joaquim Balbino da Silva",
+    "cep": "11746-524"
+  },
+  {
+    "rua": "Joaquim Branco, Coronel",
+    "cep": "11742-424"
+  },
+  {
+    "rua": "Joaquim Branco, Coronel",
+    "cep": "11744-060"
+  },
+  {
+    "rua": "Joaquim Branco, Coronel",
+    "cep": "11742-086"
+  },
+  {
+    "rua": "Joaquim Branco, Coronel",
+    "cep": "11742-702"
+  },
+  {
+    "rua": "Joaquim Branco, Coronel",
+    "cep": "11742-550"
+  },
+  {
+    "rua": "Joaquim Branco, Coronel",
+    "cep": "11742-480"
+  },
+  {
+    "rua": "Joaquim Branco, Coronel",
+    "cep": "11742-674"
+  },
+  {
+    "rua": "Joaquim Branco, Coronel (Jd Suarao)",
+    "cep": "11741-858"
+  },
+  {
+    "rua": "Joaquim Carlos Paiga",
+    "cep": "11746-230"
+  },
+  {
+    "rua": "Joaquim Carralero Garcia",
+    "cep": "11751-576"
+  },
+  {
+    "rua": "Joaquim de Paula Souza",
+    "cep": "11748-472"
+  },
+  {
+    "rua": "Joaquim Domingues Júnior",
+    "cep": "11751-330"
+  },
+  {
+    "rua": "Joaquim dos Santos Aguiar",
+    "cep": "11740-074"
+  },
+  {
+    "rua": "Joaquim Fernandes",
+    "cep": "11755-374"
+  },
+  {
+    "rua": "Joaquim Francisco dos Santos",
+    "cep": "11755-526"
+  },
+  {
+    "rua": "Joaquim Frota de Souza, Doutor",
+    "cep": "11746-162"
+  },
+  {
+    "rua": "Joaquim Gianini de Mello",
+    "cep": "11746-850"
+  },
+  {
+    "rua": "Joaquim Gonçalves da Silva",
+    "cep": "11743-426"
+  },
+  {
+    "rua": "Joaquim Gonçalves Mendes",
+    "cep": "11741-622"
+  },
+  {
+    "rua": "Joaquim Meira",
+    "cep": "11740-066"
+  },
+  {
+    "rua": "Joaquim Nascimento",
+    "cep": "11747-702"
+  },
+  {
+    "rua": "Joaquim Pedro do Nascimento",
+    "cep": "11740-308"
+  },
+  {
+    "rua": "Joaquim Rasga",
+    "cep": "11743-292"
+  },
+  {
+    "rua": "Joaquim Rodrigues Pajaro",
+    "cep": "11748-196"
+  },
+  {
+    "rua": "Joaquim, São",
+    "cep": "11747-330"
+  },
+  {
+    "rua": "Joaquina Santos Queiroz do Nascimento",
+    "cep": "11740-372"
+  },
+  {
+    "rua": "Joaquina Santos Queiroz do Nascimento",
+    "cep": "11742-802"
+  },
+  {
+    "rua": "Joel Amaro da Silva",
+    "cep": "11749-816"
+  },
+  {
+    "rua": "Joel Arlindo Luiz Carvalho",
+    "cep": "11748-238"
+  },
+  {
+    "rua": "Joinville",
+    "cep": "11746-734"
+  },
+  {
+    "rua": "Joinville",
+    "cep": "11752-138"
+  },
+  {
+    "rua": "Jonas Tichonenko",
+    "cep": "11749-066"
+  },
+  {
+    "rua": "Jordão Brambilla",
+    "cep": "11746-510"
+  },
+  {
+    "rua": "Jorge Charif",
+    "cep": "11741-078"
+  },
+  {
+    "rua": "Jorge Devai",
+    "cep": "11746-022"
+  },
+  {
+    "rua": "Jorge Mahfuz",
+    "cep": "11746-262"
+  },
+  {
+    "rua": "Jorge Mahfuz",
+    "cep": "11746-252"
+  },
+  {
+    "rua": "Jorge Rossmamm Neto",
+    "cep": "11744-092"
+  },
+  {
+    "rua": "Jorge Serconek Filho",
+    "cep": "11749-578"
+  },
+  {
+    "rua": "Jorge Rossmann",
+    "cep": "11746-080"
+  },
+  {
+    "rua": "José A Alves",
+    "cep": "11740-882"
+  },
+  {
+    "rua": "Jose Agostinho",
+    "cep": "11747-120"
+  },
+  {
+    "rua": "José Alves Brandao",
+    "cep": "11748-236"
+  },
+  {
+    "rua": "José Alves da Silva",
+    "cep": "11743-266"
+  },
+  {
+    "rua": "Jose Alves da Silva Matos",
+    "cep": "11755-430"
+  },
+  {
+    "rua": "José Amaral",
+    "cep": "11746-276"
+  },
+  {
+    "rua": "José Antonio dos Santos",
+    "cep": "11740-290"
+  },
+  {
+    "rua": "José Aparecido dos Santos",
+    "cep": "11748-244"
+  },
+  {
+    "rua": "José Apelian",
+    "cep": "11742-630"
+  },
+  {
+    "rua": "Jose Augusto da Silva Lopes do Nascimento",
+    "cep": "11743-454"
+  },
+  {
+    "rua": "José Augusto Rodrigues",
+    "cep": "11747-364"
+  },
+  {
+    "rua": "José Barnabé Alves",
+    "cep": "11740-312"
+  },
+  {
+    "rua": "José Batista Campos",
+    "cep": "11740-342"
+  },
+  {
+    "rua": "José Batista Campos",
+    "cep": "11742-772"
+  },
+  {
+    "rua": "- Avenida José Batista Campos 1314",
+    "cep": "11742-959"
+  },
+  {
+    "rua": "José Batista Campos",
+    "cep": "11740-206"
+  },
+  {
+    "rua": "José Batista Duarte",
+    "cep": "11743-244"
+  },
+  {
+    "rua": "José Brandão",
+    "cep": "11748-136"
+  },
+  {
+    "rua": "José Calvo, Vereador",
+    "cep": "11740-518"
+  },
+  {
+    "rua": "José Calvo, Vereador",
+    "cep": "11747-100"
+  },
+  {
+    "rua": "José Carlos Cordiano Alves",
+    "cep": "11743-304"
+  },
+  {
+    "rua": "José Correia Filho",
+    "cep": "11744-148"
+  },
+  {
+    "rua": "José Cury",
+    "cep": "11754-114"
+  },
+  {
+    "rua": "José David Filho, Desembargador",
+    "cep": "11741-540"
+  },
+  {
+    "rua": "José de Anchieta",
+    "cep": "11746-298"
+  },
+  {
+    "rua": "José de Anchieta Fortes Gatto",
+    "cep": "11748-174"
+  },
+  {
+    "rua": "José de Barros Saraiva, Engenheiro",
+    "cep": "11740-544"
+  },
+  {
+    "rua": "José de Barros Saraiva, Engenheiro",
+    "cep": "11743-530"
+  },
+  {
+    "rua": "José de Barros Saraiva, Engenheiro",
+    "cep": "11742-556"
+  },
+  {
+    "rua": "José de Oliveira",
+    "cep": "11754-212"
+  },
+  {
+    "rua": "José Dias de Araújo, Doutor",
+    "cep": "11746-458"
+  },
+  {
+    "rua": "José Diogo",
+    "cep": "11747-192"
+  },
+  {
+    "rua": "José Domiciano da Silva",
+    "cep": "11749-520"
+  },
+  {
+    "rua": "José Donas",
+    "cep": "11741-756"
+  },
+  {
+    "rua": "José dos Reis Vieira Repolho",
+    "cep": "11747-074"
+  },
+  {
+    "rua": "José dos Santos",
+    "cep": "11747-374"
+  },
+  {
+    "rua": "José Eduardo Comim",
+    "cep": "11740-660"
+  },
+  {
+    "rua": "José Elson Dombroski",
+    "cep": "11743-440"
+  },
+  {
+    "rua": "José Ernesto Bechelli",
+    "cep": "11746-778"
+  },
+  {
+    "rua": "José Ferreira da Silva",
+    "cep": "11746-596"
+  },
+  {
+    "rua": "José Ferreira de Castro",
+    "cep": "11744-368"
+  },
+  {
+    "rua": "José Ferreira Franco",
+    "cep": "11742-618"
+  },
+  {
+    "rua": "Jose Firmino dos Santos",
+    "cep": "11749-114"
+  },
+  {
+    "rua": "Jose Firmino dos Santos",
+    "cep": "11749-332"
+  },
+  {
+    "rua": "Jose Firmino dos Santos",
+    "cep": "11750-102"
+  },
+  {
+    "rua": "Jose Firmino dos Santos",
+    "cep": "11749-294"
+  },
+  {
+    "rua": "Jose Firmino dos Santos",
+    "cep": "11749-352"
+  },
+  {
+    "rua": "José Garcia da Costa Martelo Júnior",
+    "cep": "11741-082"
+  },
+  {
+    "rua": "José Garcia Iglesias",
+    "cep": "11740-114"
+  },
+  {
+    "rua": "José Gaspar Afonseca E Silva, Dom",
+    "cep": "11740-230"
+  },
+  {
+    "rua": "José Gaspar, Dom",
+    "cep": "11741-794"
+  },
+  {
+    "rua": "José Gaspar, Dom",
+    "cep": "11742-370"
+  },
+  {
+    "rua": "José Gerolomo",
+    "cep": "11754-346"
+  },
+  {
+    "rua": "José Gesca",
+    "cep": "11754-458"
+  },
+  {
+    "rua": "José Gomes dos Santos",
+    "cep": "11754-334"
+  },
+  {
+    "rua": "José Gomes dos Santos",
+    "cep": "11742-572"
+  },
+  {
+    "rua": "José Honório Alves",
+    "cep": "11754-416"
+  },
+  {
+    "rua": "José Honório Alves",
+    "cep": "11755-860"
+  },
+  {
+    "rua": "José Honorio dos Santos",
+    "cep": "11754-200"
+  },
+  {
+    "rua": "José João Bechir",
+    "cep": "11747-298"
+  },
+  {
+    "rua": "José Klein",
+    "cep": "11748-028"
+  },
+  {
+    "rua": "José Leite",
+    "cep": "11744-120"
+  },
+  {
+    "rua": "José Luciano M. Borges",
+    "cep": "11751-580"
+  },
+  {
+    "rua": "José Manoel Lorenzo Leiro",
+    "cep": "11740-628"
+  },
+  {
+    "rua": "José Manoel Lorenzo Leiro",
+    "cep": "11742-456"
+  },
+  {
+    "rua": "José Manoel Lorenzo Leiro",
+    "cep": "11743-598"
+  },
+  {
+    "rua": "José Marciano de Souza",
+    "cep": "11747-156"
+  },
+  {
+    "rua": "José Marciano de Souza",
+    "cep": "11747-224"
+  },
+  {
+    "rua": "José Maria de Castro",
+    "cep": "11740-776"
+  },
+  {
+    "rua": "José Maria Fonseca Correa",
+    "cep": "11751-316"
+  },
+  {
+    "rua": "José Maria Gomes Rivera",
+    "cep": "11740-358"
+  },
+  {
+    "rua": "José Maria Leitão",
+    "cep": "11747-238"
+  },
+  {
+    "rua": "José Maria Whitaker",
+    "cep": "11740-824"
+  },
+  {
+    "rua": "José Mariano Silva",
+    "cep": "11741-092"
+  },
+  {
+    "rua": "José Marques",
+    "cep": "11742-660"
+  },
+  {
+    "rua": "José Marques",
+    "cep": "11743-502"
+  },
+  {
+    "rua": "José Martins Francisco de Oliveira",
+    "cep": "11754-782"
+  },
+  {
+    "rua": "José Mauro Bourreaut Ribeiro, Desembargador",
+    "cep": "11751-306"
+  },
+  {
+    "rua": "José Meira dos Santos",
+    "cep": "11751-502"
+  },
+  {
+    "rua": "José Meira dos Santos",
+    "cep": "11748-172"
+  },
+  {
+    "rua": "José Mendes de Araújo",
+    "cep": "11740-174"
+  },
+  {
+    "rua": "José Neide Lessa, Doutor",
+    "cep": "11740-808"
+  },
+  {
+    "rua": "José Pedro Aguiar",
+    "cep": "11741-096"
+  },
+  {
+    "rua": "José Peixe Abade, Doutor",
+    "cep": "11740-788"
+  },
+  {
+    "rua": "José Peixe Abade, Doutor",
+    "cep": "11740-600"
+  },
+  {
+    "rua": "José Peixe Abade, Doutor",
+    "cep": "11740-702"
+  },
+  {
+    "rua": "José Pires da Silva",
+    "cep": "11749-250"
+  },
+  {
+    "rua": "José Plácido de Medeiros",
+    "cep": "11754-040"
+  },
+  {
+    "rua": "José Ramos Blanco",
+    "cep": "11748-228"
+  },
+  {
+    "rua": "José Ribeiro Bueno Gomes",
+    "cep": "11742-742"
+  },
+  {
+    "rua": "José Roberto Calvo, Vereador",
+    "cep": "11740-148"
+  },
+  {
+    "rua": "José Rossmann Filho",
+    "cep": "11746-020"
+  },
+  {
+    "rua": "José Roberto Lopes Rivera",
+    "cep": "11748-182"
+  },
+  {
+    "rua": "José Rodrigues Poitena",
+    "cep": "11749-502"
+  },
+  {
+    "rua": "José Rossmann",
+    "cep": "11746-518"
+  },
+  {
+    "rua": "José Rubens de Oliveira Maranhão",
+    "cep": "11751-594"
+  },
+  {
+    "rua": "José Ruiz Merino",
+    "cep": "11741-830"
+  },
+  {
+    "rua": "José Ruiz Merino",
+    "cep": "11742-400"
+  },
+  {
+    "rua": "José Santino de Souza, Vereador",
+    "cep": "11742-658"
+  },
+  {
+    "rua": "José Santino de Souza, Vereador",
+    "cep": "11743-504"
+  },
+  {
+    "rua": "José, São",
+    "cep": "11746-414"
+  },
+  {
+    "rua": "José, São",
+    "cep": "11752-156"
+  },
+  {
+    "rua": "José Severiano da Silva",
+    "cep": "11748-240"
+  },
+  {
+    "rua": "José Simões Neves",
+    "cep": "11740-172"
+  },
+  {
+    "rua": "José Simone",
+    "cep": "11754-166"
+  },
+  {
+    "rua": "José Soares Carvalhaes",
+    "cep": "11748-508"
+  },
+  {
+    "rua": "José Spinosa",
+    "cep": "11747-026"
+  },
+  {
+    "rua": "José Trovasi",
+    "cep": "11748-512"
+  },
+  {
+    "rua": "José Valquirio da Silva",
+    "cep": "11747-194"
+  },
+  {
+    "rua": "José Valquirio da Silva",
+    "cep": "11740-246"
+  },
+  {
+    "rua": "José Varani, Dom",
+    "cep": "11741-796"
+  },
+  {
+    "rua": "José Varani, Dom",
+    "cep": "11742-376"
+  },
+  {
+    "rua": "José Vergara",
+    "cep": "11744-240"
+  },
+  {
+    "rua": "José Vicente Moreira",
+    "cep": "11746-554"
+  },
+  {
+    "rua": "Josef Paller",
+    "cep": "11746-214"
+  },
+  {
+    "rua": "Josefa de Souza Dias",
+    "cep": "11742-568"
+  },
+  {
+    "rua": "Josefa Diegues Ataulo",
+    "cep": "11742-504"
+  },
+  {
+    "rua": "Josefa Salvina da Conceicao",
+    "cep": "11742-668"
+  },
+  {
+    "rua": "Josefa Salvina da Conceicao",
+    "cep": "11743-510"
+  },
+  {
+    "rua": "Josefina Bertolani",
+    "cep": "11746-604"
+  },
+  {
+    "rua": "Josemar Passos Santos",
+    "cep": "11755-534"
+  },
+  {
+    "rua": "Joseph Smith, Profeta",
+    "cep": "11746-586"
+  },
+  {
+    "rua": "Josephina C Celestino",
+    "cep": "11748-246"
+  },
+  {
+    "rua": "Josué José de Lima",
+    "cep": "11741-282"
+  },
+  {
+    "rua": "Josué Paulo Elias",
+    "cep": "11743-472"
+  },
+  {
+    "rua": "Josué Rodrigues Valente",
+    "cep": "11747-070"
+  },
+  {
+    "rua": "Joviano Salles, Vereador",
+    "cep": "11746-024"
+  },
+  {
+    "rua": "Joviniano Cardoso do Nascimento",
+    "cep": "11755-528"
+  },
+  {
+    "rua": "Jovino Cardoso",
+    "cep": "11755-408"
+  },
+  {
+    "rua": "Judas Tadeu, São",
+    "cep": "11747-322"
+  },
+  {
+    "rua": "Judith Detinatti da Silva",
+    "cep": "11740-402"
+  },
+  {
+    "rua": "Julia Alves de Souza Cury",
+    "cep": "11746-196"
+  },
+  {
+    "rua": "Julia Bebiano, Bailarina",
+    "cep": "11742-808"
+  },
+  {
+    "rua": "Julinha",
+    "cep": "11756-662"
+  },
+  {
+    "rua": "Julinha",
+    "cep": "11754-104"
+  },
+  {
+    "rua": "Julio Cesar Correa de Oliveira",
+    "cep": "11741-284"
+  },
+  {
+    "rua": "Julio de Almeida Baptista",
+    "cep": "11748-234"
+  },
+  {
+    "rua": "Júlio dos Santos",
+    "cep": "11740-018"
+  },
+  {
+    "rua": "Julio Gama Alves",
+    "cep": "11746-532"
+  },
+  {
+    "rua": "Julio Moutinho",
+    "cep": "11741-600"
+  },
+  {
+    "rua": "Julio Pires",
+    "cep": "11740-202"
+  },
+  {
+    "rua": "Julio Pires",
+    "cep": "11740-164"
+  },
+  {
+    "rua": "Julio Rodrigues, Coronel",
+    "cep": "11740-844"
+  },
+  {
+    "rua": "Jundiaí",
+    "cep": "11756-670"
+  },
+  {
+    "rua": "Jundiaí",
+    "cep": "11740-614"
+  },
+  {
+    "rua": "Jupira",
+    "cep": "11747-056"
+  },
+  {
+    "rua": "Juquiá",
+    "cep": "11740-890"
+  },
+  {
+    "rua": "Juquiá",
+    "cep": "11750-454"
+  },
+  {
+    "rua": "Juraci",
+    "cep": "11750-534"
+  },
+  {
+    "rua": "Juraci",
+    "cep": "11750-462"
+  },
+  {
+    "rua": "Juracy",
+    "cep": "11740-784"
+  },
+  {
+    "rua": "Juracy Colella, Tenente",
+    "cep": "11744-472"
+  },
+  {
+    "rua": "Jurema",
+    "cep": "11750-532"
+  },
+  {
+    "rua": "Jurema",
+    "cep": "11750-460"
+  },
+  {
+    "rua": "Jurema",
+    "cep": "11747-046"
+  },
+  {
+    "rua": "Jurema Gaudêncio Duarte",
+    "cep": "11747-344"
+  },
+  {
+    "rua": "Juriti",
+    "cep": "11750-540"
+  },
+  {
+    "rua": "Juriti",
+    "cep": "11750-468"
+  },
+  {
+    "rua": "Juriti",
+    "cep": "11749-276"
+  },
+  {
+    "rua": "Juruá",
+    "cep": "11750-520"
+  },
+  {
+    "rua": "Juruá",
+    "cep": "11750-448"
+  },
+  {
+    "rua": "Juruá",
+    "cep": "11749-050"
+  },
+  {
+    "rua": "Jussara",
+    "cep": "11749-158"
+  },
+  {
+    "rua": "Jussaras , das",
+    "cep": "11754-456"
+  },
+  {
+    "rua": "Justino Maria Pinheiro, Desembargador",
+    "cep": "11746-232"
+  },
+  {
+    "rua": "Juvêncio José de Almeida de Souza",
+    "cep": "11742-526"
+  },
+  {
+    "rua": "K (Baln Yuri)",
+    "cep": "11741-506"
+  },
+  {
+    "rua": "K (Jd Lindomar)",
+    "cep": "11754-096"
+  },
+  {
+    "rua": "K (Pq Evelyn)",
+    "cep": "11751-548"
+  },
+  {
+    "rua": "K (Pq Evelyn)",
+    "cep": "11751-558"
+  },
+  {
+    "rua": "Kaiowa",
+    "cep": "11757-118"
+  },
+  {
+    "rua": "Kalili",
+    "cep": "11741-194"
+  },
+  {
+    "rua": "Kardec Rangel Veloso",
+    "cep": "11746-124"
+  },
+  {
+    "rua": "Kennedy, Presidente",
+    "cep": "11746-018"
+  },
+  {
+    "rua": "Kenryu Ohmuro",
+    "cep": "11747-380"
+  },
+  {
+    "rua": "Ketes do Rosario Domingues",
+    "cep": "11743-460"
+  },
+  {
+    "rua": "L (Baln Yuri)",
+    "cep": "11741-508"
+  },
+  {
+    "rua": "L (Jd Comendador)",
+    "cep": "11754-028"
+  },
+  {
+    "rua": "L (Pq Evelyn)",
+    "cep": "11751-556"
+  },
+  {
+    "rua": "L (Rec Bandeirantes)",
+    "cep": "11757-142"
+  },
+  {
+    "rua": "L (Res Pq Augustus)",
+    "cep": "11754-352"
+  },
+  {
+    "rua": "La Paz",
+    "cep": "11749-492"
+  },
+  {
+    "rua": "La Paz",
+    "cep": "11756-712"
+  },
+  {
+    "rua": "Lapa",
+    "cep": "11756-698"
+  },
+  {
+    "rua": "Lara, Dom",
+    "cep": "11740-216"
+  },
+  {
+    "rua": "Laranjeiras",
+    "cep": "11744-740"
+  },
+  {
+    "rua": "Laras , dos",
+    "cep": "11755-720"
+  },
+  {
+    "rua": "Las Vegas",
+    "cep": "11747-366"
+  },
+  {
+    "rua": "Laudelina Mariana Campos",
+    "cep": "11746-854"
+  },
+  {
+    "rua": "Laudelina Mariano",
+    "cep": "11749-622"
+  },
+  {
+    "rua": "Laura Boccardo Mainardi",
+    "cep": "11749-240"
+  },
+  {
+    "rua": "Lazaro Gomes",
+    "cep": "11754-158"
+  },
+  {
+    "rua": "Lazaro Leal da Silva",
+    "cep": "11749-084"
+  },
+  {
+    "rua": "Leandra Ferreira da Costa",
+    "cep": "11741-634"
+  },
+  {
+    "rua": "Leandro Martins da Silva",
+    "cep": "11747-140"
+  },
+  {
+    "rua": "Leao XIII",
+    "cep": "11740-828"
+  },
+  {
+    "rua": "Leocadio José Correa, Doutor",
+    "cep": "11742-374"
+  },
+  {
+    "rua": "Leao XIII",
+    "cep": "11740-730"
+  },
+  {
+    "rua": "Leme",
+    "cep": "11743-536"
+  },
+  {
+    "rua": "Leocadio José Correa, Doutor",
+    "cep": "11742-050"
+  },
+  {
+    "rua": "Leonicio Felinto da Silva",
+    "cep": "11743-456"
+  },
+  {
+    "rua": "Leonidia Santos de Jesus",
+    "cep": "11754-532"
+  },
+  {
+    "rua": "Leonildo Garavatti",
+    "cep": "11743-310"
+  },
+  {
+    "rua": "Leonor Yara Soares da Silva, Professora",
+    "cep": "11746-834"
+  },
+  {
+    "rua": "Leopoldina, Imperatriz",
+    "cep": "11740-120"
+  },
+  {
+    "rua": "Leopoldino de Araújo",
+    "cep": "11740-064"
+  },
+  {
+    "rua": "Leopoldo Brentano, Padre",
+    "cep": "11741-824"
+  },
+  {
+    "rua": "Leopoldo Brentano, Padre",
+    "cep": "11742-394"
+  },
+  {
+    "rua": "Leopoldo Diz",
+    "cep": "11746-050"
+  },
+  {
+    "rua": "Leopoldo Mandic, São",
+    "cep": "11742-552"
+  },
+  {
+    "rua": "Leopoldo Mandic, São",
+    "cep": "11740-546"
+  },
+  {
+    "rua": "Leopoldo Mandic, São",
+    "cep": "11743-534"
+  },
+  {
+    "rua": "Lia Maria",
+    "cep": "11741-242"
+  },
+  {
+    "rua": "Lia Maria",
+    "cep": "11741-308"
+  },
+  {
+    "rua": "Libaneses , dos",
+    "cep": "11748-412"
+  },
+  {
+    "rua": "Liberdade , da",
+    "cep": "11741-872"
+  },
+  {
+    "rua": "Liberdade , da",
+    "cep": "11742-436"
+  },
+  {
+    "rua": "Libra , da",
+    "cep": "11747-770"
+  },
+  {
+    "rua": "Lili",
+    "cep": "11740-878"
+  },
+  {
+    "rua": "Lili",
+    "cep": "11741-728"
+  },
+  {
+    "rua": "Lima",
+    "cep": "11756-714"
+  },
+  {
+    "rua": "Limeira",
+    "cep": "11755-032"
+  },
+  {
+    "rua": "Limeira",
+    "cep": "11756-694"
+  },
+  {
+    "rua": "Lins",
+    "cep": "11742-548"
+  },
+  {
+    "rua": "Lira , da",
+    "cep": "11747-842"
+  },
+  {
+    "rua": "Lirios , dos",
+    "cep": "11741-884"
+  },
+  {
+    "rua": "Lirios , dos",
+    "cep": "11742-444"
+  },
+  {
+    "rua": "Lisette Douay Brandi",
+    "cep": "11749-004"
+  },
+  {
+    "rua": "Londrina",
+    "cep": "11755-052"
+  },
+  {
+    "rua": "Los Angeles",
+    "cep": "11756-730"
+  },
+  {
+    "rua": "Lourdes de Siqueira Mello",
+    "cep": "11754-694"
+  },
+  {
+    "rua": "Lourdes Puttine de Oliveira",
+    "cep": "11747-256"
+  },
+  {
+    "rua": "Loureiro Júnior, Professor",
+    "cep": "11741-070"
+  },
+  {
+    "rua": "Lourival Fausto Muniz",
+    "cep": "11746-544"
+  },
+  {
+    "rua": "Louvre , do",
+    "cep": "11740-892"
+  },
+  {
+    "rua": "Lucas Granello Santello Lino",
+    "cep": "11749-010"
+  },
+  {
+    "rua": "Lucas Nogueira Garcez, Doutor",
+    "cep": "11740-748"
+  },
+  {
+    "rua": "Lucas Nogueira Garcez, Doutor",
+    "cep": "11742-016"
+  },
+  {
+    "rua": "Lucelia",
+    "cep": "11755-020"
+  },
+  {
+    "rua": "Lucia Correia dos Santos",
+    "cep": "11743-356"
+  },
+  {
+    "rua": "Luciano Alves dos Santos",
+    "cep": "11755-536"
+  },
+  {
+    "rua": "Luciano Ronge, Padre",
+    "cep": "11741-800"
+  },
+  {
+    "rua": "Luciano Ronge, Padre",
+    "cep": "11742-380"
+  },
+  {
+    "rua": "Lucilio de Albuquerque",
+    "cep": "11746-658"
+  },
+  {
+    "rua": "Ludovina Maria de Jesus, Dona",
+    "cep": "11751-314"
+  },
+  {
+    "rua": "Luiz Alfredo Manoel Pereira",
+    "cep": "11741-580"
+  },
+  {
+    "rua": "Luiz Antonio Mainardi",
+    "cep": "11749-178"
+  },
+  {
+    "rua": "Luiz Antunes Lopes",
+    "cep": "11742-794"
+  },
+  {
+    "rua": "Luiz Carlos de Souza, Professor",
+    "cep": "11747-116"
+  },
+  {
+    "rua": "Luiz Carlos Duarte",
+    "cep": "11741-090"
+  },
+  {
+    "rua": "Luiz Carlos Durante, Doutor",
+    "cep": "11755-320"
+  },
+  {
+    "rua": "Luiz Carlos Sposato",
+    "cep": "11749-244"
+  },
+  {
+    "rua": "Luiz Chapina Paixão",
+    "cep": "11743-410"
+  },
+  {
+    "rua": "Luiz do Maranhão, São",
+    "cep": "11746-314"
+  },
+  {
+    "rua": "Luiz Domingos Cruz",
+    "cep": "11747-132"
+  },
+  {
+    "rua": "Luiz Fichmann",
+    "cep": "11746-848"
+  },
+  {
+    "rua": "Luiz Fornaciari",
+    "cep": "11747-376"
+  },
+  {
+    "rua": "Luiz Gonzaga Silva Fonseca",
+    "cep": "11741-570"
+  },
+  {
+    "rua": "Luiz Gonzaga Vilela, Major",
+    "cep": "11749-590"
+  },
+  {
+    "rua": "Luiz J. Vegas",
+    "cep": "11751-632"
+  },
+  {
+    "rua": "Luiz Mainardi",
+    "cep": "11749-070"
+  },
+  {
+    "rua": "Luiz Moitinho Doria, Doutor",
+    "cep": "11746-222"
+  },
+  {
+    "rua": "Luiz Omuro",
+    "cep": "11740-430"
+  },
+  {
+    "rua": "Luiz Reid",
+    "cep": "11741-810"
+  },
+  {
+    "rua": "Luiz Roberto Arruda",
+    "cep": "11740-442"
+  },
+  {
+    "rua": "Luiz Roberto Naccarato Júnior",
+    "cep": "11749-594"
+  },
+  {
+    "rua": "Luiz Roberto Naccarato Júnior",
+    "cep": "11754-058"
+  },
+  {
+    "rua": "Luiz Rodrigues",
+    "cep": "11740-412"
+  },
+  {
+    "rua": "Luiz Rodrigues",
+    "cep": "11742-754"
+  },
+  {
+    "rua": "Luiz, São",
+    "cep": "11754-620"
+  },
+  {
+    "rua": "Luiz, São",
+    "cep": "11748-074"
+  },
+  {
+    "rua": "Luiz, São",
+    "cep": "11741-862"
+  },
+  {
+    "rua": "Luiz, São",
+    "cep": "11740-712"
+  },
+  {
+    "rua": "Luiza Forssell",
+    "cep": "11740-532"
+  },
+  {
+    "rua": "Luiza Rosa Bechelli",
+    "cep": "11746-776"
+  },
+  {
+    "rua": "Luxemburgo",
+    "cep": "11749-416"
+  },
+  {
+    "rua": "Luzia, Santa",
+    "cep": "11740-046"
+  },
+  {
+    "rua": "Lydia",
+    "cep": "11741-240"
+  },
+  {
+    "rua": "Lydia",
+    "cep": "11741-310"
+  },
+  {
+    "rua": "Lyon",
+    "cep": "11741-700"
+  },
+  {
+    "rua": "M (Baln Yuri)",
+    "cep": "11741-510"
+  },
+  {
+    "rua": "M (Res Pq Augustus)",
+    "cep": "11754-362"
+  },
+  {
+    "rua": "Macajas , dos",
+    "cep": "11754-490"
+  },
+  {
+    "rua": "Macapá",
+    "cep": "11746-382"
+  },
+  {
+    "rua": "Macapá",
+    "cep": "11748-004"
+  },
+  {
+    "rua": "Macaúbas , das",
+    "cep": "11754-482"
+  },
+  {
+    "rua": "Maceió",
+    "cep": "11748-002"
+  },
+  {
+    "rua": "Machado de Assis",
+    "cep": "11741-596"
+  },
+  {
+    "rua": "Macuibas , das",
+    "cep": "11754-466"
+  },
+  {
+    "rua": "Macumãs , dos",
+    "cep": "11754-464"
+  },
+  {
+    "rua": "Magnolia",
+    "cep": "11750-118"
+  },
+  {
+    "rua": "Maisa Silva dos Passos",
+    "cep": "11746-732"
+  },
+  {
+    "rua": "Malta",
+    "cep": "11756-706"
+  },
+  {
+    "rua": "Malva",
+    "cep": "11742-048"
+  },
+  {
+    "rua": "Mamelto da Silva França Filho",
+    "cep": "11743-438"
+  },
+  {
+    "rua": "Mambá",
+    "cep": "11740-586"
+  },
+  {
+    "rua": "Mamedio Oliveira Tambuque",
+    "cep": "11746-766"
+  },
+  {
+    "rua": "Manaca",
+    "cep": "11750-146"
+  },
+  {
+    "rua": "Manácio Apelian",
+    "cep": "11749-514"
+  },
+  {
+    "rua": "Manaus",
+    "cep": "11748-070"
+  },
+  {
+    "rua": "Manaus (Baln S Jorge)",
+    "cep": "11754-668"
+  },
+  {
+    "rua": "Manaus (Est S Pedro)",
+    "cep": "11754-612"
+  },
+  {
+    "rua": "Mandaguassu",
+    "cep": "11750-558"
+  },
+  {
+    "rua": "Mandaguassu",
+    "cep": "11750-484"
+  },
+  {
+    "rua": "Mangueira",
+    "cep": "11744-710"
+  },
+  {
+    "rua": "Manoel Alexandre dos Santos",
+    "cep": "11740-294"
+  },
+  {
+    "rua": "Manoel Alves de Oliveira",
+    "cep": "11754-164"
+  },
+  {
+    "rua": "Manoel Avelino dos Santos",
+    "cep": "11747-190"
+  },
+  {
+    "rua": "Manoel Bento",
+    "cep": "11740-076"
+  },
+  {
+    "rua": "Manoel Clodomiro Gatto",
+    "cep": "11754-674"
+  },
+  {
+    "rua": "Manoel da Nobrega",
+    "cep": "11746-066"
+  },
+  {
+    "rua": "Manoel da Nobrega, Padre",
+    "cep": "11746-296"
+  },
+  {
+    "rua": "Manoel dos Santos",
+    "cep": "11754-780"
+  },
+  {
+    "rua": "Manoel Ferreira de Oliveira",
+    "cep": "11743-512"
+  },
+  {
+    "rua": "Manoel Francisco Caniçais Filho",
+    "cep": "11748-170"
+  },
+  {
+    "rua": "Manoel Francisco Lisboa",
+    "cep": "11746-710"
+  },
+  {
+    "rua": "Manoel Frauzino dos Santos",
+    "cep": "11749-604"
+  },
+  {
+    "rua": "Manoel Gonçalves Filho",
+    "cep": "11746-520"
+  },
+  {
+    "rua": "Manoel Joaquim do Nascimento",
+    "cep": "11740-292"
+  },
+  {
+    "rua": "Manoel Jorge",
+    "cep": "11740-524"
+  },
+  {
+    "rua": "Manoel José dos Santos",
+    "cep": "11747-024"
+  },
+  {
+    "rua": "Manoel Louzada",
+    "cep": "11740-626"
+  },
+  {
+    "rua": "Manoel Louzada",
+    "cep": "11742-458"
+  },
+  {
+    "rua": "Manoel Louzada",
+    "cep": "11743-596"
+  },
+  {
+    "rua": "Manoel Marques",
+    "cep": "11741-100"
+  },
+  {
+    "rua": "Manoel Marques",
+    "cep": "11740-248"
+  },
+  {
+    "rua": "Manoel Marques Silveira",
+    "cep": "11755-522"
+  },
+  {
+    "rua": "Manoel Martins",
+    "cep": "11747-310"
+  },
+  {
+    "rua": "Manoel Mendes",
+    "cep": "11742-462"
+  },
+  {
+    "rua": "Manoel Moreira Senne",
+    "cep": "11746-744"
+  },
+  {
+    "rua": "Manoel Patricio dos Reis",
+    "cep": "11757-042"
+  },
+  {
+    "rua": "Manoel Patricio dos Reis",
+    "cep": "11754-042"
+  },
+  {
+    "rua": "Manoel Pedroso",
+    "cep": "11748-208"
+  },
+  {
+    "rua": "Manoel Pereira da Costa",
+    "cep": "11743-422"
+  },
+  {
+    "rua": "Manoel Pereira Rosa",
+    "cep": "11754-512"
+  },
+  {
+    "rua": "Manoel Ribeiro dos Santos",
+    "cep": "11743-278"
+  },
+  {
+    "rua": "Manoel Rodrigues Poitena",
+    "cep": "11740-320"
+  },
+  {
+    "rua": "Manoel Silveira",
+    "cep": "11747-144"
+  },
+  {
+    "rua": "Manoel Vieira",
+    "cep": "11742-726"
+  },
+  {
+    "rua": "Mansueto Gregorio",
+    "cep": "11742-012"
+  },
+  {
+    "rua": "Mansueto Gregorio",
+    "cep": "11740-752"
+  },
+  {
+    "rua": "Manuel Bustos Yerbes",
+    "cep": "11749-188"
+  },
+  {
+    "rua": "Manuel de Oliveira Júnior",
+    "cep": "11747-232"
+  },
+  {
+    "rua": "Manuel Millan Camargo",
+    "cep": "11755-576"
+  },
+  {
+    "rua": "Maraba",
+    "cep": "11749-146"
+  },
+  {
+    "rua": "Maracujazeiros",
+    "cep": "11744-760"
+  },
+  {
+    "rua": "Marajá",
+    "cep": "11741-190"
+  },
+  {
+    "rua": "Marajó",
+    "cep": "11755-412"
+  },
+  {
+    "rua": "Maranata",
+    "cep": "11747-076"
+  },
+  {
+    "rua": "Maranata",
+    "cep": "11743-564"
+  },
+  {
+    "rua": "Maranhão",
+    "cep": "11746-280"
+  },
+  {
+    "rua": "Maranhão",
+    "cep": "11754-614"
+  },
+  {
+    "rua": "Marcelo dos Santos, Vereador",
+    "cep": "11740-520"
+  },
+  {
+    "rua": "Marcia",
+    "cep": "11741-094"
+  },
+  {
+    "rua": "Márcia",
+    "cep": "11754-102"
+  },
+  {
+    "rua": "Marco Antonio de Oliveira",
+    "cep": "11748-420"
+  },
+  {
+    "rua": "Marcos Antonio Sabino da Silva",
+    "cep": "11743-580"
+  },
+  {
+    "rua": "Marcos Paulo Duarte",
+    "cep": "11743-224"
+  },
+  {
+    "rua": "Marfim",
+    "cep": "11750-128"
+  },
+  {
+    "rua": "Margarida Ramirez",
+    "cep": "11742-562"
+  },
+  {
+    "rua": "Marginal (E.F.S.)",
+    "cep": "11740-100"
+  },
+  {
+    "rua": "Marginal (E.F.S.)",
+    "cep": "11740-124"
+  },
+  {
+    "rua": "Marginal (E.F.S.)",
+    "cep": "11746-454"
+  },
+  {
+    "rua": "Marginal (E.F.S.)",
+    "cep": "11741-212"
+  },
+  {
+    "rua": "Marginal (E.F.S.)",
+    "cep": "11749-172"
+  },
+  {
+    "rua": "Marginal (SP",
+    "cep": "11749-432"
+  },
+  {
+    "rua": "Marginal (SP-055)",
+    "cep": "11740-336"
+  },
+  {
+    "rua": "Marginal (SP-055)",
+    "cep": "11755-014"
+  },
+  {
+    "rua": "Marginal (SP-055)",
+    "cep": "11757-702"
+  },
+  {
+    "rua": "Marginal (SP-055)",
+    "cep": "11742-752"
+  },
+  {
+    "rua": "Marginal (SP-055)",
+    "cep": "11741-330"
+  },
+  {
+    "rua": "Marginal (SP-055)",
+    "cep": "11741-208"
+  },
+  {
+    "rua": "Marginal (SP-055)",
+    "cep": "11742-676"
+  },
+  {
+    "rua": "Marginal (SP-055)",
+    "cep": "11754-144"
+  },
+  {
+    "rua": "Marginal (SP-055)",
+    "cep": "11750-252"
+  },
+  {
+    "rua": "Marginal Anchieta (SP-055)",
+    "cep": "11741-482"
+  },
+  {
+    "rua": "Marginal Cinco",
+    "cep": "11740-566"
+  },
+  {
+    "rua": "Marginal Cinco (E.F.S.)",
+    "cep": "11741-066"
+  },
+  {
+    "rua": "Marginal Dezessete, Marceneiro (E.F.S)",
+    "cep": "11754-526"
+  },
+  {
+    "rua": "Marginal Dezoito (E.F.S)",
+    "cep": "11754-528"
+  },
+  {
+    "rua": "Marginal Direita (R Poço)",
+    "cep": "11746-338"
+  },
+  {
+    "rua": "Marginal Dois (E.F.S.)",
+    "cep": "11741-142"
+  },
+  {
+    "rua": "Marginal Dois (SP-055)",
+    "cep": "11756-402"
+  },
+  {
+    "rua": "Marginal Esquerda (R Poço)",
+    "cep": "11746-340"
+  },
+  {
+    "rua": "Marginal Leste",
+    "cep": "11740-888"
+  },
+  {
+    "rua": "Marginal Leste (SP-055)",
+    "cep": "11741-184"
+  },
+  {
+    "rua": "Marginal Oeste (SP-055)",
+    "cep": "11741-394"
+  },
+  {
+    "rua": "Marginal Oito (SP-055)",
+    "cep": "11741-532"
+  },
+  {
+    "rua": "Marginal Quatro (E.F.S.)",
+    "cep": "11741-062"
+  },
+  {
+    "rua": "Marginal Quatro (E.F.S)",
+    "cep": "11740-560"
+  },
+  {
+    "rua": "Marginal S (SP-055)",
+    "cep": "11754-186"
+  },
+  {
+    "rua": "Marginal Sete (SP-055)",
+    "cep": "11741-072"
+  },
+  {
+    "rua": "Marginal Três (SP-055)",
+    "cep": "11741-120"
+  },
+  {
+    "rua": "Marginal Um (E.F.S.)",
+    "cep": "11741-138"
+  },
+  {
+    "rua": "Marginal Três (SP-055)",
+    "cep": "11754-382"
+  },
+  {
+    "rua": "Marginal Um (E.F.S)",
+    "cep": "11754-788"
+  },
+  {
+    "rua": "Marginal Um (SP-055)",
+    "cep": "11746-502"
+  },
+  {
+    "rua": "Marginal Um (SP-055)",
+    "cep": "11754-628"
+  },
+  {
+    "rua": "Maria Albertina",
+    "cep": "11741-064"
+  },
+  {
+    "rua": "Maria Albertina",
+    "cep": "11741-574"
+  },
+  {
+    "rua": "Maria Amelia da Silva Generoso",
+    "cep": "11741-544"
+  },
+  {
+    "rua": "Maria Antonia Lopes Leitao",
+    "cep": "11740-288"
+  },
+  {
+    "rua": "Maria Aparecida Aguiar",
+    "cep": "11748-242"
+  },
+  {
+    "rua": "Maria Aparecida Rocha E Silva",
+    "cep": "11744-080"
+  },
+  {
+    "rua": "Maria Balint",
+    "cep": "11741-896"
+  },
+  {
+    "rua": "Maria Bechir, Dona",
+    "cep": "11747-324"
+  },
+  {
+    "rua": "Maria Benedita de Mattos Poitena",
+    "cep": "11747-080"
+  },
+  {
+    "rua": "Maria Candida Campos Aragao",
+    "cep": "11746-660"
+  },
+  {
+    "rua": "Maria Cândida da Silva Moreira",
+    "cep": "11742-528"
+  },
+  {
+    "rua": "Maria Carrasco Arnal Viudes",
+    "cep": "11740-090"
+  },
+  {
+    "rua": "Maria Cecilia",
+    "cep": "11741-320"
+  },
+  {
+    "rua": "Maria Celeste Pinto de Castro",
+    "cep": "11740-378"
+  },
+  {
+    "rua": "Maria Concepcion Pazos de Oliveira",
+    "cep": "11751-626"
+  },
+  {
+    "rua": "Maria Das Dores Rodrigues",
+    "cep": "11749-686"
+  },
+  {
+    "rua": "Maria Das Dores Rodrigues",
+    "cep": "11757-138"
+  },
+  {
+    "rua": "Maria de Jesus Alves",
+    "cep": "11749-598"
+  },
+  {
+    "rua": "Maria Del Carmen Rodriguez Duran",
+    "cep": "11743-452"
+  },
+  {
+    "rua": "Maria Deolinda Assunção Salles",
+    "cep": "11740-208"
+  },
+  {
+    "rua": "Maria do Aragipe",
+    "cep": "11747-146"
+  },
+  {
+    "rua": "Maria Duarte Simoes",
+    "cep": "11754-770"
+  },
+  {
+    "rua": "Maria Geni Grizosti dos Santos",
+    "cep": "11748-112"
+  },
+  {
+    "rua": "Maria Helena Braga de Almeida Baptista",
+    "cep": "11746-192"
+  },
+  {
+    "rua": "Maria Luiza Penteado Colnaghi",
+    "cep": "11749-620"
+  },
+  {
+    "rua": "Maria Nálio Mainardi",
+    "cep": "11749-198"
+  },
+  {
+    "rua": "Maria Pires",
+    "cep": "11742-666"
+  },
+  {
+    "rua": "Maria Pureza Leal Diz",
+    "cep": "11754-324"
+  },
+  {
+    "rua": "Maria Soares dos Santos",
+    "cep": "11740-310"
+  },
+  {
+    "rua": "Maria Soares Pedroso",
+    "cep": "11740-362"
+  },
+  {
+    "rua": "Maria Teresa Mainardi",
+    "cep": "11749-068"
+  },
+  {
+    "rua": "Maria Tereza",
+    "cep": "11741-318"
+  },
+  {
+    "rua": "Maria Tereza da Silva Pedroso",
+    "cep": "11740-316"
+  },
+  {
+    "rua": "Maria Victoria de Araújo Bering",
+    "cep": "11746-564"
+  },
+  {
+    "rua": "Marialva",
+    "cep": "11755-066"
+  },
+  {
+    "rua": "Mariana Ayres de Oliveira",
+    "cep": "11743-430"
+  },
+  {
+    "rua": "Mariana dos Santos",
+    "cep": "11743-386"
+  },
+  {
+    "rua": "Marília",
+    "cep": "11746-402"
+  },
+  {
+    "rua": "Marina Coeli de Amorim Pacheco",
+    "cep": "11747-236"
+  },
+  {
+    "rua": "Marina Paes Diogo",
+    "cep": "11746-198"
+  },
+  {
+    "rua": "Maringá",
+    "cep": "11750-548"
+  },
+  {
+    "rua": "Maringá",
+    "cep": "11755-064"
+  },
+  {
+    "rua": "Maringá",
+    "cep": "11752-134"
+  },
+  {
+    "rua": "Maringá",
+    "cep": "11750-476"
+  },
+  {
+    "rua": "Mario Bammann",
+    "cep": "11748-510"
+  },
+  {
+    "rua": "Mário Beni, Doutor",
+    "cep": "11742-018"
+  },
+  {
+    "rua": "Mário Beni, Doutor",
+    "cep": "11740-746"
+  },
+  {
+    "rua": "Mario Civelli",
+    "cep": "11754-342"
+  },
+  {
+    "rua": "Mario Coelho Garcia",
+    "cep": "11746-284"
+  },
+  {
+    "rua": "Mário Covas Júnior, Governador",
+    "cep": "11749-330"
+  },
+  {
+    "rua": "Mário Covas Júnior, Governador",
+    "cep": "11746-272"
+  },
+  {
+    "rua": "Mário Covas Júnior, Governador",
+    "cep": "11754-412"
+  },
+  {
+    "rua": "Mário Covas Júnior, Governador",
+    "cep": "11754-002"
+  },
+  {
+    "rua": "Mário Covas Júnior, Governador",
+    "cep": "11749-002"
+  },
+  {
+    "rua": "Mário Galvão",
+    "cep": "11752-122"
+  },
+  {
+    "rua": "Mário Galvão",
+    "cep": "11748-262"
+  },
+  {
+    "rua": "Mario Gimenes",
+    "cep": "11747-098"
+  },
+  {
+    "rua": "Mario Marques de Souza",
+    "cep": "11746-514"
+  },
+  {
+    "rua": "Mario Marques Ferreira",
+    "cep": "11746-832"
+  },
+  {
+    "rua": "Mario Micas",
+    "cep": "11757-002"
+  },
+  {
+    "rua": "Mario Micas",
+    "cep": "11754-078"
+  },
+  {
+    "rua": "Mario Simões",
+    "cep": "11746-826"
+  },
+  {
+    "rua": "Marlene Meira Guimarães Rocha",
+    "cep": "11755-728"
+  },
+  {
+    "rua": "Marli Silva Sales",
+    "cep": "11740-426"
+  },
+  {
+    "rua": "Marly",
+    "cep": "11741-314"
+  },
+  {
+    "rua": "Marrocos",
+    "cep": "11749-388"
+  },
+  {
+    "rua": "Marta",
+    "cep": "11741-238"
+  },
+  {
+    "rua": "Martinho Luz Nino",
+    "cep": "11740-408"
+  },
+  {
+    "rua": "Mathias de Almeida",
+    "cep": "11747-148"
+  },
+  {
+    "rua": "Mathilde Bistani Sabongi",
+    "cep": "11740-774"
+  },
+  {
+    "rua": "Mato Grosso",
+    "cep": "11746-306"
+  },
+  {
+    "rua": "Mato Grosso",
+    "cep": "11754-602"
+  },
+  {
+    "rua": "Mato Grosso",
+    "cep": "11741-398"
+  },
+  {
+    "rua": "Maurilio Pereira dos Santos",
+    "cep": "11743-446"
+  },
+  {
+    "rua": "Maximino Nunes Barreto",
+    "cep": "11743-294"
+  },
+  {
+    "rua": "Meca",
+    "cep": "11749-404"
+  },
+  {
+    "rua": "Melro",
+    "cep": "11749-290"
+  },
+  {
+    "rua": "Mendes, Capitão",
+    "cep": "11740-022"
+  },
+  {
+    "rua": "Merencio, Vereador",
+    "cep": "11746-516"
+  },
+  {
+    "rua": "Meril Brandilla Calazans",
+    "cep": "11740-364"
+  },
+  {
+    "rua": "Messias de Souza Pinto",
+    "cep": "11746-730"
+  },
+  {
+    "rua": "México",
+    "cep": "11756-724"
+  },
+  {
+    "rua": "México",
+    "cep": "11749-456"
+  },
+  {
+    "rua": "México",
+    "cep": "11754-132"
+  },
+  {
+    "rua": "Miami",
+    "cep": "11741-674"
+  },
+  {
+    "rua": "Miami",
+    "cep": "11741-652"
+  },
+  {
+    "rua": "Miguel Antonio",
+    "cep": "11746-754"
+  },
+  {
+    "rua": "Miguel Cury",
+    "cep": "11754-120"
+  },
+  {
+    "rua": "Miguel de Almeida Batista",
+    "cep": "11748-100"
+  },
+  {
+    "rua": "Miguel de Pontes Camargo",
+    "cep": "11740-434"
+  },
+  {
+    "rua": "Miguel Fernandes",
+    "cep": "11747-072"
+  },
+  {
+    "rua": "Miguel Forte",
+    "cep": "11741-058"
+  },
+  {
+    "rua": "Miguel Helou",
+    "cep": "11743-644"
+  },
+  {
+    "rua": "Miguel, São",
+    "cep": "11746-416"
+  },
+  {
+    "rua": "Miguel, São",
+    "cep": "11754-824"
+  },
+  {
+    "rua": "Milton Aldrede, Doutor",
+    "cep": "11746-156"
+  },
+  {
+    "rua": "Milton Baena Fernandes",
+    "cep": "11748-210"
+  },
+  {
+    "rua": "Milton Rodrigues",
+    "cep": "11746-248"
+  },
+  {
+    "rua": "Milton Fraga Moreira",
+    "cep": "11746-708"
+  },
+  {
+    "rua": "Milton Margarido Pedroso",
+    "cep": "11743-384"
+  },
+  {
+    "rua": "Milton Martins Poitena",
+    "cep": "11754-160"
+  },
+  {
+    "rua": "Minas Gerais",
+    "cep": "11746-268"
+  },
+  {
+    "rua": "Minas Gerais",
+    "cep": "11754-604"
+  },
+  {
+    "rua": "Minas Gerais",
+    "cep": "11741-400"
+  },
+  {
+    "rua": "Minerva Julia Wuaquim",
+    "cep": "11747-352"
+  },
+  {
+    "rua": "Mirasol",
+    "cep": "11748-278"
+  },
+  {
+    "rua": "Moacir de Oliveira Pontes",
+    "cep": "11754-778"
+  },
+  {
+    "rua": "Mococa",
+    "cep": "11748-276"
+  },
+  {
+    "rua": "Modesto Ferreiro Alvarez",
+    "cep": "11747-382"
+  },
+  {
+    "rua": "Moema",
+    "cep": "11749-020"
+  },
+  {
+    "rua": "Mogi Das Cruzes",
+    "cep": "11754-846"
+  },
+  {
+    "rua": "Mogi Guassu",
+    "cep": "11749-168"
+  },
+  {
+    "rua": "Moises Simplicio de Souza",
+    "cep": "11754-168"
+  },
+  {
+    "rua": "Monção",
+    "cep": "11741-214"
+  },
+  {
+    "rua": "Monte Aprazivel",
+    "cep": "11741-496"
+  },
+  {
+    "rua": "Monte Azul",
+    "cep": "11755-026"
+  },
+  {
+    "rua": "Monteiro Lobato",
+    "cep": "11741-594"
+  },
+  {
+    "rua": "Montezuma",
+    "cep": "11757-102"
+  },
+  {
+    "rua": "Montmartre",
+    "cep": "11741-702"
+  },
+  {
+    "rua": "Morvan Figueiredo",
+    "cep": "11740-818"
+  },
+  {
+    "rua": "Motta, Cardeal",
+    "cep": "11741-790"
+  },
+  {
+    "rua": "Motta, Cardeal",
+    "cep": "11742-366"
+  },
+  {
+    "rua": "Municipal",
+    "cep": "11746-588"
+  },
+  {
+    "rua": "Mustafá Abbasi",
+    "cep": "11742-516"
+  },
+  {
+    "rua": "Mustafá Abbasi",
+    "cep": "11742-518"
+  },
+  {
+    "rua": "Mustafá Abbasi",
+    "cep": "11743-556"
+  },
+  {
+    "rua": "Mustafá Abbasi",
+    "cep": "11743-584"
+  },
+  {
+    "rua": "N (Baln Yuri)",
+    "cep": "11741-512"
+  },
+  {
+    "rua": "N (Jd Jamaica)",
+    "cep": "11754-174"
+  },
+  {
+    "rua": "N (Jd Lindomar)",
+    "cep": "11757-008"
+  },
+  {
+    "rua": "N (Rec Bandeirantes)",
+    "cep": "11757-150"
+  },
+  {
+    "rua": "N (Res Pq Augustus)",
+    "cep": "11754-366"
+  },
+  {
+    "rua": "Nações Unidas , das",
+    "cep": "11748-524"
+  },
+  {
+    "rua": "Nadir da Conceição",
+    "cep": "11743-374"
+  },
+  {
+    "rua": "Nair Mendes Manica",
+    "cep": "11744-256"
+  },
+  {
+    "rua": "Narciso de Andrade",
+    "cep": "11740-044"
+  },
+  {
+    "rua": "Natal",
+    "cep": "11755-422"
+  },
+  {
+    "rua": "Natal",
+    "cep": "11748-068"
+  },
+  {
+    "rua": "Natalino Gandra",
+    "cep": "11740-516"
+  },
+  {
+    "rua": "Nayde Locena Basan",
+    "cep": "11751-620"
+  },
+  {
+    "rua": "Nazaré",
+    "cep": "11755-414"
+  },
+  {
+    "rua": "Nelson Alves Quintas",
+    "cep": "11746-836"
+  },
+  {
+    "rua": "Nelson Caitano da Silva Júnior",
+    "cep": "11755-530"
+  },
+  {
+    "rua": "Nelson de Barros",
+    "cep": "11750-258"
+  },
+  {
+    "rua": "Nelson de Barros",
+    "cep": "11749-054"
+  },
+  {
+    "rua": "Nelson Marcos",
+    "cep": "11749-182"
+  },
+  {
+    "rua": "Nelson Nobrega, Pintor",
+    "cep": "11751-574"
+  },
+  {
+    "rua": "Nelson Rainho",
+    "cep": "11740-432"
+  },
+  {
+    "rua": "Nelson Ricomini",
+    "cep": "11749-154"
+  },
+  {
+    "rua": "Nelson Rodrigues Valente",
+    "cep": "11757-080"
+  },
+  {
+    "rua": "Nelson Rodrigues Valente",
+    "cep": "11754-018"
+  },
+  {
+    "rua": "Neme Silveira Leonel",
+    "cep": "11747-110"
+  },
+  {
+    "rua": "Nerval Leal",
+    "cep": "11742-580"
+  },
+  {
+    "rua": "Nerval Leal",
+    "cep": "11740-540"
+  },
+  {
+    "rua": "Nerval Leal",
+    "cep": "11743-522"
+  },
+  {
+    "rua": "Nestor Leal",
+    "cep": "11747-106"
+  },
+  {
+    "rua": "Neusa Pires da Silva",
+    "cep": "11749-232"
+  },
+  {
+    "rua": "Nevada",
+    "cep": "11741-676"
+  },
+  {
+    "rua": "Nicola Mancuzo Filho",
+    "cep": "11746-742"
+  },
+  {
+    "rua": "Nilo Amaral",
+    "cep": "11742-002"
+  },
+  {
+    "rua": "Nilo Amaral",
+    "cep": "11740-840"
+  },
+  {
+    "rua": "Nilo Coelho, Senador",
+    "cep": "11740-794"
+  },
+  {
+    "rua": "Nilson Gomes Rodrigues, Professor",
+    "cep": "11741-618"
+  },
+  {
+    "rua": "Niteroi",
+    "cep": "11755-418"
+  },
+  {
+    "rua": "Nivaldo Oliveira",
+    "cep": "11740-300"
+  },
+  {
+    "rua": "Nogueira",
+    "cep": "11749-356"
+  },
+  {
+    "rua": "Nogueira",
+    "cep": "11749-320"
+  },
+  {
+    "rua": "Norberto Francisco dos Santos",
+    "cep": "11740-798"
+  },
+  {
+    "rua": "Nova Esperança",
+    "cep": "11749-814"
+  },
+  {
+    "rua": "Nova York",
+    "cep": "11749-498"
+  },
+  {
+    "rua": "Novaro",
+    "cep": "11754-124"
+  },
+  {
+    "rua": "Nove (Baln Auri-Verde)",
+    "cep": "11741-528"
+  },
+  {
+    "rua": "Nove (Baln California)",
+    "cep": "11754-250"
+  },
+  {
+    "rua": "Nove (Baln S Marcos)",
+    "cep": "11754-072"
+  },
+  {
+    "rua": "Nove (Baln Tropical)",
+    "cep": "11742-564"
+  },
+  {
+    "rua": "Nove (Chac Bopiranga)",
+    "cep": "11757-722"
+  },
+  {
+    "rua": "Nove (Chac Cibratel)",
+    "cep": "11751-324"
+  },
+  {
+    "rua": "Nove (Chac Jamaica)",
+    "cep": "11756-416"
+  },
+  {
+    "rua": "Nove (Est Ipanema)",
+    "cep": "11752-280"
+  },
+  {
+    "rua": "Nove (Est S Pedro)",
+    "cep": "11755-452"
+  },
+  {
+    "rua": "Nove (Est Santana I)",
+    "cep": "11752-100"
+  },
+  {
+    "rua": "Nove (Est Savanah)",
+    "cep": "11752-352"
+  },
+  {
+    "rua": "Nove (Jd Diplomata)",
+    "cep": "11754-426"
+  },
+  {
+    "rua": "Nove (Jd Edel)",
+    "cep": "11749-538"
+  },
+  {
+    "rua": "Nove (Jd Esmeralda)",
+    "cep": "11750-306"
+  },
+  {
+    "rua": "Nove (Jd Fenix)",
+    "cep": "11755-188"
+  },
+  {
+    "rua": "Nove (Jd Imigrantes)",
+    "cep": "11747-678"
+  },
+  {
+    "rua": "Nove (Jd Maramba)",
+    "cep": "11754-808"
+  },
+  {
+    "rua": "Nove (Jd Palmeiras I)",
+    "cep": "11754-452"
+  },
+  {
+    "rua": "Nove (Jd Primavera)",
+    "cep": "11752-230"
+  },
+  {
+    "rua": "Nove (Jd Rio Preto)",
+    "cep": "11747-628"
+  },
+  {
+    "rua": "Nove (Jd S Fernando)",
+    "cep": "11749-840"
+  },
+  {
+    "rua": "Nove (Jd Sta Terezinha)",
+    "cep": "11741-534"
+  },
+  {
+    "rua": "Nove (Jd Valeria)",
+    "cep": "11749-508"
+  },
+  {
+    "rua": "Nove (Jd Valeria)",
+    "cep": "11749-510"
+  },
+  {
+    "rua": "Nove (Pq Royalle)",
+    "cep": "11752-372"
+  },
+  {
+    "rua": "Nove (Res Pq Augustus)",
+    "cep": "11754-328"
+  },
+  {
+    "rua": "Nove (Puerta de Madrid)",
+    "cep": "11748-108"
+  },
+  {
+    "rua": "Nove (Rec Imigrantes)",
+    "cep": "11755-286"
+  },
+  {
+    "rua": "Nove (Rec Indaia)",
+    "cep": "11755-338"
+  },
+  {
+    "rua": "Noventa (Baln Beatriz)",
+    "cep": "11757-186"
+  },
+  {
+    "rua": "Noventa e Cinco (Jd Anchieta Itanhaem)",
+    "cep": "11751-804"
+  },
+  {
+    "rua": "Noventa e Dois (Baln Beatriz)",
+    "cep": "11757-188"
+  },
+  {
+    "rua": "Noventa e Dois (Jd Anchieta Itanhaem)",
+    "cep": "11751-784"
+  },
+  {
+    "rua": "Noventa e Nove (Jd Anchieta Itanhaem)",
+    "cep": "11751-808"
+  },
+  {
+    "rua": "Noventa e Oito (Baln Beatriz)",
+    "cep": "11757-196"
+  },
+  {
+    "rua": "Noventa e Oito (Jd Anchieta Itanhaem)",
+    "cep": "11751-828"
+  },
+  {
+    "rua": "Noventa e Quatro (Baln Beatriz)",
+    "cep": "11757-190"
+  },
+  {
+    "rua": "Noventa e Quatro (Jd Anchieta Itanhaem)",
+    "cep": "11751-802"
+  },
+  {
+    "rua": "Noventa e Seis (Baln Beatriz)",
+    "cep": "11757-194"
+  },
+  {
+    "rua": "Noventa e Seis (Jd Anchieta Itanhaem)",
+    "cep": "11751-824"
+  },
+  {
+    "rua": "Noventa e Sete (Jd Anchieta Itanhaem)",
+    "cep": "11751-826"
+  },
+  {
+    "rua": "Noventa e Três (Jd Anchieta Itanhaem)",
+    "cep": "11751-786"
+  },
+  {
+    "rua": "Noventa e Um (Jd Anchieta Itanhaem)",
+    "cep": "11751-782"
+  },
+  {
+    "rua": "Novo Horizonte",
+    "cep": "11747-810"
+  },
+  {
+    "rua": "Nuaruaques , dos",
+    "cep": "11749-204"
+  },
+  {
+    "rua": "O (Jd Jamaica)",
+    "cep": "11754-178"
+  },
+  {
+    "rua": "O (Lot Res Guapurá)",
+    "cep": "11743-402"
+  },
+  {
+    "rua": "O (Rec Bandeirantes)",
+    "cep": "11757-154"
+  },
+  {
+    "rua": "O (Res Pq Augustus)",
+    "cep": "11754-370"
+  },
+  {
+    "rua": "Octacilio Carneiro da Silva",
+    "cep": "11748-046"
+  },
+  {
+    "rua": "Octacilio Dantas",
+    "cep": "11742-620"
+  },
+  {
+    "rua": "Octaviano Soares Albuquerque",
+    "cep": "11740-008"
+  },
+  {
+    "rua": "Octavio Alves Rodrigues",
+    "cep": "11741-280"
+  },
+  {
+    "rua": "Octavio Cappellini",
+    "cep": "11749-062"
+  },
+  {
+    "rua": "Odair de Souza Siqueira",
+    "cep": "11754-162"
+  },
+  {
+    "rua": "Odesio de Souza Santos",
+    "cep": "11749-626"
+  },
+  {
+    "rua": "Odil Vasques Martinez",
+    "cep": "11744-056"
+  },
+  {
+    "rua": "Odila de Camargo Moreira",
+    "cep": "11746-188"
+  },
+  {
+    "rua": "Odilon Francisco de Lima",
+    "cep": "11747-340"
+  },
+  {
+    "rua": "Odilon Xavier da Silva",
+    "cep": "11748-158"
+  },
+  {
+    "rua": "Oeste (Vl Suarao)",
+    "cep": "11741-672"
+  },
+  {
+    "rua": "Oiapoc",
+    "cep": "11749-218"
+  },
+  {
+    "rua": "Oitenta (Baln Beatriz)",
+    "cep": "11757-176"
+  },
+  {
+    "rua": "Oitenta (Jd Anchieta Itanhaem)",
+    "cep": "11751-770"
+  },
+  {
+    "rua": "Oitenta e Cinco (Jd Anchieta Itanhaem)",
+    "cep": "11751-772"
+  },
+  {
+    "rua": "Oitenta e Dois (Baln Beatriz)",
+    "cep": "11757-178"
+  },
+  {
+    "rua": "Oitenta e Dois (Jd Anchieta Itanhaem)",
+    "cep": "11751-754"
+  },
+  {
+    "rua": "Oitenta e Oito (Baln Beatriz)",
+    "cep": "11757-184"
+  },
+  {
+    "rua": "Oitenta e Oito (Jd Anchieta Itanhaem)",
+    "cep": "11751-746"
+  },
+  {
+    "rua": "Oitenta e Quatro (Baln Beatriz)",
+    "cep": "11757-180"
+  },
+  {
+    "rua": "Oitenta e Quatro (Jd Anchieta Itanhaem)",
+    "cep": "11751-764"
+  },
+  {
+    "rua": "Oitenta e Seis (Baln Beatriz)",
+    "cep": "11757-182"
+  },
+  {
+    "rua": "Oitenta e Seis (Jd Anchieta Itanhaem)",
+    "cep": "11751-774"
+  },
+  {
+    "rua": "Oitenta e Sete (Jd Anchieta Itanhaem)",
+    "cep": "11751-762"
+  },
+  {
+    "rua": "Oitenta e Três (Jd Anchieta Itanhaem)",
+    "cep": "11751-760"
+  },
+  {
+    "rua": "Oitenta e Um (Jd Anchieta Itanhaem)",
+    "cep": "11751-744"
+  },
+  {
+    "rua": "Oito (Baln Auri-Verde)",
+    "cep": "11741-526"
+  },
+  {
+    "rua": "Oito (Baln Jd Itanhaém (Grandesp))",
+    "cep": "11749-074"
+  },
+  {
+    "rua": "Oito (Baln S Marcos)",
+    "cep": "11754-070"
+  },
+  {
+    "rua": "Oito (Chac Bopiranga)",
+    "cep": "11757-720"
+  },
+  {
+    "rua": "Oito (Chac Jamaica)",
+    "cep": "11756-414"
+  },
+  {
+    "rua": "Oito (Est Ipanema)",
+    "cep": "11752-328"
+  },
+  {
+    "rua": "Oito (Est S Pedro)",
+    "cep": "11755-450"
+  },
+  {
+    "rua": "Oito (Est Santana I)",
+    "cep": "11752-088"
+  },
+  {
+    "rua": "Oito (Est Savanah)",
+    "cep": "11752-354"
+  },
+  {
+    "rua": "Oito (Jd Aguapeu)",
+    "cep": "11744-440"
+  },
+  {
+    "rua": "Oito (Jd Edel)",
+    "cep": "11749-536"
+  },
+  {
+    "rua": "Oito (Jd Esmeralda)",
+    "cep": "11750-304"
+  },
+  {
+    "rua": "Oito (Jd Fenix)",
+    "cep": "11755-186"
+  },
+  {
+    "rua": "Oito (Jd Imigrantes)",
+    "cep": "11747-676"
+  },
+  {
+    "rua": "Oito (Jd Maramba)",
+    "cep": "11754-776"
+  },
+  {
+    "rua": "Oito (Jd Palmeiras III)",
+    "cep": "11755-852"
+  },
+  {
+    "rua": "Oito (Jd Pescador)",
+    "cep": "11747-706"
+  },
+  {
+    "rua": "Oito (Jd Primavera)",
+    "cep": "11752-228"
+  },
+  {
+    "rua": "Oito (Jd Rio Preto)",
+    "cep": "11747-630"
+  },
+  {
+    "rua": "Oito (Jd Ritamar)",
+    "cep": "11740-856"
+  },
+  {
+    "rua": "Oito (Jd S Fernando)",
+    "cep": "11749-838"
+  },
+  {
+    "rua": "Oito (Pq Royalle)",
+    "cep": "11752-370"
+  },
+  {
+    "rua": "Oito (Pq Vergara)",
+    "cep": "11744-036"
+  },
+  {
+    "rua": "Oito (Puerta de Madrid)",
+    "cep": "11748-110"
+  },
+  {
+    "rua": "Oito (Rec Imigrantes)",
+    "cep": "11755-284"
+  },
+  {
+    "rua": "Oito (Rec Indaia)",
+    "cep": "11755-336"
+  },
+  {
+    "rua": "Oito (Res Pq Augustus)",
+    "cep": "11754-326"
+  },
+  {
+    "rua": "Oito ((SP 055) Jd Maramba))",
+    "cep": "11754-806"
+  },
+  {
+    "rua": "Olavo Bilac",
+    "cep": "11741-598"
+  },
+  {
+    "rua": "Olavo Pezzotti",
+    "cep": "11740-726"
+  },
+  {
+    "rua": "Olegario Marciano Moraes",
+    "cep": "11746-530"
+  },
+  {
+    "rua": "Olga da Silva Barbosa",
+    "cep": "11741-630"
+  },
+  {
+    "rua": "Olga Leocadio de Souza",
+    "cep": "11749-170"
+  },
+  {
+    "rua": "Olimpia",
+    "cep": "11740-396"
+  },
+  {
+    "rua": "Olimpia",
+    "cep": "11742-788"
+  },
+  {
+    "rua": "Olimpia (Jd Laranjeira)",
+    "cep": "11742-760"
+  },
+  {
+    "rua": "Olinda",
+    "cep": "11756-674"
+  },
+  {
+    "rua": "Olinda Maria de Mello",
+    "cep": "11743-406"
+  },
+  {
+    "rua": "Oliveiras, das",
+    "cep": "11742-040"
+  },
+  {
+    "rua": "Oliveiras, das",
+    "cep": "11742-362"
+  },
+  {
+    "rua": "Oliveiras, das",
+    "cep": "11740-736"
+  },
+  {
+    "rua": "Onofre de Medeiros",
+    "cep": "11744-024"
+  },
+  {
+    "rua": "Onze (Baln California)",
+    "cep": "11754-254"
+  },
+  {
+    "rua": "Onze (Est S Pedro)",
+    "cep": "11755-456"
+  },
+  {
+    "rua": "Onze (Chac Bopiranga)",
+    "cep": "11757-726"
+  },
+  {
+    "rua": "Onze (Chac Jamaica)",
+    "cep": "11756-420"
+  },
+  {
+    "rua": "Onze (Est Ipanema)",
+    "cep": "11752-314"
+  },
+  {
+    "rua": "Onze (Est Savanah)",
+    "cep": "11752-348"
+  },
+  {
+    "rua": "Onze (Jd Aguapeu)",
+    "cep": "11744-312"
+  },
+  {
+    "rua": "Onze (Jd Cunhambebe)",
+    "cep": "11748-162"
+  },
+  {
+    "rua": "Onze (Jd Esmeralda)",
+    "cep": "11750-310"
+  },
+  {
+    "rua": "Onze (Jd Fenix)",
+    "cep": "11755-192"
+  },
+  {
+    "rua": "Onze (Jd Itanhaem)",
+    "cep": "11746-224"
+  },
+  {
+    "rua": "Onze (Jd Luizamar Mirim)",
+    "cep": "11754-516"
+  },
+  {
+    "rua": "Onze (Jd Maramba)",
+    "cep": "11755-076"
+  },
+  {
+    "rua": "Onze (Jd Paraiso)",
+    "cep": "11754-704"
+  },
+  {
+    "rua": "Onze (Jd Pescador)",
+    "cep": "11747-710"
+  },
+  {
+    "rua": "Onze (Jd Primavera)",
+    "cep": "11752-234"
+  },
+  {
+    "rua": "Onze (Jd Rio Preto)",
+    "cep": "11747-624"
+  },
+  {
+    "rua": "Onze (Jd Ritamar)",
+    "cep": "11740-852"
+  },
+  {
+    "rua": "Onze (Jd S Fernando)",
+    "cep": "11749-844"
+  },
+  {
+    "rua": "Onze (Jd S Joao)",
+    "cep": "11754-216"
+  },
+  {
+    "rua": "Onze (Jd Valeria)",
+    "cep": "11749-504"
+  },
+  {
+    "rua": "Onze (Pq Royalle)",
+    "cep": "11752-380"
+  },
+  {
+    "rua": "Onze (Pq Vergara)",
+    "cep": "11744-084"
+  },
+  {
+    "rua": "Onze (Rec Imigrantes)",
+    "cep": "11755-290"
+  },
+  {
+    "rua": "Onze (Rec Indaia)",
+    "cep": "11755-342"
+  },
+  {
+    "rua": "Onze (Res Pq Augustus)",
+    "cep": "11754-336"
+  },
+  {
+    "rua": "Orelio de Mori",
+    "cep": "11748-180"
+  },
+  {
+    "rua": "Orlando Augusto Fernandes",
+    "cep": "11744-352"
+  },
+  {
+    "rua": "Orlando Diz",
+    "cep": "11746-808"
+  },
+  {
+    "rua": "Orminda Carneiro Dohnal",
+    "cep": "11746-592"
+  },
+  {
+    "rua": "Orquideas , das",
+    "cep": "11742-042"
+  },
+  {
+    "rua": "Orquídeas, das",
+    "cep": "11741-170"
+  },
+  {
+    "rua": "Orquídeas, das",
+    "cep": "11741-414"
+  },
+  {
+    "rua": "Oscar Aisemberg",
+    "cep": "11741-578"
+  },
+  {
+    "rua": "Oscar Antunes de Prado",
+    "cep": "11750-262"
+  },
+  {
+    "rua": "Oscar Pereira da Silva",
+    "cep": "11746-702"
+  },
+  {
+    "rua": "Oscar Simões de Carvalho",
+    "cep": "11740-338"
+  },
+  {
+    "rua": "Oscarlina Cardoso Botelho",
+    "cep": "11749-606"
+  },
+  {
+    "rua": "Osmar Gonçalves Nina",
+    "cep": "11749-588"
+  },
+  {
+    "rua": "Osvaldo Alves de Freitas",
+    "cep": "11757-004"
+  },
+  {
+    "rua": "Osvaldo Alves de Freitas",
+    "cep": "11754-076"
+  },
+  {
+    "rua": "Osvaldo Guernelli",
+    "cep": "11749-252"
+  },
+  {
+    "rua": "Osvaldo Lopes",
+    "cep": "11754-588"
+  },
+  {
+    "rua": "Osvaldo Sagge",
+    "cep": "11747-254"
+  },
+  {
+    "rua": "Oswaldo Cruz",
+    "cep": "11740-284"
+  },
+  {
+    "rua": "Otacilia Maria Cardoso",
+    "cep": "11754-542"
+  },
+  {
+    "rua": "Otacilio Marques Carreira",
+    "cep": "11740-122"
+  },
+  {
+    "rua": "Othoniel de Moraes Magalhães, Doutor",
+    "cep": "11746-164"
+  },
+  {
+    "rua": "Ourinhos",
+    "cep": "11755-050"
+  },
+  {
+    "rua": "Ouro Preto",
+    "cep": "11741-352"
+  },
+  {
+    "rua": "Ouro Verde",
+    "cep": "11747-878"
+  },
+  {
+    "rua": "Ovidio Tavares de Oliveira",
+    "cep": "11740-212"
+  },
+  {
+    "rua": "Ovidio Tavares de Oliveira",
+    "cep": "11740-166"
+  },
+  {
+    "rua": "P (Jd Jamaica)",
+    "cep": "11754-180"
+  },
+  {
+    "rua": "P (Lot Res Guapurá)",
+    "cep": "11743-404"
+  },
+  {
+    "rua": "P (Res Pq Augustus)",
+    "cep": "11754-376"
+  },
+  {
+    "rua": "Paiva Meira",
+    "cep": "11741-814"
+  },
+  {
+    "rua": "Paiva Meira",
+    "cep": "11740-842"
+  },
+  {
+    "rua": "Palmas",
+    "cep": "11755-424"
+  },
+  {
+    "rua": "Palmas , das",
+    "cep": "11756-710"
+  },
+  {
+    "rua": "Palmeiras , das",
+    "cep": "11742-044"
+  },
+  {
+    "rua": "Palmeiras, das",
+    "cep": "11754-496"
+  },
+  {
+    "rua": "Palmeiras, das",
+    "cep": "11755-746"
+  },
+  {
+    "rua": "Palmitos , dos",
+    "cep": "11754-444"
+  },
+  {
+    "rua": "Pampulha",
+    "cep": "11742-786"
+  },
+  {
+    "rua": "Panamá",
+    "cep": "11756-726"
+  },
+  {
+    "rua": "Pará",
+    "cep": "11742-732"
+  },
+  {
+    "rua": "Pará (Baln Gaivota)",
+    "cep": "11754-654"
+  },
+  {
+    "rua": "Pará (Jd Luizamar)",
+    "cep": "11754-556"
+  },
+  {
+    "rua": "Pará II",
+    "cep": "11746-378"
+  },
+  {
+    "rua": "Paraguaçá",
+    "cep": "11740-588"
+  },
+  {
+    "rua": "Paraguai",
+    "cep": "11749-472"
+  },
+  {
+    "rua": "Paraguassu",
+    "cep": "11749-228"
+  },
+  {
+    "rua": "Paraíba",
+    "cep": "11746-282"
+  },
+  {
+    "rua": "Paraíba (Baln S Jorge)",
+    "cep": "11754-650"
+  },
+  {
+    "rua": "Paraíba (Jd Luizamar)",
+    "cep": "11754-616"
+  },
+  {
+    "rua": "Paraíba I",
+    "cep": "11746-332"
+  },
+  {
+    "rua": "Paraíba II",
+    "cep": "11746-380"
+  },
+  {
+    "rua": "Paraíso",
+    "cep": "11742-046"
+  },
+  {
+    "rua": "Paraná",
+    "cep": "11747-822"
+  },
+  {
+    "rua": "Paraná",
+    "cep": "11749-436"
+  },
+  {
+    "rua": "Paraná",
+    "cep": "11754-656"
+  },
+  {
+    "rua": "Paraná",
+    "cep": "11756-680"
+  },
+  {
+    "rua": "Paraná",
+    "cep": "11752-142"
+  },
+  {
+    "rua": "Paraná",
+    "cep": "11741-180"
+  },
+  {
+    "rua": "Paraná",
+    "cep": "11741-490"
+  },
+  {
+    "rua": "Paranaguá",
+    "cep": "11752-154"
+  },
+  {
+    "rua": "Pardal",
+    "cep": "11749-288"
+  },
+  {
+    "rua": "Paris",
+    "cep": "11740-894"
+  },
+  {
+    "rua": "Paris",
+    "cep": "11741-696"
+  },
+  {
+    "rua": "Parque Balneário",
+    "cep": "11748-304"
+  },
+  {
+    "rua": "Parque Fluvial",
+    "cep": "11748-232"
+  },
+  {
+    "rua": "Particular",
+    "cep": "11740-472"
+  },
+  {
+    "rua": "Paschoal Carange",
+    "cep": "11743-308"
+  },
+  {
+    "rua": "Paschoal Mosolino",
+    "cep": "11746-638"
+  },
+  {
+    "rua": "Passarinhos , dos",
+    "cep": "11741-870"
+  },
+  {
+    "rua": "Passarinhos , dos",
+    "cep": "11742-434"
+  },
+  {
+    "rua": "Passuare",
+    "cep": "11750-114"
+  },
+  {
+    "rua": "Patativa",
+    "cep": "11749-268"
+  },
+  {
+    "rua": "Patricia Bernardi Cury",
+    "cep": "11746-086"
+  },
+  {
+    "rua": "Paulinha",
+    "cep": "11742-546"
+  },
+  {
+    "rua": "Paulino Amancio Ribeiro",
+    "cep": "11742-670"
+  },
+  {
+    "rua": "Paulo Antonio de Oliveira",
+    "cep": "11754-768"
+  },
+  {
+    "rua": "Paulo Cesar Charif",
+    "cep": "11743-428"
+  },
+  {
+    "rua": "Paulo Baptista de Andrade, Vereador",
+    "cep": "11740-422"
+  },
+  {
+    "rua": "Paulo Camparotto",
+    "cep": "11741-228"
+  },
+  {
+    "rua": "Paulo Cervinho Corredoira",
+    "cep": "11743-380"
+  },
+  {
+    "rua": "Paulo Ferreira dos Santos",
+    "cep": "11747-022"
+  },
+  {
+    "rua": "Paulo José de Moraes",
+    "cep": "11746-802"
+  },
+  {
+    "rua": "Paulo José Merino de Assis",
+    "cep": "11751-360"
+  },
+  {
+    "rua": "Paulo Leandro de Lima",
+    "cep": "11746-840"
+  },
+  {
+    "rua": "Paulo Loureiro",
+    "cep": "11741-610"
+  },
+  {
+    "rua": "Paulo Pedrosa, Dom",
+    "cep": "11740-096"
+  },
+  {
+    "rua": "Paulo Roberto Lopes, Venerável",
+    "cep": "11751-350"
+  },
+  {
+    "rua": "Paulo Roberto Rezende de Campos Maia",
+    "cep": "11746-218"
+  },
+  {
+    "rua": "Paulo Rolim Loureiro, Dom",
+    "cep": "11742-008"
+  },
+  {
+    "rua": "Paulo Rolim Loureiro, Dom",
+    "cep": "11740-834"
+  },
+  {
+    "rua": "Paulo, São",
+    "cep": "11746-270"
+  },
+  {
+    "rua": "Paulo, São",
+    "cep": "11754-608"
+  },
+  {
+    "rua": "Paulo, São",
+    "cep": "11746-044"
+  },
+  {
+    "rua": "Paulo, São",
+    "cep": "11741-406"
+  },
+  {
+    "rua": "Paulo, São",
+    "cep": "11741-174"
+  },
+  {
+    "rua": "Paulo, São",
+    "cep": "11756-660"
+  },
+  {
+    "rua": "Paulo, São",
+    "cep": "11754-136"
+  },
+  {
+    "rua": "Paulo, São",
+    "cep": "11752-128"
+  },
+  {
+    "rua": "Paulo, São",
+    "cep": "11748-294"
+  },
+  {
+    "rua": "Paulo, São (Fluvila)",
+    "cep": "11748-060"
+  },
+  {
+    "rua": "Paulo Selymes",
+    "cep": "11746-052"
+  },
+  {
+    "rua": "Paulo Sérgio de Oliveira",
+    "cep": "11748-458"
+  },
+  {
+    "rua": "Pedro Alexandrino",
+    "cep": "11746-704"
+  },
+  {
+    "rua": "Pedro Americo",
+    "cep": "11746-676"
+  },
+  {
+    "rua": "Pedro Antonio Ribeiro",
+    "cep": "11746-844"
+  },
+  {
+    "rua": "Pedro Balint, Padre",
+    "cep": "11742-032"
+  },
+  {
+    "rua": "Pedro Balint, Padre",
+    "cep": "11740-738"
+  },
+  {
+    "rua": "Pedro Bezerra da Silva Filho",
+    "cep": "11743-354"
+  },
+  {
+    "rua": "Pedro Carlos Geronimo Soares",
+    "cep": "11749-072"
+  },
+  {
+    "rua": "Pedro Carlos Geronimo Soares",
+    "cep": "11750-256"
+  },
+  {
+    "rua": "Pedro Carlos Geronimo Soares",
+    "cep": "11749-186"
+  },
+  {
+    "rua": "Pedro de Castro",
+    "cep": "11740-866"
+  },
+  {
+    "rua": "Pedro de Toledo",
+    "cep": "11740-024"
+  },
+  {
+    "rua": "Pedro Fonseca",
+    "cep": "11751-598"
+  },
+  {
+    "rua": "Pedro Gonçalves Mendes",
+    "cep": "11741-616"
+  },
+  {
+    "rua": "Pedro II, Dom",
+    "cep": "11740-070"
+  },
+  {
+    "rua": "Pedro Pereira Paes",
+    "cep": "11741-636"
+  },
+  {
+    "rua": "Pedro Reguera",
+    "cep": "11755-544"
+  },
+  {
+    "rua": "Pedro S Magalhães",
+    "cep": "11742-024"
+  },
+  {
+    "rua": "Pedro S Magalhães",
+    "cep": "11740-742"
+  },
+  {
+    "rua": "Pedro, São",
+    "cep": "11755-040"
+  },
+  {
+    "rua": "Pedro, São",
+    "cep": "11755-738"
+  },
+  {
+    "rua": "Pedro, São",
+    "cep": "11741-832"
+  },
+  {
+    "rua": "Pedro, São",
+    "cep": "11742-402"
+  },
+  {
+    "rua": "Pedro Silveira",
+    "cep": "11747-242"
+  },
+  {
+    "rua": "Pedro Villa, Padre",
+    "cep": "11751-602"
+  },
+  {
+    "rua": "Pedro Walmore de Araújo",
+    "cep": "11750-254"
+  },
+  {
+    "rua": "Pedro Walmore de Araújo",
+    "cep": "11749-078"
+  },
+  {
+    "rua": "Peri",
+    "cep": "11749-040"
+  },
+  {
+    "rua": "Perimetral",
+    "cep": "11744-016"
+  },
+  {
+    "rua": "Perminio de Souza",
+    "cep": "11740-146"
+  },
+  {
+    "rua": "Pernambuco",
+    "cep": "11754-618"
+  },
+  {
+    "rua": "Pernambuco",
+    "cep": "11754-126"
+  },
+  {
+    "rua": "Peroba",
+    "cep": "11749-366"
+  },
+  {
+    "rua": "Peroba",
+    "cep": "11749-310"
+  },
+  {
+    "rua": "Peru",
+    "cep": "11749-478"
+  },
+  {
+    "rua": "Peruhibe",
+    "cep": "11754-838"
+  },
+  {
+    "rua": "Peruíbe",
+    "cep": "11746-082"
+  },
+  {
+    "rua": "Peruíbe",
+    "cep": "11746-182"
+  },
+  {
+    "rua": "Peruíbe, Nossa Senhora , de",
+    "cep": "11747-734"
+  },
+  {
+    "rua": "Pescadores",
+    "cep": "11743-640"
+  },
+  {
+    "rua": "Pessegueiros",
+    "cep": "11744-750"
+  },
+  {
+    "rua": "Piassaguera",
+    "cep": "11754-852"
+  },
+  {
+    "rua": "Piauí",
+    "cep": "11754-558"
+  },
+  {
+    "rua": "Piedade",
+    "cep": "11746-444"
+  },
+  {
+    "rua": "Pindorama",
+    "cep": "11754-502"
+  },
+  {
+    "rua": "Pintarroxo",
+    "cep": "11749-286"
+  },
+  {
+    "rua": "Pintassilgo",
+    "cep": "11749-278"
+  },
+  {
+    "rua": "Pio XII",
+    "cep": "11740-032"
+  },
+  {
+    "rua": "Pio XII",
+    "cep": "11740-830"
+  },
+  {
+    "rua": "Pio XII",
+    "cep": "11740-732"
+  },
+  {
+    "rua": "Piracicaba",
+    "cep": "11755-030"
+  },
+  {
+    "rua": "Piracicaba",
+    "cep": "11742-534"
+  },
+  {
+    "rua": "Piraguira",
+    "cep": "11746-088"
+  },
+  {
+    "rua": "Piratininga",
+    "cep": "11746-062"
+  },
+  {
+    "rua": "Piriquitos , dos",
+    "cep": "11741-868"
+  },
+  {
+    "rua": "Piriquitos , dos",
+    "cep": "11742-432"
+  },
+  {
+    "rua": "Pissandus , dos",
+    "cep": "11754-474"
+  },
+  {
+    "rua": "Placido Louzada Diz",
+    "cep": "11746-670"
+  },
+  {
+    "rua": "Plinio Antonio Branco",
+    "cep": "11744-248"
+  },
+  {
+    "rua": "Plinio Salgado, Deputado",
+    "cep": "11741-068"
+  },
+  {
+    "rua": "Poá",
+    "cep": "11746-440"
+  },
+  {
+    "rua": "Poá",
+    "cep": "11749-048"
+  },
+  {
+    "rua": "Poitena, Expedicionário",
+    "cep": "11740-078"
+  },
+  {
+    "rua": "Polônia",
+    "cep": "11747-784"
+  },
+  {
+    "rua": "Pomar , do",
+    "cep": "11746-030"
+  },
+  {
+    "rua": "Pompéia",
+    "cep": "11746-448"
+  },
+  {
+    "rua": "Pompeia",
+    "cep": "11755-034"
+  },
+  {
+    "rua": "Pompeu Rasga",
+    "cep": "11748-016"
+  },
+  {
+    "rua": "Ponta Grossa",
+    "cep": "11754-648"
+  },
+  {
+    "rua": "Ponta Grossa",
+    "cep": "11752-146"
+  },
+  {
+    "rua": "Pororóca",
+    "cep": "11750-518"
+  },
+  {
+    "rua": "Pororoca",
+    "cep": "11750-446"
+  },
+  {
+    "rua": "Portira",
+    "cep": "11740-622"
+  },
+  {
+    "rua": "Portira",
+    "cep": "11740-654"
+  },
+  {
+    "rua": "Porto Alegre",
+    "cep": "11749-460"
+  },
+  {
+    "rua": "Porto Alegre",
+    "cep": "11754-642"
+  },
+  {
+    "rua": "Porto Alegre",
+    "cep": "11748-082"
+  },
+  {
+    "rua": "Porto Velho",
+    "cep": "11748-008"
+  },
+  {
+    "rua": "Portugal",
+    "cep": "11749-408"
+  },
+  {
+    "rua": "Portugal",
+    "cep": "11748-522"
+  },
+  {
+    "rua": "Potiguaçu",
+    "cep": "11740-700"
+  },
+  {
+    "rua": "Portugueses , dos",
+    "cep": "11748-404"
+  },
+  {
+    "rua": "Potiguaçu",
+    "cep": "11740-698"
+  },
+  {
+    "rua": "Potis",
+    "cep": "11750-482"
+  },
+  {
+    "rua": "Praiamar",
+    "cep": "11741-202"
+  },
+  {
+    "rua": "Praiamar",
+    "cep": "11741-364"
+  },
+  {
+    "rua": "Prestes Maia",
+    "cep": "11741-586"
+  },
+  {
+    "rua": "Procopio Ribeiro dos Santos, Doutor",
+    "cep": "11746-206"
+  },
+  {
+    "rua": "Projetada (Pq Evelyn)",
+    "cep": "11751-546"
+  },
+  {
+    "rua": "Projetada Quatro (Baln S Marcos)",
+    "cep": "11754-038"
+  },
+  {
+    "rua": "Projetada Três (Baln S Marcos)",
+    "cep": "11754-044"
+  },
+  {
+    "rua": "Prudente de Moraes",
+    "cep": "11740-220"
+  },
+  {
+    "rua": "Q (Jd Jamaica)",
+    "cep": "11754-182"
+  },
+  {
+    "rua": "Q (Lot Res Guapurá)",
+    "cep": "11743-400"
+  },
+  {
+    "rua": "Q (Res Pq Augustus)",
+    "cep": "11754-380"
+  },
+  {
+    "rua": "Quarenta (Chac Bopiranga)",
+    "cep": "11757-786"
+  },
+  {
+    "rua": "Quarenta (Chac Jamaica)",
+    "cep": "11756-484"
+  },
+  {
+    "rua": "Quarenta (Jd Anchieta Itanhaem)",
+    "cep": "11751-660"
+  },
+  {
+    "rua": "Quarenta (Jd Maramba)",
+    "cep": "11755-136"
+  },
+  {
+    "rua": "Quarenta (Jd Palmeiras II)",
+    "cep": "11755-732"
+  },
+  {
+    "rua": "Quarenta (Jd Paraiso)",
+    "cep": "11754-732"
+  },
+  {
+    "rua": "Quarenta 602",
+    "cep": "11749-656"
+  },
+  {
+    "rua": "Quarenta A (Jd Anchieta Itanhaem)",
+    "cep": "11751-662"
+  },
+  {
+    "rua": "Quarenta e Cinco (Chac Bopiranga)",
+    "cep": "11757-796"
+  },
+  {
+    "rua": "Quarenta e Cinco (Chac Jamaica)",
+    "cep": "11756-494"
+  },
+  {
+    "rua": "Quarenta e Cinco (Jd Anchieta Itanhaem)",
+    "cep": "11751-658"
+  },
+  {
+    "rua": "Quarenta e Cinco (Jd Maramba)",
+    "cep": "11755-148"
+  },
+  {
+    "rua": "Quarenta e Dois (Chac Bopiranga)",
+    "cep": "11757-790"
+  },
+  {
+    "rua": "Quarenta e Dois (Chac Jamaica)",
+    "cep": "11756-488"
+  },
+  {
+    "rua": "Quarenta e Dois (Jd Anchieta Itanhaem)",
+    "cep": "11751-674"
+  },
+  {
+    "rua": "Quarenta e Dois (Jd Maramba)",
+    "cep": "11755-140"
+  },
+  {
+    "rua": "Quarenta e Dois (Jd Palmeiras II)",
+    "cep": "11755-742"
+  },
+  {
+    "rua": "Quarenta e Dois (Jd Paraiso)",
+    "cep": "11754-738"
+  },
+  {
+    "rua": "Quarenta e Dois (Lot Res Guapurá)",
+    "cep": "11743-362"
+  },
+  {
+    "rua": "Quarenta e Dois Quarenta e Dois",
+    "cep": "11744-128"
+  },
+  {
+    "rua": "Quarenta e Dois (Umuarama Pq Itanhaem)",
+    "cep": "11747-306"
+  },
+  {
+    "rua": "Quarenta e Dois A (Jd Anchieta Itanhaem)",
+    "cep": "11751-676"
+  },
+  {
+    "rua": "Quarenta e Nove (Chac Bopiranga)",
+    "cep": "11757-804"
+  },
+  {
+    "rua": "Quarenta e Nove (Chac Jamaica)",
+    "cep": "11756-504"
+  },
+  {
+    "rua": "Quarenta e Nove (Jd Anchieta Itanhaem)",
+    "cep": "11751-712"
+  },
+  {
+    "rua": "Quarenta e Nove (Jd Maramba)",
+    "cep": "11755-156"
+  },
+  {
+    "rua": "Quarenta e Nove (Pq Vergara)",
+    "cep": "11744-040"
+  },
+  {
+    "rua": "Quarenta e Oito (Baln Beatriz)",
+    "cep": "11749-670"
+  },
+  {
+    "rua": "Quarenta e Oito (Chac Bopiranga)",
+    "cep": "11757-802"
+  },
+  {
+    "rua": "Quarenta e Oito (Chac Jamaica)",
+    "cep": "11756-502"
+  },
+  {
+    "rua": "Quarenta e Oito (Jd Anchieta Itanhaem)",
+    "cep": "11751-700"
+  },
+  {
+    "rua": "Quarenta e Oito (Jd Maramba)",
+    "cep": "11755-154"
+  },
+  {
+    "rua": "Quarenta e Oito (Pq Vergara)",
+    "cep": "11744-044"
+  },
+  {
+    "rua": "Quarenta e Quatro (Baln Beatriz)",
+    "cep": "11749-660"
+  },
+  {
+    "rua": "Quarenta e Quatro (Chac Bopiranga)",
+    "cep": "11757-794"
+  },
+  {
+    "rua": "Quarenta e Quatro (Chac Jamaica)",
+    "cep": "11756-492"
+  },
+  {
+    "rua": "Quarenta e Quatro (Jd Anchieta Itanhaem)",
+    "cep": "11751-644"
+  },
+  {
+    "rua": "Quarenta e Quatro (Jd Maramba)",
+    "cep": "11755-146"
+  },
+  {
+    "rua": "Quarenta e Seis (Baln Beatriz)",
+    "cep": "11749-662"
+  },
+  {
+    "rua": "Quarenta e Seis (Chac Bopiranga)",
+    "cep": "11757-798"
+  },
+  {
+    "rua": "Quarenta e Seis (Chac Jamaica)",
+    "cep": "11756-496"
+  },
+  {
+    "rua": "Quarenta e Seis (Jd Anchieta Itanhaem)",
+    "cep": "11751-652"
+  },
+  {
+    "rua": "Quarenta e Seis (Jd Maramba)",
+    "cep": "11755-150"
+  },
+  {
+    "rua": "Quarenta e Seis (Pq Vergara)",
+    "cep": "11744-052"
+  },
+  {
+    "rua": "Quarenta e Seis A (Jd Anchieta Itanhaem)",
+    "cep": "11751-686"
+  },
+  {
+    "rua": "Quarenta e Seis B (Jd Anchieta Itanhaem)",
+    "cep": "11751-688"
+  },
+  {
+    "rua": "Quarenta e Seis C (Jd Anchieta Itanhaem)",
+    "cep": "11751-690"
+  },
+  {
+    "rua": "Quarenta e Seis D (Jd Anchieta Itanhaem)",
+    "cep": "11751-692"
+  },
+  {
+    "rua": "Quarenta e Seis E (Jd Anchieta Itanhaem)",
+    "cep": "11751-666"
+  },
+  {
+    "rua": "Quarenta e Seis F (Jd Anchieta Itanhaem)",
+    "cep": "11751-670"
+  },
+  {
+    "rua": "Quarenta e Seis G (Jd Anchieta Itanhaem)",
+    "cep": "11751-646"
+  },
+  {
+    "rua": "Quarenta e Seis H (Jd Anchieta Itanhaem)",
+    "cep": "11751-648"
+  },
+  {
+    "rua": "Quarenta e Seis I (Jd Anchieta Itanhaem)",
+    "cep": "11751-650"
+  },
+  {
+    "rua": "Quarenta e Seis J (Jd Anchieta Itanhaem)",
+    "cep": "11751-664"
+  },
+  {
+    "rua": "Quarenta e Seis L (Jd Anchieta Itanhaem)",
+    "cep": "11751-672"
+  },
+  {
+    "rua": "Quarenta e Seis M (Jd Anchieta Itanhaem)",
+    "cep": "11751-678"
+  },
+  {
+    "rua": "Quarenta e Seis N (Jd Anchieta Itanhaem)",
+    "cep": "11751-694"
+  },
+  {
+    "rua": "Quarenta e Seis O (Jd Anchieta Itanhaem)",
+    "cep": "11751-696"
+  },
+  {
+    "rua": "Quarenta e Sete (Chac Bopiranga)",
+    "cep": "11757-800"
+  },
+  {
+    "rua": "Quarenta e Sete (Chac Jamaica)",
+    "cep": "11756-500"
+  },
+  {
+    "rua": "Quarenta e Sete (Jd Anchieta Itanhaem)",
+    "cep": "11751-698"
+  },
+  {
+    "rua": "Quarenta e Sete (Jd Maramba)",
+    "cep": "11755-152"
+  },
+  {
+    "rua": "Quarenta e Três (Chac Bopiranga)",
+    "cep": "11757-792"
+  },
+  {
+    "rua": "Quarenta e Três (Chac Jamaica)",
+    "cep": "11756-490"
+  },
+  {
+    "rua": "Quarenta e Três (Jd Anchieta Itanhaem)",
+    "cep": "11751-642"
+  },
+  {
+    "rua": "Quarenta e Três (Lot Res Guapurá)",
+    "cep": "11743-382"
+  },
+  {
+    "rua": "Quarenta e Três (Jd Maramba)",
+    "cep": "11755-142"
+  },
+  {
+    "rua": "Quarenta e Três (Jd Palmeiras II)",
+    "cep": "11755-744"
+  },
+  {
+    "rua": "Quarenta e Três (Jd Paraiso)",
+    "cep": "11754-736"
+  },
+  {
+    "rua": "Quarenta e Três (Pq Vergara)",
+    "cep": "11744-124"
+  },
+  {
+    "rua": "Quarenta e Um (Chac Bopiranga)",
+    "cep": "11757-788"
+  },
+  {
+    "rua": "Quarenta e Um (Chac Jamaica)",
+    "cep": "11756-486"
+  },
+  {
+    "rua": "Quarenta e Um (Jd Anchieta Itanhaem)",
+    "cep": "11751-668"
+  },
+  {
+    "rua": "Quarenta e Um (Jd Maramba)",
+    "cep": "11755-138"
+  },
+  {
+    "rua": "Quarenta e Um (Jd Palmeiras II)",
+    "cep": "11755-736"
+  },
+  {
+    "rua": "Quarenta e Um (Jd Paraiso)",
+    "cep": "11754-734"
+  },
+  {
+    "rua": "Quarenta e Um (Lot Res Guapurá)",
+    "cep": "11743-344"
+  },
+  {
+    "rua": "Quarenta e Um Quarenta e Dois",
+    "cep": "11744-132"
+  },
+  {
+    "rua": "Quarta (Jd Oasis)",
+    "cep": "11742-714"
+  },
+  {
+    "rua": "Quatorze (Baln California)",
+    "cep": "11754-280"
+  },
+  {
+    "rua": "Quatorze (Baln S Marcos)",
+    "cep": "11757-056"
+  },
+  {
+    "rua": "Quatorze (Baln Tropical)",
+    "cep": "11742-574"
+  },
+  {
+    "rua": "Quatorze (Chac Bopiranga)",
+    "cep": "11757-732"
+  },
+  {
+    "rua": "Quatorze (Chac Gloria)",
+    "cep": "11755-244"
+  },
+  {
+    "rua": "Quatorze (Chac Jamaica)",
+    "cep": "11756-426"
+  },
+  {
+    "rua": "Quatorze (Est Ipanema)",
+    "cep": "11752-284"
+  },
+  {
+    "rua": "Quatorze (Est S Pedro)",
+    "cep": "11755-462"
+  },
+  {
+    "rua": "Quatorze (Est Santana I)",
+    "cep": "11752-118"
+  },
+  {
+    "rua": "Quatorze (Jd Cunhambebe)",
+    "cep": "11748-138"
+  },
+  {
+    "rua": "Quatorze (Jd Edel)",
+    "cep": "11749-542"
+  },
+  {
+    "rua": "Quatorze (Jd Esmeralda)",
+    "cep": "11750-316"
+  },
+  {
+    "rua": "Quatorze (Jd Fenix)",
+    "cep": "11755-198"
+  },
+  {
+    "rua": "Quatorze (Jd Luizamar Mirim)",
+    "cep": "11754-520"
+  },
+  {
+    "rua": "Quatorze (Jd Maramba)",
+    "cep": "11755-080"
+  },
+  {
+    "rua": "Quatorze (Jd Paraiso)",
+    "cep": "11754-714"
+  },
+  {
+    "rua": "Quatorze (Jd Primavera)",
+    "cep": "11752-242"
+  },
+  {
+    "rua": "Quatorze (Jd Rio Preto)",
+    "cep": "11747-618"
+  },
+  {
+    "rua": "Quatorze (Jd Ritamar)",
+    "cep": "11741-754"
+  },
+  {
+    "rua": "Quatorze (Jd S Fernando)",
+    "cep": "11749-850"
+  },
+  {
+    "rua": "Quatorze (Jd S Joao)",
+    "cep": "11754-222"
+  },
+  {
+    "rua": "Quatorze (Lot Res Guapurá)",
+    "cep": "11743-436"
+  },
+  {
+    "rua": "Quatorze (Pq Royalle)",
+    "cep": "11752-386"
+  },
+  {
+    "rua": "Quatorze (Rec Imigrantes)",
+    "cep": "11755-296"
+  },
+  {
+    "rua": "Quatorze (Rec Indaia)",
+    "cep": "11755-348"
+  },
+  {
+    "rua": "Quatorze (Res Pq Augustus)",
+    "cep": "11754-354"
+  },
+  {
+    "rua": "Quatro",
+    "cep": "11743-576"
+  },
+  {
+    "rua": "Quatro (Baln Auri-Verde)",
+    "cep": "11741-518"
+  },
+  {
+    "rua": "Quatro (Baln P Alegre)",
+    "cep": "11740-570"
+  },
+  {
+    "rua": "Quatro (Baln P Alegre)",
+    "cep": "11743-532"
+  },
+  {
+    "rua": "Quatro (Baln S Marcos)",
+    "cep": "11757-076"
+  },
+  {
+    "rua": "Quatro (Baln Santista)",
+    "cep": "11741-158"
+  },
+  {
+    "rua": "Quatro (Baln Tropical)",
+    "cep": "11740-574"
+  },
+  {
+    "rua": "Quatro (Chac B Retiro)",
+    "cep": "11750-566"
+  },
+  {
+    "rua": "Quatro (Chac B Retiro)",
+    "cep": "11750-492"
+  },
+  {
+    "rua": "Quatro (Chac Bopiranga)",
+    "cep": "11757-712"
+  },
+  {
+    "rua": "Quatro (Chac Itamar)",
+    "cep": "11747-346"
+  },
+  {
+    "rua": "Quatro (Chac Jamaica)",
+    "cep": "11756-408"
+  },
+  {
+    "rua": "Quatro (Chac Lucel)",
+    "cep": "11755-616"
+  },
+  {
+    "rua": "Quatro (Chac Myawaki)",
+    "cep": "11747-742"
+  },
+  {
+    "rua": "Quatro (Est Ipanema)",
+    "cep": "11752-330"
+  },
+  {
+    "rua": "Quatro (Est Nautica)",
+    "cep": "11747-730"
+  },
+  {
+    "rua": "Quatro (Est S Pedro)",
+    "cep": "11755-442"
+  },
+  {
+    "rua": "Quatro (Est Santana I)",
+    "cep": "11752-080"
+  },
+  {
+    "rua": "Quatro (Est Savanah)",
+    "cep": "11752-338"
+  },
+  {
+    "rua": "Quatro (Jd Aguapeu)",
+    "cep": "11744-344"
+  },
+  {
+    "rua": "Quatro (Jd America)",
+    "cep": "11747-318"
+  },
+  {
+    "rua": "Quatro (Jd Edel)",
+    "cep": "11749-528"
+  },
+  {
+    "rua": "Quatro (Jd Esmeralda)",
+    "cep": "11750-296"
+  },
+  {
+    "rua": "Quatro (Jd Fenix)",
+    "cep": "11755-178"
+  },
+  {
+    "rua": "Quatro (Jd Imigrantes)",
+    "cep": "11747-668"
+  },
+  {
+    "rua": "Quatro (Jd Luizamar Mirim)",
+    "cep": "11754-506"
+  },
+  {
+    "rua": "Quatro (Jd Maramba)",
+    "cep": "11754-796"
+  },
+  {
+    "rua": "Quatro (Jd Maramba)",
+    "cep": "11743-544"
+  },
+  {
+    "rua": "Quatro (Jd Palmeiras III)",
+    "cep": "11755-814"
+  },
+  {
+    "rua": "Quatro (Jd Pescador)",
+    "cep": "11747-696"
+  },
+  {
+    "rua": "Quatro (Jd Primavera)",
+    "cep": "11752-222"
+  },
+  {
+    "rua": "Quatro (Jd Rio Preto)",
+    "cep": "11747-646"
+  },
+  {
+    "rua": "Quatro (Jd S Joao)",
+    "cep": "11754-206"
+  },
+  {
+    "rua": "Quatro (Jd Tanise)",
+    "cep": "11747-158"
+  },
+  {
+    "rua": "Quatro (Jd Valeria)",
+    "cep": "11749-516"
+  },
+  {
+    "rua": "Quatro (Pq Jequitiba)",
+    "cep": "11741-014"
+  },
+  {
+    "rua": "Quatro (Pq Royalle)",
+    "cep": "11752-378"
+  },
+  {
+    "rua": "Quatro (Pq Vergara)",
+    "cep": "11744-028"
+  },
+  {
+    "rua": "Quatro (Puerta de Madrid)",
+    "cep": "11748-106"
+  },
+  {
+    "rua": "Quatro (Rec Imigrantes)",
+    "cep": "11755-276"
+  },
+  {
+    "rua": "Quatro (Rec Indaia)",
+    "cep": "11755-328"
+  },
+  {
+    "rua": "Quatro (Vl Rivera)",
+    "cep": "11747-012"
+  },
+  {
+    "rua": "Quatro (Vl Verde Mar)",
+    "cep": "11741-054"
+  },
+  {
+    "rua": "Quilombo , do",
+    "cep": "11747-662"
+  },
+  {
+    "rua": "Quinze (Baln S Marcos)",
+    "cep": "11756-058"
+  },
+  {
+    "rua": "Quinze (Baln Tropical)",
+    "cep": "11742-576"
+  },
+  {
+    "rua": "Quinze (Chac Bopiranga)",
+    "cep": "11757-734"
+  },
+  {
+    "rua": "Quinze (Chac Gloria)",
+    "cep": "11755-240"
+  },
+  {
+    "rua": "Quinze (Chac Jamaica)",
+    "cep": "11756-428"
+  },
+  {
+    "rua": "Quinze (Est Ipanema)",
+    "cep": "11752-300"
+  },
+  {
+    "rua": "Quinze (Est S Pedro)",
+    "cep": "11755-432"
+  },
+  {
+    "rua": "Quinze (Est Santana I)",
+    "cep": "11752-072"
+  },
+  {
+    "rua": "Quinze (Jd Aguapeu)",
+    "cep": "11744-488"
+  },
+  {
+    "rua": "Quinze (Jd Cunhambebe)",
+    "cep": "11748-124"
+  },
+  {
+    "rua": "Quinze (Jd Fenix)",
+    "cep": "11755-200"
+  },
+  {
+    "rua": "Quinze (Jd Edel)",
+    "cep": "11749-544"
+  },
+  {
+    "rua": "Quinze (Jd Esmeralda)",
+    "cep": "11750-318"
+  },
+  {
+    "rua": "Quinze (Jd Luizamar Mirim)",
+    "cep": "11754-522"
+  },
+  {
+    "rua": "Quinze (Jd Primavera)",
+    "cep": "11752-246"
+  },
+  {
+    "rua": "Quinze (Jd Rio Preto)",
+    "cep": "11747-616"
+  },
+  {
+    "rua": "Quinze (Jd S Fernando)",
+    "cep": "11749-852"
+  },
+  {
+    "rua": "Quinze (Jd S Joao)",
+    "cep": "11754-224"
+  },
+  {
+    "rua": "Quinze (Jd Sta Terezinha)",
+    "cep": "11741-552"
+  },
+  {
+    "rua": "Quinze (Pq Baln Itanhaem)",
+    "cep": "11742-654"
+  },
+  {
+    "rua": "Quinze (Pq Real)",
+    "cep": "11748-254"
+  },
+  {
+    "rua": "Quinze (Pq Royalle)",
+    "cep": "11752-388"
+  },
+  {
+    "rua": "Quinze (Pq Vergara)",
+    "cep": "11744-104"
+  },
+  {
+    "rua": "Quinze (Rec Imigrantes)",
+    "cep": "11755-298"
+  },
+  {
+    "rua": "Quinze (Rec Indaia)",
+    "cep": "11755-350"
+  },
+  {
+    "rua": "Quinze (Res Pq Augustus)",
+    "cep": "11754-360"
+  },
+  {
+    "rua": "R (Jd Jamaica)",
+    "cep": "11754-184"
+  },
+  {
+    "rua": "R (Jd Lindomar)",
+    "cep": "11757-018"
+  },
+  {
+    "rua": "R (Lot Res Guapurá)",
+    "cep": "11743-398"
+  },
+  {
+    "rua": "Radamés Incontri Filho",
+    "cep": "11751-584"
+  },
+  {
+    "rua": "Radial (Fluvila)",
+    "cep": "11748-078"
+  },
+  {
+    "rua": "Rafael Coimbra Neto",
+    "cep": "11744-100"
+  },
+  {
+    "rua": "Rafael Gonzales",
+    "cep": "11740-896"
+  },
+  {
+    "rua": "Rafhaela Martins Delgado",
+    "cep": "11743-458"
+  },
+  {
+    "rua": "Raimunda Gomes da Silva",
+    "cep": "11740-314"
+  },
+  {
+    "rua": "Raimundo Jose de Moura",
+    "cep": "11748-176"
+  },
+  {
+    "rua": "Ramal dos Morrinhos",
+    "cep": "11755-636"
+  },
+  {
+    "rua": "Raminho, do",
+    "cep": "11744-580"
+  },
+  {
+    "rua": "Raminho, do",
+    "cep": "11742-300"
+  },
+  {
+    "rua": "Raminho, do",
+    "cep": "11741-368"
+  },
+  {
+    "rua": "Raminho, do",
+    "cep": "11744-700"
+  },
+  {
+    "rua": "Rancho Alegre",
+    "cep": "11741-876"
+  },
+  {
+    "rua": "Rancho Alegre",
+    "cep": "11742-438"
+  },
+  {
+    "rua": "Ranieri Mazilli",
+    "cep": "11741-592"
+  },
+  {
+    "rua": "Ranulfo Pamplona",
+    "cep": "11748-526"
+  },
+  {
+    "rua": "Raphael Xella",
+    "cep": "11742-560"
+  },
+  {
+    "rua": "Raul Cury",
+    "cep": "11746-204"
+  },
+  {
+    "rua": "Raul Pinto",
+    "cep": "11740-782"
+  },
+  {
+    "rua": "Raul Seixas",
+    "cep": "11742-804"
+  },
+  {
+    "rua": "Raymundo Baptista de Andrade",
+    "cep": "11746-208"
+  },
+  {
+    "rua": "Recife",
+    "cep": "11756-664"
+  },
+  {
+    "rua": "Recife",
+    "cep": "11749-458"
+  },
+  {
+    "rua": "Recife",
+    "cep": "11754-638"
+  },
+  {
+    "rua": "Recife",
+    "cep": "11748-092"
+  },
+  {
+    "rua": "Regina Aparecida da Silva Neves",
+    "cep": "11748-150"
+  },
+  {
+    "rua": "Renato Ramos Teixeira",
+    "cep": "11746-716"
+  },
+  {
+    "rua": "Rene de Castro Thiollier",
+    "cep": "11740-080"
+  },
+  {
+    "rua": "Ribeirão Preto",
+    "cep": "11747-860"
+  },
+  {
+    "rua": "Ribeirão Preto",
+    "cep": "11742-522"
+  },
+  {
+    "rua": "Ribeirão Preto",
+    "cep": "11743-552"
+  },
+  {
+    "rua": "Ricardo Falcão Rangel, Doutor",
+    "cep": "11740-012"
+  },
+  {
+    "rua": "Ricardo Lacerda Jardim",
+    "cep": "11742-814"
+  },
+  {
+    "rua": "Rio , do",
+    "cep": "11746-122"
+  },
+  {
+    "rua": "Rio Branco",
+    "cep": "11754-564"
+  },
+  {
+    "rua": "Rio Branco",
+    "cep": "11748-006"
+  },
+  {
+    "rua": "Rio Castro , do (Jd Fenix)",
+    "cep": "11755-170"
+  },
+  {
+    "rua": "Rio de Janeiro",
+    "cep": "11756-672"
+  },
+  {
+    "rua": "Rio de Janeiro",
+    "cep": "11747-818"
+  },
+  {
+    "rua": "Rio de Janeiro",
+    "cep": "11746-266"
+  },
+  {
+    "rua": "Rio de Janeiro",
+    "cep": "11741-396"
+  },
+  {
+    "rua": "Rio de Janeiro",
+    "cep": "11755-004"
+  },
+  {
+    "rua": "Rio de Janeiro",
+    "cep": "11754-812"
+  },
+  {
+    "rua": "Rio de Janeiro (Fluvila)",
+    "cep": "11748-062"
+  },
+  {
+    "rua": "Rio Grande do Norte",
+    "cep": "11746-330"
+  },
+  {
+    "rua": "Rio Grande do Sul",
+    "cep": "11746-312"
+  },
+  {
+    "rua": "Rio Grande do Sul",
+    "cep": "11748-478"
+  },
+  {
+    "rua": "Rio Preto",
+    "cep": "11748-286"
+  },
+  {
+    "rua": "Rio Preto de Itanhaem",
+    "cep": "11748-528"
+  },
+  {
+    "rua": "Rio Preto, do",
+    "cep": "11755-556"
+  },
+  {
+    "rua": "Rio Preto, do",
+    "cep": "11755-702"
+  },
+  {
+    "rua": "Rio Preto, do",
+    "cep": "11749-890"
+  },
+  {
+    "rua": "Rio Serra",
+    "cep": "11742-748"
+  },
+  {
+    "rua": "Rita Prado da Silva",
+    "cep": "11743-242"
+  },
+  {
+    "rua": "Rita, Santa",
+    "cep": "11749-468"
+  },
+  {
+    "rua": "Roberto Apelian",
+    "cep": "11755-272"
+  },
+  {
+    "rua": "Roberto Ayres de Oliveira",
+    "cep": "11746-512"
+  },
+  {
+    "rua": "Roberto Bernardi, Vereador",
+    "cep": "11746-028"
+  },
+  {
+    "rua": "Roberto Iwakichi Uraguchi",
+    "cep": "11746-058"
+  },
+  {
+    "rua": "Roberto Landell de Moura, Padre",
+    "cep": "11746-234"
+  },
+  {
+    "rua": "Roberto Loureiro",
+    "cep": "11741-606"
+  },
+  {
+    "rua": "Roberto Mocerino",
+    "cep": "11748-454"
+  },
+  {
+    "rua": "Roberto Pompeu",
+    "cep": "11740-348"
+  },
+  {
+    "rua": "Roberto Saboya, Padre",
+    "cep": "11741-806"
+  },
+  {
+    "rua": "Roberto Saboya, Padre",
+    "cep": "11742-386"
+  },
+  {
+    "rua": "Rodagem , de",
+    "cep": "11755-242"
+  },
+  {
+    "rua": "Rodolfo Amoedo",
+    "cep": "11746-680"
+  },
+  {
+    "rua": "Rodolfo Amoedo",
+    "cep": "11746-666"
+  },
+  {
+    "rua": "Rodolpho Cachello",
+    "cep": "11748-134"
+  },
+  {
+    "rua": "Rodrigo Balestra",
+    "cep": "11741-074"
+  },
+  {
+    "rua": "Rodrigues Alves",
+    "cep": "11740-222"
+  },
+  {
+    "rua": "Rogê Ferreira",
+    "cep": "11740-806"
+  },
+  {
+    "rua": "Rogê Ferreira",
+    "cep": "11740-604"
+  },
+  {
+    "rua": "Rogê Ferreira",
+    "cep": "11740-708"
+  },
+  {
+    "rua": "Rondom, Marechal",
+    "cep": "11740-232"
+  },
+  {
+    "rua": "Ronilton Chaves Souza",
+    "cep": "11743-468"
+  },
+  {
+    "rua": "Roque Arrivabene",
+    "cep": "11746-720"
+  },
+  {
+    "rua": "Roque Lombardi",
+    "cep": "11748-490"
+  },
+  {
+    "rua": "Roque, São",
+    "cep": "11746-430"
+  },
+  {
+    "rua": "Roque, São",
+    "cep": "11754-832"
+  },
+  {
+    "rua": "Rosa Leontina Moraes Almeida",
+    "cep": "11748-014"
+  },
+  {
+    "rua": "Rosa Maria de Oliveira",
+    "cep": "11751-328"
+  },
+  {
+    "rua": "Rosália Alves Michel",
+    "cep": "11754-462"
+  },
+  {
+    "rua": "Rosalia Ferraro",
+    "cep": "11740-812"
+  },
+  {
+    "rua": "Rosalvo José Alves",
+    "cep": "11749-088"
+  },
+  {
+    "rua": "Rosana Aparecida Marques Carreira",
+    "cep": "11741-122"
+  },
+  {
+    "rua": "Rosana Aparecida Marques Carreira",
+    "cep": "11741-500"
+  },
+  {
+    "rua": "Rosas , das",
+    "cep": "11741-426"
+  },
+  {
+    "rua": "Roseiras, das",
+    "cep": "11742-036"
+  },
+  {
+    "rua": "Roseiras, das",
+    "cep": "11740-740"
+  },
+  {
+    "rua": "Rosélia Braga Xavier, Professora",
+    "cep": "11754-676"
+  },
+  {
+    "rua": "Rosene dos Passos Jr",
+    "cep": "11746-618"
+  },
+  {
+    "rua": "Rubem Marcus Rocha, Doutor",
+    "cep": "11754-246"
+  },
+  {
+    "rua": "Rubens Elias Anoroso",
+    "cep": "11747-290"
+  },
+  {
+    "rua": "Rubi",
+    "cep": "11747-856"
+  },
+  {
+    "rua": "Rui Barbosa",
+    "cep": "11741-060"
+  },
+  {
+    "rua": "Rui Barbosa",
+    "cep": "11740-464"
+  },
+  {
+    "rua": "Rui Barbosa",
+    "cep": "11741-002"
+  },
+  {
+    "rua": "Rui Barbosa",
+    "cep": "11740-558"
+  },
+  {
+    "rua": "Rui Barbosa",
+    "cep": "11740-054"
+  },
+  {
+    "rua": "Rui Barbosa",
+    "cep": "11740-056"
+  },
+  {
+    "rua": "Rui Barbosa",
+    "cep": "11740-444"
+  },
+  {
+    "rua": "Rui Franco Peres, Doutor",
+    "cep": "11746-746"
+  },
+  {
+    "rua": "Rural",
+    "cep": "11758-899"
+  },
+  {
+    "rua": "Ruy Pin Fornier",
+    "cep": "11747-166"
+  },
+  {
+    "rua": "S (Baln Laranjeiras)",
+    "cep": "11742-790"
+  },
+  {
+    "rua": "S (Lot Res Guapurá)",
+    "cep": "11743-390"
+  },
+  {
+    "rua": "Saci",
+    "cep": "11749-024"
+  },
+  {
+    "rua": "Sagrada Familia",
+    "cep": "11741-854"
+  },
+  {
+    "rua": "Sagrada Familia",
+    "cep": "11742-420"
+  },
+  {
+    "rua": "Salah Fouad",
+    "cep": "11746-538"
+  },
+  {
+    "rua": "Salgueiros",
+    "cep": "11755-734"
+  },
+  {
+    "rua": "Salomão Assunção",
+    "cep": "11741-838"
+  },
+  {
+    "rua": "Salomão Assunção",
+    "cep": "11742-406"
+  },
+  {
+    "rua": "Salvador",
+    "cep": "11755-420"
+  },
+  {
+    "rua": "Salvador",
+    "cep": "11748-088"
+  },
+  {
+    "rua": "Salvador de Paschoal",
+    "cep": "11749-452"
+  },
+  {
+    "rua": "Salvador Prestes",
+    "cep": "11740-014"
+  },
+  {
+    "rua": "Salvador Ribeiro Soares",
+    "cep": "11746-602"
+  },
+  {
+    "rua": "Salvino de Souza Barreto",
+    "cep": "11741-080"
+  },
+  {
+    "rua": "Samambaia",
+    "cep": "11740-616"
+  },
+  {
+    "rua": "Samambaias , das",
+    "cep": "11743-648"
+  },
+  {
+    "rua": "Santa Cruz",
+    "cep": "11743-654"
+  },
+  {
+    "rua": "Santa Cruz",
+    "cep": "11755-002"
+  },
+  {
+    "rua": "Santa Cruz",
+    "cep": "11754-858"
+  },
+  {
+    "rua": "Santino José de Oliveira",
+    "cep": "11746-528"
+  },
+  {
+    "rua": "Santos",
+    "cep": "11742-520"
+  },
+  {
+    "rua": "Santos",
+    "cep": "11743-546"
+  },
+  {
+    "rua": "Santos",
+    "cep": "11754-828"
+  },
+  {
+    "rua": "Santos",
+    "cep": "11754-130"
+  },
+  {
+    "rua": "Santos",
+    "cep": "11747-866"
+  },
+  {
+    "rua": "Santos",
+    "cep": "11746-054"
+  },
+  {
+    "rua": "Santos Dumont",
+    "cep": "11748-492"
+  },
+  {
+    "rua": "Santos Dumont",
+    "cep": "11742-780"
+  },
+  {
+    "rua": "São Pedro e São Paulo",
+    "cep": "11747-326"
+  },
+  {
+    "rua": "Sapopemba",
+    "cep": "11749-804"
+  },
+  {
+    "rua": "Sassafraz",
+    "cep": "11750-144"
+  },
+  {
+    "rua": "Sato Matsuba Saito",
+    "cep": "11751-582"
+  },
+  {
+    "rua": "Saudade , da",
+    "cep": "11741-892"
+  },
+  {
+    "rua": "Saúde , da",
+    "cep": "11741-880"
+  },
+  {
+    "rua": "Saúde , da",
+    "cep": "11742-440"
+  },
+  {
+    "rua": "Scheila",
+    "cep": "11756-658"
+  },
+  {
+    "rua": "Scheila",
+    "cep": "11754-110"
+  },
+  {
+    "rua": "Sebastião Amancio Ribeiro",
+    "cep": "11754-330"
+  },
+  {
+    "rua": "Sebastião das Dores",
+    "cep": "11746-004"
+  },
+  {
+    "rua": "Sebastião Leme, Dom",
+    "cep": "11740-282"
+  },
+  {
+    "rua": "Sebastião Moreira Lima",
+    "cep": "11749-558"
+  },
+  {
+    "rua": "Sebastião Olegário Pinto",
+    "cep": "11749-596"
+  },
+  {
+    "rua": "Sebastião Olegário Pinto",
+    "cep": "11754-054"
+  },
+  {
+    "rua": "Sebastião Paulo de Aguiar",
+    "cep": "11744-176"
+  },
+  {
+    "rua": "Sebastião Salvino Barreto",
+    "cep": "11742-738"
+  },
+  {
+    "rua": "Sebastião, São",
+    "cep": "11746-452"
+  },
+  {
+    "rua": "Seckler, Coronel",
+    "cep": "11747-820"
+  },
+  {
+    "rua": "Seis",
+    "cep": "11750-496"
+  },
+  {
+    "rua": "Seis (Baln Auri-Verde)",
+    "cep": "11741-522"
+  },
+  {
+    "rua": "Seis (Baln California)",
+    "cep": "11754-242"
+  },
+  {
+    "rua": "Seis (Baln Marrocos)",
+    "cep": "11741-286"
+  },
+  {
+    "rua": "Seis (Baln Santista)",
+    "cep": "11741-154"
+  },
+  {
+    "rua": "Seis (Chac B Retiro)",
+    "cep": "11750-570"
+  },
+  {
+    "rua": "Seis (Chac Bopiranga)",
+    "cep": "11757-716"
+  },
+  {
+    "rua": "Seis (Est Ipanema)",
+    "cep": "11752-294"
+  },
+  {
+    "rua": "Seis (Est Nautica)",
+    "cep": "11747-726"
+  },
+  {
+    "rua": "Seis (Est S Pedro)",
+    "cep": "11755-446"
+  },
+  {
+    "rua": "Seis (Est Santana I)",
+    "cep": "11752-084"
+  },
+  {
+    "rua": "Seis (Est Savanah)",
+    "cep": "11752-334"
+  },
+  {
+    "rua": "Seis (Jd Edel)",
+    "cep": "11749-532"
+  },
+  {
+    "rua": "Seis (Jd Esmeralda)",
+    "cep": "11750-300"
+  },
+  {
+    "rua": "Seis (Jd Fenix)",
+    "cep": "11755-182"
+  },
+  {
+    "rua": "Seis (Jd Ieda)",
+    "cep": "11746-606"
+  },
+  {
+    "rua": "Seis (Jd Imigrantes)",
+    "cep": "11747-672"
+  },
+  {
+    "rua": "Seis (Jd Itapel)",
+    "cep": "11740-572"
+  },
+  {
+    "rua": "Seis (Jd Luizamar Mirim)",
+    "cep": "11754-510"
+  },
+  {
+    "rua": "Seis (Jd Maramba)",
+    "cep": "11754-802"
+  },
+  {
+    "rua": "Seis (Jd Palmeiras III)",
+    "cep": "11755-834"
+  },
+  {
+    "rua": "Seis (Jd Paraiso)",
+    "cep": "11754-702"
+  },
+  {
+    "rua": "Seis (Jd Pescador)",
+    "cep": "11747-692"
+  },
+  {
+    "rua": "Seis (Jd Primavera)",
+    "cep": "11752-258"
+  },
+  {
+    "rua": "Seis (Jd Rafaelli)",
+    "cep": "11747-748"
+  },
+  {
+    "rua": "Seis (Jd Rio Preto)",
+    "cep": "11747-650"
+  },
+  {
+    "rua": "Seis (Jd Ritamar)",
+    "cep": "11740-860"
+  },
+  {
+    "rua": "Seis (Jd S Fernando)",
+    "cep": "11749-834"
+  },
+  {
+    "rua": "Seis (Pq Royalle)",
+    "cep": "11752-362"
+  },
+  {
+    "rua": "Seis (Jd S Joao)",
+    "cep": "11754-210"
+  },
+  {
+    "rua": "Seis (Lot Res Guapurá)",
+    "cep": "11743-376"
+  },
+  {
+    "rua": "Seis (Pq Jequitiba)",
+    "cep": "11741-020"
+  },
+  {
+    "rua": "Seis (Pq Vergara)",
+    "cep": "11744-032"
+  },
+  {
+    "rua": "Seis (Puerta de Madrid)",
+    "cep": "11748-116"
+  },
+  {
+    "rua": "Seis (Rec Imigrantes)",
+    "cep": "11755-280"
+  },
+  {
+    "rua": "Seis (Rec Indaia)",
+    "cep": "11755-332"
+  },
+  {
+    "rua": "Seo Walter Martins",
+    "cep": "11741-536"
+  },
+  {
+    "rua": "Serapião Lopes de Lima",
+    "cep": "11747-372"
+  },
+  {
+    "rua": "Sergio Simões Neves",
+    "cep": "11748-206"
+  },
+  {
+    "rua": "Sergipe",
+    "cep": "11754-570"
+  },
+  {
+    "rua": "Sergipe",
+    "cep": "11756-702"
+  },
+  {
+    "rua": "Seringueira",
+    "cep": "11750-140"
+  },
+  {
+    "rua": "Sessenta (Baln Beatriz)",
+    "cep": "11749-682"
+  },
+  {
+    "rua": "Sessenta (Chac Bopiranga)",
+    "cep": "11757-826"
+  },
+  {
+    "rua": "Sessenta (Jd Anchieta Itanhaem)",
+    "cep": "11751-708"
+  },
+  {
+    "rua": "Sessenta e Cinco (Chac Bopiranga)",
+    "cep": "11757-836"
+  },
+  {
+    "rua": "Sessenta e Cinco (Jd Anchieta Itanhaem)",
+    "cep": "11751-778"
+  },
+  {
+    "rua": "Sessenta e Cinco A (Jd Anchieta Itanhaem)",
+    "cep": "11751-724"
+  },
+  {
+    "rua": "Sessenta e Dois (Chac Bopiranga)",
+    "cep": "11757-830"
+  },
+  {
+    "rua": "Sessenta e Dois (Jd Anchieta Itanhaem)",
+    "cep": "11751-720"
+  },
+  {
+    "rua": "Sessenta e Nove (Chac Bopiranga)",
+    "cep": "11757-844"
+  },
+  {
+    "rua": "Sessenta e Nove (Jd Anchieta Itanhaem)",
+    "cep": "11751-740"
+  },
+  {
+    "rua": "Sessenta e Oito (Baln Beatriz)",
+    "cep": "11757-164"
+  },
+  {
+    "rua": "Sessenta e Oito (Chac Bopiranga)",
+    "cep": "11757-842"
+  },
+  {
+    "rua": "Sessenta e Oito (Jd Anchieta Itanhaem)",
+    "cep": "11751-714"
+  },
+  {
+    "rua": "Sessenta e Quatro (Baln Beatriz)",
+    "cep": "11757-160"
+  },
+  {
+    "rua": "Sessenta e Quatro (Chac Bopiranga)",
+    "cep": "11757-834"
+  },
+  {
+    "rua": "Sessenta e Quatro (Jd Anchieta Itanhaem)",
+    "cep": "11751-710"
+  },
+  {
+    "rua": "Sessenta e Seis (Baln Beatriz)",
+    "cep": "11757-162"
+  },
+  {
+    "rua": "Sessenta e Seis (Chac Bopiranga)",
+    "cep": "11757-838"
+  },
+  {
+    "rua": "Sessenta e Seis (Jd Anchieta Itanhaem)",
+    "cep": "11751-750"
+  },
+  {
+    "rua": "Sessenta e Seis A (Jd Anchieta Itanhaem)",
+    "cep": "11751-732"
+  },
+  {
+    "rua": "Sessenta e Sete (Chac Bopiranga)",
+    "cep": "11757-840"
+  },
+  {
+    "rua": "Sessenta e Sete (Jd Anchieta Itanhaem)",
+    "cep": "11751-736"
+  },
+  {
+    "rua": "Sessenta e Sete A (Jd Anchieta Itanhaem)",
+    "cep": "11752-028"
+  },
+  {
+    "rua": "Sessenta e Três (Chac Bopiranga)",
+    "cep": "11757-832"
+  },
+  {
+    "rua": "Sessenta e Três (Jd Anchieta Itanhaem)",
+    "cep": "11751-730"
+  },
+  {
+    "rua": "Sessenta e Um (Chac Bopiranga)",
+    "cep": "11757-828"
+  },
+  {
+    "rua": "Sessenta e Um (Jd Anchieta Itanhaem)",
+    "cep": "11751-722"
+  },
+  {
+    "rua": "Sete",
+    "cep": "11754-804"
+  },
+  {
+    "rua": "sete (Baln Auri-Verde)",
+    "cep": "11741-524"
+  },
+  {
+    "rua": "Sete (Baln California)",
+    "cep": "11754-244"
+  },
+  {
+    "rua": "Sete (Baln Guapura)",
+    "cep": "11741-390"
+  },
+  {
+    "rua": "Sete (Baln S Marcos)",
+    "cep": "11754-068"
+  },
+  {
+    "rua": "Sete (Baln Santista)",
+    "cep": "11741-418"
+  },
+  {
+    "rua": "Sete (Chac Bopiranga)",
+    "cep": "11757-718"
+  },
+  {
+    "rua": "Sete (Chac Jamaica)",
+    "cep": "11756-412"
+  },
+  {
+    "rua": "Sete (Est Ipanema)",
+    "cep": "11752-310"
+  },
+  {
+    "rua": "Sete (Est Nautica)",
+    "cep": "11747-724"
+  },
+  {
+    "rua": "Sete (Est S Pedro)",
+    "cep": "11755-448"
+  },
+  {
+    "rua": "Sete (Est Santana I)",
+    "cep": "11752-086"
+  },
+  {
+    "rua": "Sete (Jd Aguapeu)",
+    "cep": "11744-416"
+  },
+  {
+    "rua": "Sete (Jd Edel)",
+    "cep": "11749-534"
+  },
+  {
+    "rua": "Sete (Jd Esmeralda)",
+    "cep": "11750-302"
+  },
+  {
+    "rua": "Sete (Jd Fazendinha)",
+    "cep": "11740-366"
+  },
+  {
+    "rua": "Sete (Jd Fenix)",
+    "cep": "11755-184"
+  },
+  {
+    "rua": "Sete (Jd Imigrantes)",
+    "cep": "11747-674"
+  },
+  {
+    "rua": "Sete (Jd Magalhaes)",
+    "cep": "11743-602"
+  },
+  {
+    "rua": "Sete (Jd Palmeiras III)",
+    "cep": "11755-844"
+  },
+  {
+    "rua": "Sete (Jd Pescador)",
+    "cep": "11747-704"
+  },
+  {
+    "rua": "Sete (Jd Primavera)",
+    "cep": "11752-226"
+  },
+  {
+    "rua": "Sete (Jd Rafaelli)",
+    "cep": "11747-750"
+  },
+  {
+    "rua": "Sete (Jd Rio Preto)",
+    "cep": "11747-640"
+  },
+  {
+    "rua": "Sete (Jd Ritamar)",
+    "cep": "11740-858"
+  },
+  {
+    "rua": "Sete (Jd S Fernando)",
+    "cep": "11749-836"
+  },
+  {
+    "rua": "Sete (Jd Sta Terezinha)",
+    "cep": "11741-076"
+  },
+  {
+    "rua": "Sete (Jd Suarao (R.F.))",
+    "cep": "11740-800"
+  },
+  {
+    "rua": "Sete (Pq Jequitiba)",
+    "cep": "11741-614"
+  },
+  {
+    "rua": "Sete (Pq Royalle)",
+    "cep": "11752-360"
+  },
+  {
+    "rua": "Sete (Pq Vergara)",
+    "cep": "11744-072"
+  },
+  {
+    "rua": "Sete (Rec Imigrantes)",
+    "cep": "11755-282"
+  },
+  {
+    "rua": "Sete (Rec Indaia)",
+    "cep": "11755-334"
+  },
+  {
+    "rua": "Sete (Res Pq Augustus)",
+    "cep": "11754-322"
+  },
+  {
+    "rua": "Setenta (Baln Beatriz)",
+    "cep": "11757-166"
+  },
+  {
+    "rua": "Setenta (Chac Bopiranga)",
+    "cep": "11757-846"
+  },
+  {
+    "rua": "Setenta (Jd Anchieta Itanhaem)",
+    "cep": "11751-742"
+  },
+  {
+    "rua": "Setenta e Cinco (Jd Anchieta Itanhaem)",
+    "cep": "11751-766"
+  },
+  {
+    "rua": "Setenta e Dois (Baln Beatriz)",
+    "cep": "11757-168"
+  },
+  {
+    "rua": "Setenta e Dois (Chac Bopiranga)",
+    "cep": "11757-850"
+  },
+  {
+    "rua": "Setenta e Dois (Jd Anchieta Itanhaem)",
+    "cep": "11751-752"
+  },
+  {
+    "rua": "Setenta e Oito (Baln Beatriz)",
+    "cep": "11757-174"
+  },
+  {
+    "rua": "Setenta e Oito (Jd Anchieta Itanhaem)",
+    "cep": "11751-780"
+  },
+  {
+    "rua": "Setenta e Quatro (Baln Beatriz)",
+    "cep": "11757-170"
+  },
+  {
+    "rua": "Setenta e Quatro (Jd Anchieta Itanhaem)",
+    "cep": "11751-758"
+  },
+  {
+    "rua": "Setenta e Seis (Baln Beatriz)",
+    "cep": "11757-172"
+  },
+  {
+    "rua": "Setenta e Seis (Jd Anchieta Itanhaem)",
+    "cep": "11751-768"
+  },
+  {
+    "rua": "Setenta e Sete (Jd Anchieta Itanhaem)",
+    "cep": "11751-776"
+  },
+  {
+    "rua": "Severino Firmino da Silva",
+    "cep": "11747-358"
+  },
+  {
+    "rua": "Setenta e Três (Jd Anchieta Itanhaem)",
+    "cep": "11751-756"
+  },
+  {
+    "rua": "Setenta e Um (Chac Bopiranga)",
+    "cep": "11757-848"
+  },
+  {
+    "rua": "Setenta e Um (Jd Anchieta Itanhaem)",
+    "cep": "11751-748"
+  },
+  {
+    "rua": "Sezesfredo Amorim Cortez, Prefeito",
+    "cep": "11741-326"
+  },
+  {
+    "rua": "Sezesfredo Amorim Cortez, Prefeito",
+    "cep": "11741-234"
+  },
+  {
+    "rua": "Shinji Murata",
+    "cep": "11747-308"
+  },
+  {
+    "rua": "Shirley Loureiro",
+    "cep": "11741-604"
+  },
+  {
+    "rua": "Silvia",
+    "cep": "11741-322"
+  },
+  {
+    "rua": "Silvia Maria dos Passos",
+    "cep": "11746-120"
+  },
+  {
+    "rua": "Silvilino Machado",
+    "cep": "11749-568"
+  },
+  {
+    "rua": "Silvino Bento dos Santos",
+    "cep": "11741-852"
+  },
+  {
+    "rua": "Silvino Bento dos Santos",
+    "cep": "11742-418"
+  },
+  {
+    "rua": "Silvino Ferreira Nunes",
+    "cep": "11747-188"
+  },
+  {
+    "rua": "Silvio Figueiredo",
+    "cep": "11741-864"
+  },
+  {
+    "rua": "Silvio Figueiredo",
+    "cep": "11742-428"
+  },
+  {
+    "rua": "Silvio Olivan Neto, Vereador",
+    "cep": "11746-446"
+  },
+  {
+    "rua": "Silvio Queiroz da Silva",
+    "cep": "11749-584"
+  },
+  {
+    "rua": "Simão, São",
+    "cep": "11755-044"
+  },
+  {
+    "rua": "Simões, Doutor",
+    "cep": "11746-016"
+  },
+  {
+    "rua": "Sineval Caviquioli",
+    "cep": "11743-388"
+  },
+  {
+    "rua": "Sinho Monteiro",
+    "cep": "11741-356"
+  },
+  {
+    "rua": "Sinvaldo Souza Amaral",
+    "cep": "11746-612"
+  },
+  {
+    "rua": "Sion, Nossa Senhora , do",
+    "cep": "11740-728"
+  },
+  {
+    "rua": "Sônia",
+    "cep": "11754-100"
+  },
+  {
+    "rua": "Sorocaba",
+    "cep": "11754-850"
+  },
+  {
+    "rua": "Sorocaba",
+    "cep": "11754-106"
+  },
+  {
+    "rua": "Sorocaba",
+    "cep": "11741-494"
+  },
+  {
+    "rua": "Sorocaba (Cid Jard Cel)",
+    "cep": "11747-870"
+  },
+  {
+    "rua": "Sorocabana",
+    "cep": "11741-224"
+  },
+  {
+    "rua": "Sorocabana",
+    "cep": "11740-446"
+  },
+  {
+    "rua": "Sorocabana",
+    "cep": "11749-076"
+  },
+  {
+    "rua": "Sorocabana",
+    "cep": "11754-468"
+  },
+  {
+    "rua": "Sorocabana",
+    "cep": "11754-142"
+  },
+  {
+    "rua": "Sorocabana",
+    "cep": "11746-236"
+  },
+  {
+    "rua": "Sorocabana (Baln Pigalle)",
+    "cep": "11740-884"
+  },
+  {
+    "rua": "Sorocabana , da",
+    "cep": "11741-084"
+  },
+  {
+    "rua": "Sorocabana (Jd Campomar)",
+    "cep": "11748-302"
+  },
+  {
+    "rua": "Sorocabana (Jd Eneida)",
+    "cep": "11740-810"
+  },
+  {
+    "rua": "Sorocabana",
+    "cep": "11746-264"
+  },
+  {
+    "rua": "Sorocabana",
+    "cep": "11746-322"
+  },
+  {
+    "rua": "Sotero Caio de Souza",
+    "cep": "11740-666"
+  },
+  {
+    "rua": "Spasia Bechelli Cecchi, Prefeita",
+    "cep": "11741-232"
+  },
+  {
+    "rua": "Spasia Bechelli Cecchi, Prefeita",
+    "cep": "11741-328"
+  },
+  {
+    "rua": "Stanislau Witkowski Júnior",
+    "cep": "11740-436"
+  },
+  {
+    "rua": "Stefan Müller",
+    "cep": "11744-048"
+  },
+  {
+    "rua": "Suarão",
+    "cep": "11740-826"
+  },
+  {
+    "rua": "Suarão",
+    "cep": "11740-722"
+  },
+  {
+    "rua": "Suarão (Vl Suarao)",
+    "cep": "11740-696"
+  },
+  {
+    "rua": "Suecia",
+    "cep": "11749-410"
+  },
+  {
+    "rua": "Suiça",
+    "cep": "11749-422"
+  },
+  {
+    "rua": "Suzana",
+    "cep": "11741-316"
+  },
+  {
+    "rua": "Suzano",
+    "cep": "11754-840"
+  },
+  {
+    "rua": "T (Jd Jamaica)",
+    "cep": "11754-156"
+  },
+  {
+    "rua": "Tabajaras",
+    "cep": "11749-018"
+  },
+  {
+    "rua": "Tabatinguera",
+    "cep": "11750-504"
+  },
+  {
+    "rua": "Taborda, Coronel",
+    "cep": "11746-212"
+  },
+  {
+    "rua": "Taipoca",
+    "cep": "11749-350"
+  },
+  {
+    "rua": "Tamareiras , das",
+    "cep": "11754-492"
+  },
+  {
+    "rua": "Tamoios",
+    "cep": "11750-502"
+  },
+  {
+    "rua": "Tamoios",
+    "cep": "11750-436"
+  },
+  {
+    "rua": "Tamoios",
+    "cep": "11749-034"
+  },
+  {
+    "rua": "Tangará",
+    "cep": "11749-272"
+  },
+  {
+    "rua": "Tanigua",
+    "cep": "11754-814"
+  },
+  {
+    "rua": "Tapajós",
+    "cep": "11750-506"
+  },
+  {
+    "rua": "Tapajos",
+    "cep": "11749-148"
+  },
+  {
+    "rua": "Tapioca",
+    "cep": "11749-116"
+  },
+  {
+    "rua": "Tapiocanga",
+    "cep": "11750-434"
+  },
+  {
+    "rua": "Tapuias",
+    "cep": "11749-006"
+  },
+  {
+    "rua": "Tarcisio Matias de Oliveira Filho",
+    "cep": "11741-626"
+  },
+  {
+    "rua": "Tatui",
+    "cep": "11741-134"
+  },
+  {
+    "rua": "Taubaté",
+    "cep": "11746-442"
+  },
+  {
+    "rua": "Taubaté",
+    "cep": "11747-864"
+  },
+  {
+    "rua": "Taubaté",
+    "cep": "11747-170"
+  },
+  {
+    "rua": "Tayaçupeba",
+    "cep": "11740-688"
+  },
+  {
+    "rua": "Telégrafo , do",
+    "cep": "11741-086"
+  },
+  {
+    "rua": "Telégrafo , do",
+    "cep": "11740-514"
+  },
+  {
+    "rua": "Telegrafo , do",
+    "cep": "11740-874"
+  },
+  {
+    "rua": "Telégrafo , do",
+    "cep": "11741-178"
+  },
+  {
+    "rua": "Telégrafo , do",
+    "cep": "11740-556"
+  },
+  {
+    "rua": "Telmo Diz",
+    "cep": "11740-160"
+  },
+  {
+    "rua": "Teotonio Vilella, Senador",
+    "cep": "11740-796"
+  },
+  {
+    "rua": "Terceira (Res Pq Augustus)",
+    "cep": "11754-350"
+  },
+  {
+    "rua": "Teresina",
+    "cep": "11748-066"
+  },
+  {
+    "rua": "Teresinha Augusta Garofalo",
+    "cep": "11754-226"
+  },
+  {
+    "rua": "Tereza Arias Gardon Lorenzo",
+    "cep": "11747-354"
+  },
+  {
+    "rua": "Tereza da Silva Barbosa",
+    "cep": "11740-302"
+  },
+  {
+    "rua": "Tereza Giacomo",
+    "cep": "11749-082"
+  },
+  {
+    "rua": "Tereza Otencia Gonzales",
+    "cep": "11741-008"
+  },
+  {
+    "rua": "Terezinha, Santa",
+    "cep": "11741-842"
+  },
+  {
+    "rua": "Terezinha, Santa",
+    "cep": "11742-410"
+  },
+  {
+    "rua": "Thais",
+    "cep": "11741-244"
+  },
+  {
+    "rua": "Thais",
+    "cep": "11741-306"
+  },
+  {
+    "rua": "Thelma",
+    "cep": "11741-248"
+  },
+  {
+    "rua": "Thelma",
+    "cep": "11741-304"
+  },
+  {
+    "rua": "Theodomiro Manoel dos Santos",
+    "cep": "11740-162"
+  },
+  {
+    "rua": "Theodoro Ratisbone, Padre",
+    "cep": "11741-788"
+  },
+  {
+    "rua": "Theodoro Ratisbone, Padre",
+    "cep": "11742-364"
+  },
+  {
+    "rua": "Thiago, São",
+    "cep": "11742-026"
+  },
+  {
+    "rua": "Tibiriçá",
+    "cep": "11750-514"
+  },
+  {
+    "rua": "Tibor Geza Hary, Vereador",
+    "cep": "11749-056"
+  },
+  {
+    "rua": "Tietê",
+    "cep": "11740-678"
+  },
+  {
+    "rua": "Timbiras , dos",
+    "cep": "11749-206"
+  },
+  {
+    "rua": "Timoteo Garcia Lamas",
+    "cep": "11742-502"
+  },
+  {
+    "rua": "Tiradentes",
+    "cep": "11740-214"
+  },
+  {
+    "rua": "Timoteo Garcia Lamas",
+    "cep": "11740-624"
+  },
+  {
+    "rua": "Timoteo Garcia Lamas",
+    "cep": "11742-460"
+  },
+  {
+    "rua": "Timoteo Garcia Lamas",
+    "cep": "11743-594"
+  },
+  {
+    "rua": "Tiradentes",
+    "cep": "11748-300"
+  },
+  {
+    "rua": "Tiradentes",
+    "cep": "11754-562"
+  },
+  {
+    "rua": "Tiraras , das",
+    "cep": "11755-758"
+  },
+  {
+    "rua": "Tito Carlos Pereira, Doutor",
+    "cep": "11741-808"
+  },
+  {
+    "rua": "Tomo Kida",
+    "cep": "11749-260"
+  },
+  {
+    "rua": "Topázio",
+    "cep": "11747-852"
+  },
+  {
+    "rua": "Transversal 16 (Jd Itapel)",
+    "cep": "11742-586"
+  },
+  {
+    "rua": "Transversal 17 (Jd Itapel)",
+    "cep": "11742-588"
+  },
+  {
+    "rua": "Transversal 18 (Jd Itapel)",
+    "cep": "11742-590"
+  },
+  {
+    "rua": "Trento",
+    "cep": "11746-690"
+  },
+  {
+    "rua": "Três",
+    "cep": "11743-578"
+  },
+  {
+    "rua": "Três (Baln Auri-Verde)",
+    "cep": "11741-514"
+  },
+  {
+    "rua": "Três (Baln P Alegre)",
+    "cep": "11740-564"
+  },
+  {
+    "rua": "Três (Baln Santista)",
+    "cep": "11741-172"
+  },
+  {
+    "rua": "Três (Chac B Retiro)",
+    "cep": "11750-564"
+  },
+  {
+    "rua": "Três (Chac B Retiro)",
+    "cep": "11750-490"
+  },
+  {
+    "rua": "Três (Chac Bopiranga)",
+    "cep": "11757-710"
+  },
+  {
+    "rua": "Três (Chac Educ Santista)",
+    "cep": "11757-626"
+  },
+  {
+    "rua": "Três (Chac Jamaica)",
+    "cep": "11756-404"
+  },
+  {
+    "rua": "Três (Chac Lucel)",
+    "cep": "11755-606"
+  },
+  {
+    "rua": "Três (Chac Myawaki)",
+    "cep": "11747-740"
+  },
+  {
+    "rua": "Três (Est Ipanema)",
+    "cep": "11752-306"
+  },
+  {
+    "rua": "Três (Est Ipanema)",
+    "cep": "11752-308"
+  },
+  {
+    "rua": "Três (Est S Pedro)",
+    "cep": "11755-440"
+  },
+  {
+    "rua": "Três (Est Santana I)",
+    "cep": "11752-078"
+  },
+  {
+    "rua": "Três (Est Savanah)",
+    "cep": "11752-340"
+  },
+  {
+    "rua": "Três (Jd Edel)",
+    "cep": "11749-526"
+  },
+  {
+    "rua": "Três (Jd Esmeralda)",
+    "cep": "11750-294"
+  },
+  {
+    "rua": "Três (Jd Fenix)",
+    "cep": "11755-176"
+  },
+  {
+    "rua": "Três (Jd Guapiranga)",
+    "cep": "11746-810"
+  },
+  {
+    "rua": "Três (Jd Imigrantes)",
+    "cep": "11747-666"
+  },
+  {
+    "rua": "Três (Jd Lindomar)",
+    "cep": "11757-038"
+  },
+  {
+    "rua": "Três (Jd Luizamar Mirim)",
+    "cep": "11754-504"
+  },
+  {
+    "rua": "Três (Jd Maramba)",
+    "cep": "11754-798"
+  },
+  {
+    "rua": "Três (Jd Maramba)",
+    "cep": "11743-538"
+  },
+  {
+    "rua": "Três (Jd Palmeiras III)",
+    "cep": "11755-804"
+  },
+  {
+    "rua": "Três (Jd Pescador)",
+    "cep": "11747-698"
+  },
+  {
+    "rua": "Três (Jd Primavera)",
+    "cep": "11752-224"
+  },
+  {
+    "rua": "Três (Jd Rainha do Mar)",
+    "cep": "11741-220"
+  },
+  {
+    "rua": "Três (Jd Regina)",
+    "cep": "11756-696"
+  },
+  {
+    "rua": "Três (Jd Rio Preto)",
+    "cep": "11747-648"
+  },
+  {
+    "rua": "Três (Jd S Fernando)",
+    "cep": "11749-828"
+  },
+  {
+    "rua": "Três (Jd S Joao)",
+    "cep": "11754-204"
+  },
+  {
+    "rua": "Três (Jd Valeria)",
+    "cep": "11749-518"
+  },
+  {
+    "rua": "Três (Lot Res Guapurá)",
+    "cep": "11743-470"
+  },
+  {
+    "rua": "Três (Pq Jequitiba)",
+    "cep": "11741-012"
+  },
+  {
+    "rua": "Três (Pq Royalle)",
+    "cep": "11752-376"
+  },
+  {
+    "rua": "Três (Puerta de Madrid)",
+    "cep": "11748-104"
+  },
+  {
+    "rua": "Três (Rec Antonella)",
+    "cep": "11741-006"
+  },
+  {
+    "rua": "Três (Rec Imigrantes)",
+    "cep": "11755-274"
+  },
+  {
+    "rua": "Três (Rec Indaia)",
+    "cep": "11755-326"
+  },
+  {
+    "rua": "Três (Res Pq Augustus)",
+    "cep": "11754-310"
+  },
+  {
+    "rua": "Três (Vl Lili)",
+    "cep": "11741-726"
+  },
+  {
+    "rua": "Treze (Baln California)",
+    "cep": "11754-278"
+  },
+  {
+    "rua": "Treze (Baln S Marcos)",
+    "cep": "11757-054"
+  },
+  {
+    "rua": "Treze (Chac Bopiranga)",
+    "cep": "11757-730"
+  },
+  {
+    "rua": "Treze (Chac Jamaica)",
+    "cep": "11756-424"
+  },
+  {
+    "rua": "Treze (Est Ipanema)",
+    "cep": "11752-282"
+  },
+  {
+    "rua": "Treze (Est S Pedro)",
+    "cep": "11755-460"
+  },
+  {
+    "rua": "Treze (Est Santana I)",
+    "cep": "11752-116"
+  },
+  {
+    "rua": "Treze (Jd Anchieta Itanhaem)",
+    "cep": "11751-612"
+  },
+  {
+    "rua": "Treze (Jd Cunhambebe)",
+    "cep": "11748-166"
+  },
+  {
+    "rua": "Treze (Jd Edel)",
+    "cep": "11749-540"
+  },
+  {
+    "rua": "Treze (Jd Esmeralda)",
+    "cep": "11750-314"
+  },
+  {
+    "rua": "Treze (Jd Fenix)",
+    "cep": "11755-196"
+  },
+  {
+    "rua": "Treze (Jd Magalhaes)",
+    "cep": "11742-452"
+  },
+  {
+    "rua": "Treze (Jd Maramba)",
+    "cep": "11755-074"
+  },
+  {
+    "rua": "Treze (Jd Paraiso)",
+    "cep": "11754-710"
+  },
+  {
+    "rua": "Treze (Jd Pescador)",
+    "cep": "11747-690"
+  },
+  {
+    "rua": "Treze (Jd Primavera)",
+    "cep": "11752-238"
+  },
+  {
+    "rua": "Treze (Jd Rio Preto)",
+    "cep": "11747-620"
+  },
+  {
+    "rua": "Treze (Jd S Fernando)",
+    "cep": "11749-848"
+  },
+  {
+    "rua": "Treze (Jd S Joao)",
+    "cep": "11754-220"
+  },
+  {
+    "rua": "Treze (Pq Baln Itanhaem)",
+    "cep": "11742-650"
+  },
+  {
+    "rua": "Treze (Pq Royalle)",
+    "cep": "11752-384"
+  },
+  {
+    "rua": "Treze (Rec Imigrantes)",
+    "cep": "11755-294"
+  },
+  {
+    "rua": "Treze (Rec Indaia)",
+    "cep": "11755-346"
+  },
+  {
+    "rua": "Treze (Res Pq Augustus)",
+    "cep": "11754-344"
+  },
+  {
+    "rua": "Treze A (Jd Anchieta Itanhaem)",
+    "cep": "11751-608"
+  },
+  {
+    "rua": "Trinidad",
+    "cep": "11756-734"
+  },
+  {
+    "rua": "Trinta (Baln Beatriz)",
+    "cep": "11749-646"
+  },
+  {
+    "rua": "Trinta (Baln Jd Itanhaem (Grandesp))",
+    "cep": "11750-274"
+  },
+  {
+    "rua": "Trinta (Chac Bopiranga)",
+    "cep": "11757-766"
+  },
+  {
+    "rua": "Trinta (Chac Educ Santista)",
+    "cep": "11757-680"
+  },
+  {
+    "rua": "Trinta (Chac Jamaica)",
+    "cep": "11756-462"
+  },
+  {
+    "rua": "Trinta (Jd Aguapeu)",
+    "cep": "11744-528"
+  },
+  {
+    "rua": "Trinta (Jd Maramba)",
+    "cep": "11755-112"
+  },
+  {
+    "rua": "Trinta (Jd Palmeiras II)",
+    "cep": "11755-712"
+  },
+  {
+    "rua": "Trinta (Jd Paraiso)",
+    "cep": "11754-726"
+  },
+  {
+    "rua": "Trinta e Cinco (Chac Bopiranga)",
+    "cep": "11757-776"
+  },
+  {
+    "rua": "Trinta e Cinco (Chac Jamaica)",
+    "cep": "11756-474"
+  },
+  {
+    "rua": "Trinta e Cinco (Jd Aguapeu)",
+    "cep": "11744-448"
+  },
+  {
+    "rua": "Trinta e Cinco (Jd Palmeiras II)",
+    "cep": "11755-722"
+  },
+  {
+    "rua": "Trinta e Cinco (Jd Anchieta Itanhaem)",
+    "cep": "11751-654"
+  },
+  {
+    "rua": "Trinta e Cinco (Jd Diplomata)",
+    "cep": "11755-866"
+  },
+  {
+    "rua": "Trinta e Cinco (Jd Maramba)",
+    "cep": "11755-122"
+  },
+  {
+    "rua": "Trinta e Cinco (Pq Vergara)",
+    "cep": "11744-160"
+  },
+  {
+    "rua": "Trinta e Dois (Baln Beatriz)",
+    "cep": "11749-648"
+  },
+  {
+    "rua": "Trinta e Dois (Baln Jd Itanhaem (Grandesp))",
+    "cep": "11750-278"
+  },
+  {
+    "rua": "Trinta e Dois (Chac Bopiranga)",
+    "cep": "11757-770"
+  },
+  {
+    "rua": "Trinta e Dois (Chac Jamaica)",
+    "cep": "11756-468"
+  },
+  {
+    "rua": "Trinta e Dois (Jd Aguapeu)",
+    "cep": "11744-424"
+  },
+  {
+    "rua": "Trinta e Dois (Jd Maramba)",
+    "cep": "11755-116"
+  },
+  {
+    "rua": "Trinta e Dois (Jd Palmeiras II)",
+    "cep": "11755-716"
+  },
+  {
+    "rua": "Trinta e Dois (Lot Res Guapurá)",
+    "cep": "11743-366"
+  },
+  {
+    "rua": "Trinta e Nove (Chac Bopiranga)",
+    "cep": "11757-784"
+  },
+  {
+    "rua": "Trinta e Nove (Chac Jamaica)",
+    "cep": "11756-482"
+  },
+  {
+    "rua": "Trinta e Nove (Jd Anchieta Itanhaem)",
+    "cep": "11751-684"
+  },
+  {
+    "rua": "Trinta e Nove (Jd Maramba)",
+    "cep": "11755-134"
+  },
+  {
+    "rua": "Trinta e Nove (Jd Palmeiras II)",
+    "cep": "11755-730"
+  },
+  {
+    "rua": "Trinta e Nove (Jd Paraiso)",
+    "cep": "11754-730"
+  },
+  {
+    "rua": "Trinta e Nove (Pq Vergara)",
+    "cep": "11744-140"
+  },
+  {
+    "rua": "Trinta e Oito (Baln Beatriz)",
+    "cep": "11749-658"
+  },
+  {
+    "rua": "Trinta e Oito (Chac Bopiranga)",
+    "cep": "11757-782"
+  },
+  {
+    "rua": "Trinta e Oito (Chac Jamaica)",
+    "cep": "11756-480"
+  },
+  {
+    "rua": "Trinta e Oito (Jd Aguapeu)",
+    "cep": "11744-480"
+  },
+  {
+    "rua": "Trinta e Oito (Jd Anchieta Itanhaem)",
+    "cep": "11751-682"
+  },
+  {
+    "rua": "Trinta e Oito (Jd Maramba)",
+    "cep": "11755-130"
+  },
+  {
+    "rua": "Trinta e Oito (Pq Vergara)",
+    "cep": "11744-144"
+  },
+  {
+    "rua": "Trinta e Oito (Umuarama Pq Itanhaem)",
+    "cep": "11747-312"
+  },
+  {
+    "rua": "Trinta e Quatro (Baln Beatriz)",
+    "cep": "11749-650"
+  },
+  {
+    "rua": "Trinta e Quatro (Chac Bopiranga)",
+    "cep": "11757-774"
+  },
+  {
+    "rua": "Trinta e Quatro (Chac Jamaica)",
+    "cep": "11756-472"
+  },
+  {
+    "rua": "Trinta e Quatro (Jd Aguapeu)",
+    "cep": "11744-432"
+  },
+  {
+    "rua": "Trinta e Quatro (Jd Anchieta Itanhaem)",
+    "cep": "11751-640"
+  },
+  {
+    "rua": "Trinta e Quatro (Jd Maramba)",
+    "cep": "11755-120"
+  },
+  {
+    "rua": "Trinta e Seis (Baln Beatriz)",
+    "cep": "11749-652"
+  },
+  {
+    "rua": "Trinta e Seis (Chac Bopiranga)",
+    "cep": "11757-778"
+  },
+  {
+    "rua": "Trinta e Seis (Chac Jamaica)",
+    "cep": "11756-476"
+  },
+  {
+    "rua": "Trinta e Seis (Jd Aguapeu)",
+    "cep": "11744-464"
+  },
+  {
+    "rua": "Trinta e Seis (Jd Anchieta Itanhaem)",
+    "cep": "11751-656"
+  },
+  {
+    "rua": "Trinta e Seis (Jd Maramba)",
+    "cep": "11755-124"
+  },
+  {
+    "rua": "Trinta e Seis (Jd Palmeiras II)",
+    "cep": "11755-724"
+  },
+  {
+    "rua": "Trinta e Seis (Lot Res Guapurá)",
+    "cep": "11743-346"
+  },
+  {
+    "rua": "Trinta e Sete (Chac Bopiranga)",
+    "cep": "11757-780"
+  },
+  {
+    "rua": "Trinta e Sete (Chac Jamaica)",
+    "cep": "11756-478"
+  },
+  {
+    "rua": "Trinta e Sete (Jd Aguapeu)",
+    "cep": "11744-536"
+  },
+  {
+    "rua": "Trinta e Sete (Jd Anchieta Itanhaem)",
+    "cep": "11751-680"
+  },
+  {
+    "rua": "Trinta e Sete (Jd Maramba)",
+    "cep": "11755-128"
+  },
+  {
+    "rua": "Trinta e Sete (Jd Palmeiras II)",
+    "cep": "11755-726"
+  },
+  {
+    "rua": "Trinta e Sete (Lot Res Guapurá)",
+    "cep": "11743-364"
+  },
+  {
+    "rua": "Trinta e Três (Baln Jd Itanhaem (Grandesp))",
+    "cep": "11750-280"
+  },
+  {
+    "rua": "Trinta e Três (Chac Bopiranga)",
+    "cep": "11757-772"
+  },
+  {
+    "rua": "Trinta e Três (Chac Jamaica)",
+    "cep": "11756-470"
+  },
+  {
+    "rua": "Trinta e Três (Jd Anchieta Itanhaem)",
+    "cep": "11751-638"
+  },
+  {
+    "rua": "Trinta e Três (Jd Maramba)",
+    "cep": "11755-118"
+  },
+  {
+    "rua": "Trinta e Três (Jd Palmeiras II)",
+    "cep": "11755-718"
+  },
+  {
+    "rua": "Trinta e Um",
+    "cep": "11744-400"
+  },
+  {
+    "rua": "Trinta e Um (Baln Jd Itanhaem (Grandesp))",
+    "cep": "11750-276"
+  },
+  {
+    "rua": "Trinta e Um (Chac Bopiranga)",
+    "cep": "11757-768"
+  },
+  {
+    "rua": "Trinta e Um (Chac Jamaica)",
+    "cep": "11756-464"
+  },
+  {
+    "rua": "Trinta e Um (Jd Anchieta Itanhaem)",
+    "cep": "11751-630"
+  },
+  {
+    "rua": "Trinta e Um (Jd Magalhaes)",
+    "cep": "11740-618"
+  },
+  {
+    "rua": "Trinta e Um (Jd Maramba)",
+    "cep": "11755-114"
+  },
+  {
+    "rua": "Trinta e Um (Jd Palmeiras II)",
+    "cep": "11755-714"
+  },
+  {
+    "rua": "Trinta e Um (Jd Paraiso)",
+    "cep": "11754-728"
+  },
+  {
+    "rua": "Trinta e Um (Pq Vergara)",
+    "cep": "11744-208"
+  },
+  {
+    "rua": "Trinta e Um (Umuarama Pq Itanhaem)",
+    "cep": "11747-276"
+  },
+  {
+    "rua": "Tucum",
+    "cep": "11749-322"
+  },
+  {
+    "rua": "Tucuman",
+    "cep": "11756-736"
+  },
+  {
+    "rua": "Tucumãs , dos (Jd Palmeiras III)",
+    "cep": "11755-768"
+  },
+  {
+    "rua": "Tuim",
+    "cep": "11749-262"
+  },
+  {
+    "rua": "Tuiutí",
+    "cep": "11750-524"
+  },
+  {
+    "rua": "Tuiuti",
+    "cep": "11750-452"
+  },
+  {
+    "rua": "Tupã",
+    "cep": "11755-016"
+  },
+  {
+    "rua": "Tupinamba",
+    "cep": "11747-054"
+  },
+  {
+    "rua": "Tupinambaranas , dos",
+    "cep": "11750-526"
+  },
+  {
+    "rua": "Tupinambas",
+    "cep": "11749-008"
+  },
+  {
+    "rua": "Tupiniquins",
+    "cep": "11746-368"
+  },
+  {
+    "rua": "Tupiniquins",
+    "cep": "11749-014"
+  },
+  {
+    "rua": "Turibio Leite Barros Júnior",
+    "cep": "11740-620"
+  },
+  {
+    "rua": "Turiris , dos",
+    "cep": "11755-754"
+  },
+  {
+    "rua": "Turquia (Cid Sta Julia)",
+    "cep": "11749-394"
+  },
+  {
+    "rua": "U (Jd Jamaica)",
+    "cep": "11754-154"
+  },
+  {
+    "rua": "Uaçaçás , dos",
+    "cep": "11754-494"
+  },
+  {
+    "rua": "Uba",
+    "cep": "11749-046"
+  },
+  {
+    "rua": "Ubirajara",
+    "cep": "11749-156"
+  },
+  {
+    "rua": "Ubis , dos",
+    "cep": "11754-460"
+  },
+  {
+    "rua": "Ulisses Ferro",
+    "cep": "11746-008"
+  },
+  {
+    "rua": "Ulisses Pereira dos Santos",
+    "cep": "11743-408"
+  },
+  {
+    "rua": "Um",
+    "cep": "11746-860"
+  },
+  {
+    "rua": "Um (Baln Auri-Verde)",
+    "cep": "11741-108"
+  },
+  {
+    "rua": "Um (Baln Beatriz)",
+    "cep": "11749-636"
+  },
+  {
+    "rua": "Um (CFFSP)",
+    "cep": "11748-488"
+  },
+  {
+    "rua": "Um (Baln Marrocos)",
+    "cep": "11741-262"
+  },
+  {
+    "rua": "Um (Baln P Alegre)",
+    "cep": "11740-554"
+  },
+  {
+    "rua": "Um (Baln S Marcos)",
+    "cep": "11754-052"
+  },
+  {
+    "rua": "Um (Chac B Retiro)",
+    "cep": "11750-560"
+  },
+  {
+    "rua": "Um (Chac B Retiro)",
+    "cep": "11750-486"
+  },
+  {
+    "rua": "Um (Chac Bopiranga)",
+    "cep": "11757-706"
+  },
+  {
+    "rua": "Um (Chac Educ Santista)",
+    "cep": "11757-622"
+  },
+  {
+    "rua": "Um (Chac Gaivota)",
+    "cep": "11755-370"
+  },
+  {
+    "rua": "Um (Chac Jamaica)",
+    "cep": "11756-406"
+  },
+  {
+    "rua": "Um (Chac Myawaki)",
+    "cep": "11747-736"
+  },
+  {
+    "rua": "Um (Cid Jard Cel)",
+    "cep": "11747-836"
+  },
+  {
+    "rua": "Um (Est Ipanema)",
+    "cep": "11752-274"
+  },
+  {
+    "rua": "Um (Est Nautica)",
+    "cep": "11747-722"
+  },
+  {
+    "rua": "Um (Est S Pedro)",
+    "cep": "11755-436"
+  },
+  {
+    "rua": "Um (Est Santana I)",
+    "cep": "11752-070"
+  },
+  {
+    "rua": "Um (Est Santana I)",
+    "cep": "11752-074"
+  },
+  {
+    "rua": "Um (Est Savanah)",
+    "cep": "11752-344"
+  },
+  {
+    "rua": "Um (Jd Aguapeu)",
+    "cep": "11744-336"
+  },
+  {
+    "rua": "Um (Jd Boripanga)",
+    "cep": "11749-582"
+  },
+  {
+    "rua": "Um (Jd Edel)",
+    "cep": "11749-522"
+  },
+  {
+    "rua": "Um (Jd Esmeralda)",
+    "cep": "11750-290"
+  },
+  {
+    "rua": "Um (Jd Fenix)",
+    "cep": "11755-172"
+  },
+  {
+    "rua": "Um (Jd Lindomar)",
+    "cep": "11757-034"
+  },
+  {
+    "rua": "Um (Jd Maramba)",
+    "cep": "11754-790"
+  },
+  {
+    "rua": "Um (Jd Maramba)",
+    "cep": "11743-540"
+  },
+  {
+    "rua": "Um (Jd Palmeiras III)",
+    "cep": "11755-784"
+  },
+  {
+    "rua": "Um (Jd Paraiso)",
+    "cep": "11754-700"
+  },
+  {
+    "rua": "Um (Jd Primavera)",
+    "cep": "11752-240"
+  },
+  {
+    "rua": "Um (Jd Rafaelli)",
+    "cep": "11747-752"
+  },
+  {
+    "rua": "Um (Jd Rainha do Mar)",
+    "cep": "11741-344"
+  },
+  {
+    "rua": "Um (Jd Rainha do Mar)",
+    "cep": "11741-216"
+  },
+  {
+    "rua": "Um (Jd Regina)",
+    "cep": "11754-116"
+  },
+  {
+    "rua": "Um (Jd Regina)",
+    "cep": "11756-688"
+  },
+  {
+    "rua": "Um (Jd Rio Preto)",
+    "cep": "11747-656"
+  },
+  {
+    "rua": "Um (Jd S Fernando)",
+    "cep": "11749-826"
+  },
+  {
+    "rua": "Um (Pq Jequitiba)",
+    "cep": "11741-018"
+  },
+  {
+    "rua": "Um (Pq Royalle)",
+    "cep": "11752-368"
+  },
+  {
+    "rua": "Um (Rec Indaia)",
+    "cep": "11755-322"
+  },
+  {
+    "rua": "Um (Umuarama Pq Itanhaem)",
+    "cep": "11747-302"
+  },
+  {
+    "rua": "Um (Vl Lili)",
+    "cep": "11740-876"
+  },
+  {
+    "rua": "Um (Vl N Itanhaem)",
+    "cep": "11743-558"
+  },
+  {
+    "rua": "Um (Vl Rivera)",
+    "cep": "11746-504"
+  },
+  {
+    "rua": "Umuarama",
+    "cep": "11749-210"
+  },
+  {
+    "rua": "Urcelina Maria dos Passos",
+    "cep": "11746-556"
+  },
+  {
+    "rua": "Urcezino Ferreira",
+    "cep": "11740-262"
+  },
+  {
+    "rua": "Urcezino Ferreira",
+    "cep": "11740-242"
+  },
+  {
+    "rua": "Uricanas , das",
+    "cep": "11754-488"
+  },
+  {
+    "rua": "Urucunana",
+    "cep": "11750-104"
+  },
+  {
+    "rua": "Urucuris , dos",
+    "cep": "11754-470"
+  },
+  {
+    "rua": "Uruguai",
+    "cep": "11749-450"
+  },
+  {
+    "rua": "Urupes",
+    "cep": "11749-164"
+  },
+  {
+    "rua": "V (Jd Jamaica)",
+    "cep": "11754-152"
+  },
+  {
+    "rua": "V Cinco (Pq Alvorada)",
+    "cep": "11748-440"
+  },
+  {
+    "rua": "V Dez (Pq Alvorada)",
+    "cep": "11748-456"
+  },
+  {
+    "rua": "V Dois (Pq Alvorada)",
+    "cep": "11748-432"
+  },
+  {
+    "rua": "V Nove (Pq Alvorada)",
+    "cep": "11748-452"
+  },
+  {
+    "rua": "V Oito (Pq Alvorada)",
+    "cep": "11748-450"
+  },
+  {
+    "rua": "V Onze (Pq Alvorada)",
+    "cep": "11748-462"
+  },
+  {
+    "rua": "V Quatro (Pq Alvorada)",
+    "cep": "11748-436"
+  },
+  {
+    "rua": "V Seis (Pq Alvorada)",
+    "cep": "11748-438"
+  },
+  {
+    "rua": "V Sete (Pq Alvorada)",
+    "cep": "11748-444"
+  },
+  {
+    "rua": "V Três (Pq Alvorada)",
+    "cep": "11748-434"
+  },
+  {
+    "rua": "V Um (Pq Alvorada)",
+    "cep": "11748-430"
+  },
+  {
+    "rua": "Valdemir Biller Brandão",
+    "cep": "11740-152"
+  },
+  {
+    "rua": "Valderir Leão Vidal",
+    "cep": "11747-078"
+  },
+  {
+    "rua": "Valdomiro do Espirito Santo de Almeida",
+    "cep": "11751-312"
+  },
+  {
+    "rua": "Valdomiro Pedro Luz",
+    "cep": "11743-286"
+  },
+  {
+    "rua": "Valentin Corredoira Porto",
+    "cep": "11747-888"
+  },
+  {
+    "rua": "Valinhos",
+    "cep": "11742-544"
+  },
+  {
+    "rua": "Vargas, Presidente",
+    "cep": "11740-048"
+  },
+  {
+    "rua": "Vargas, Presidente",
+    "cep": "11740-548"
+  },
+  {
+    "rua": "Vargas, Presidente (Jd Eneida",
+    "cep": "11740-790"
+  },
+  {
+    "rua": "Venancio de Lima",
+    "cep": "11744-136"
+  },
+  {
+    "rua": "Veneza",
+    "cep": "11741-226"
+  },
+  {
+    "rua": "Venezuela",
+    "cep": "11746-372"
+  },
+  {
+    "rua": "Ventura Pereira da Costa",
+    "cep": "11750-266"
+  },
+  {
+    "rua": "Vera Cruz",
+    "cep": "11754-854"
+  },
+  {
+    "rua": "Verde Mar",
+    "cep": "11741-186"
+  },
+  {
+    "rua": "Verde Mar",
+    "cep": "11741-404"
+  },
+  {
+    "rua": "Vertical (Vl Pq Fluvial)",
+    "cep": "11748-056"
+  },
+  {
+    "rua": "Vicente Brindizi",
+    "cep": "11740-710"
+  },
+  {
+    "rua": "Vicente Caetano Lima, Professor",
+    "cep": "11751-302"
+  },
+  {
+    "rua": "Vicente Caetano Lima, Professor",
+    "cep": "11747-002"
+  },
+  {
+    "rua": "Vicente de Carvalho",
+    "cep": "11746-040"
+  },
+  {
+    "rua": "Vicente Marcos",
+    "cep": "11749-086"
+  },
+  {
+    "rua": "Vicente Nunes dos Santos",
+    "cep": "11748-128"
+  },
+  {
+    "rua": "Vicente Ribeiro da Silva",
+    "cep": "11740-304"
+  },
+  {
+    "rua": "Vicente, São",
+    "cep": "11746-462"
+  },
+  {
+    "rua": "Vicente, São",
+    "cep": "11754-834"
+  },
+  {
+    "rua": "Vicente Zioni, Monsenhor",
+    "cep": "11741-818"
+  },
+  {
+    "rua": "Vicente Zioni, Monsenhor",
+    "cep": "11742-388"
+  },
+  {
+    "rua": "Victor Meirelles",
+    "cep": "11746-682"
+  },
+  {
+    "rua": "Victor Meirelles",
+    "cep": "11746-664"
+  },
+  {
+    "rua": "Vildemar de Souza Oliveira",
+    "cep": "11740-332"
+  },
+  {
+    "rua": "Vimieiros, Condessa , de",
+    "cep": "11740-898"
+  },
+  {
+    "rua": "Vimieiros, Condessa, de",
+    "cep": "11740-050"
+  },
+  {
+    "rua": "Vimieiros, Condessa, de",
+    "cep": "11740-052"
+  },
+  {
+    "rua": "Vinte (Chac Bopiranga)",
+    "cep": "11757-744"
+  },
+  {
+    "rua": "Vimieiros, Condessa, de",
+    "cep": "11740-398"
+  },
+  {
+    "rua": "Vinte (Baln California)",
+    "cep": "11754-290"
+  },
+  {
+    "rua": "Vinte (Baln S Marcos)",
+    "cep": "11754-032"
+  },
+  {
+    "rua": "Vinte (Chac Jamaica)",
+    "cep": "11756-438"
+  },
+  {
+    "rua": "Vinte (Jd Aguapeu)",
+    "cep": "11744-512"
+  },
+  {
+    "rua": "Vinte (Jd Anchieta Itanhaem)",
+    "cep": "11751-624"
+  },
+  {
+    "rua": "Vinte (Jd Cunhambebe)",
+    "cep": "11748-142"
+  },
+  {
+    "rua": "Vinte (Jd Edel)",
+    "cep": "11749-552"
+  },
+  {
+    "rua": "Vinte (Jd Fenix)",
+    "cep": "11755-210"
+  },
+  {
+    "rua": "Vinte (Jd Magalhaes)",
+    "cep": "11742-474"
+  },
+  {
+    "rua": "Vinte (Jd Maramba)",
+    "cep": "11755-092"
+  },
+  {
+    "rua": "Vinte (Jd Primavera)",
+    "cep": "11752-256"
+  },
+  {
+    "rua": "Vinte (Jd Rio Preto)",
+    "cep": "11747-604"
+  },
+  {
+    "rua": "Vinte (Jd Ritamar)",
+    "cep": "11741-768"
+  },
+  {
+    "rua": "Vinte (Jd S Fernando)",
+    "cep": "11749-862"
+  },
+  {
+    "rua": "Vinte (Jd S Joao)",
+    "cep": "11754-234"
+  },
+  {
+    "rua": "Vinte (Jd Sta Terezinha)",
+    "cep": "11741-566"
+  },
+  {
+    "rua": "Vinte (Lot Res Guapurá)",
+    "cep": "11743-352"
+  },
+  {
+    "rua": "Vinte (Pq Vergara)",
+    "cep": "11744-200"
+  },
+  {
+    "rua": "Vinte (Rec Imigrantes)",
+    "cep": "11755-308"
+  },
+  {
+    "rua": "Vinte (Rec Indaia)",
+    "cep": "11755-360"
+  },
+  {
+    "rua": "Vinte (Res Pq Augustus)",
+    "cep": "11754-378"
+  },
+  {
+    "rua": "Vinte e Cinco (Baln Jd Itanhaem (Grandesp))",
+    "cep": "11750-264"
+  },
+  {
+    "rua": "Vinte e Cinco (Baln S Jorge)",
+    "cep": "11754-688"
+  },
+  {
+    "rua": "Vinte e Cinco (Chac Bopiranga)",
+    "cep": "11757-756"
+  },
+  {
+    "rua": "Vinte e Cinco (Chac Jamaica)",
+    "cep": "11756-452"
+  },
+  {
+    "rua": "Vinte e Cinco (Est Santana I)",
+    "cep": "11752-090"
+  },
+  {
+    "rua": "Vinte e Cinco (Jd Luizamar Mirim)",
+    "cep": "11754-540"
+  },
+  {
+    "rua": "Vinte e Cinco (Jd Magalhaes)",
+    "cep": "11743-604"
+  },
+  {
+    "rua": "Vinte e Cinco (Jd Maramba)",
+    "cep": "11755-102"
+  },
+  {
+    "rua": "Vinte e Cinco (Jd Paraiso)",
+    "cep": "11754-716"
+  },
+  {
+    "rua": "Vinte e Cinco (Jd Ritamar)",
+    "cep": "11741-778"
+  },
+  {
+    "rua": "Vinte e Cinco (Jd Sta Terezinha)",
+    "cep": "11741-572"
+  },
+  {
+    "rua": "Vinte e Cinco (Lot Res Guapurá)",
+    "cep": "11743-350"
+  },
+  {
+    "rua": "Vinte e Cinco (Pq Jequitiba)",
+    "cep": "11741-648"
+  },
+  {
+    "rua": "Vinte e Cinco (Pq Vergara)",
+    "cep": "11744-172"
+  },
+  {
+    "rua": "Vinte e Cinco (Rec Imigrantes)",
+    "cep": "11755-318"
+  },
+  {
+    "rua": "Vinte e Dois (Baln Beatriz)",
+    "cep": "11749-638"
+  },
+  {
+    "rua": "Vinte e Dois (Baln California)",
+    "cep": "11754-294"
+  },
+  {
+    "rua": "Vinte e Dois (Chac Bopiranga)",
+    "cep": "11757-750"
+  },
+  {
+    "rua": "Vinte e Dois (Chac Jamaica)",
+    "cep": "11756-446"
+  },
+  {
+    "rua": "Vinte e Dois (Est Santana I)",
+    "cep": "11752-096"
+  },
+  {
+    "rua": "Vinte e Dois (Jd Aguapeu)",
+    "cep": "11744-520"
+  },
+  {
+    "rua": "Vinte e Dois (Jd Anchieta Itanhaem)",
+    "cep": "11751-600"
+  },
+  {
+    "rua": "Vinte e Dois (Jd Cunhambebe)",
+    "cep": "11748-148"
+  },
+  {
+    "rua": "Vinte e Dois (Jd Edel)",
+    "cep": "11749-556"
+  },
+  {
+    "rua": "Vinte e Dois (Jd Fenix)",
+    "cep": "11755-214"
+  },
+  {
+    "rua": "Vinte e Dois (Jd Magalhaes)",
+    "cep": "11742-478"
+  },
+  {
+    "rua": "Vinte e Dois (Jd Maramba)",
+    "cep": "11755-096"
+  },
+  {
+    "rua": "Vinte e Dois (Jd Primavera)",
+    "cep": "11752-262"
+  },
+  {
+    "rua": "Vinte e Dois (Jd Rio Preto)",
+    "cep": "11747-632"
+  },
+  {
+    "rua": "Vinte e Dois (Jd Ritamar)",
+    "cep": "11741-772"
+  },
+  {
+    "rua": "Vinte e Dois (Jd S Fernando)",
+    "cep": "11749-866"
+  },
+  {
+    "rua": "Vinte e Dois (Jd Sta Terezinha)",
+    "cep": "11741-562"
+  },
+  {
+    "rua": "Vinte e Dois (Pq Jequitiba)",
+    "cep": "11741-642"
+  },
+  {
+    "rua": "Vinte e Dois (Pq Vergara)",
+    "cep": "11744-188"
+  },
+  {
+    "rua": "Vinte e Dois (Rec Imigrantes)",
+    "cep": "11755-312"
+  },
+  {
+    "rua": "Vinte e Dois (Rec Indaia)",
+    "cep": "11755-364"
+  },
+  {
+    "rua": "Vinte e Nove (Baln Jd Itanhaem (Grandesp))",
+    "cep": "11750-272"
+  },
+  {
+    "rua": "Vinte e Nove (Chac Bopiranga)",
+    "cep": "11757-764"
+  },
+  {
+    "rua": "Vinte e Nove (Chac Jamaica)",
+    "cep": "11756-460"
+  },
+  {
+    "rua": "Vinte e Nove (Jd Aguapeu)",
+    "cep": "11744-392"
+  },
+  {
+    "rua": "Vinte e Nove (Jd Anchieta Itanhaem)",
+    "cep": "11751-610"
+  },
+  {
+    "rua": "Vinte e Nove (Jd Magalhaes)",
+    "cep": "11743-612"
+  },
+  {
+    "rua": "Vinte e Nove (Jd Maramba)",
+    "cep": "11755-110"
+  },
+  {
+    "rua": "Vinte e Nove (Jd Palmeiras II)",
+    "cep": "11755-710"
+  },
+  {
+    "rua": "Vinte e Nove (Jd Paraiso)",
+    "cep": "11754-724"
+  },
+  {
+    "rua": "Vinte e Nove (Pq Vergara)",
+    "cep": "11744-224"
+  },
+  {
+    "rua": "Vinte e Oito (Baln Beatriz)",
+    "cep": "11749-644"
+  },
+  {
+    "rua": "Vinte e Oito (Chac Bopiranga)",
+    "cep": "11757-762"
+  },
+  {
+    "rua": "Vinte e oito (Chac Educ Santista)",
+    "cep": "11757-668"
+  },
+  {
+    "rua": "Vinte e Oito (Chac Jamaica)",
+    "cep": "11756-458"
+  },
+  {
+    "rua": "Vinte e Oito (Jd Aguapeu)",
+    "cep": "11744-376"
+  },
+  {
+    "rua": "Vinte e Oito (Jd Anchieta Itanhaem)",
+    "cep": "11751-606"
+  },
+  {
+    "rua": "Vinte e Oito (Jd Magalhaes)",
+    "cep": "11743-610"
+  },
+  {
+    "rua": "Vinte e Oito (Jd Maramba)",
+    "cep": "11755-108"
+  },
+  {
+    "rua": "Vinte e Oito (Pq Vergara)",
+    "cep": "11744-232"
+  },
+  {
+    "rua": "Vinte e Quatro",
+    "cep": "11755-100"
+  },
+  {
+    "rua": "Vinte e Quatro (Baln Beatriz)",
+    "cep": "11749-640"
+  },
+  {
+    "rua": "Vinte e Quatro (Baln California)",
+    "cep": "11754-298"
+  },
+  {
+    "rua": "Vinte e Quatro (Chac Bopiranga)",
+    "cep": "11757-754"
+  },
+  {
+    "rua": "Vinte e Quatro (Chac Jamaica)",
+    "cep": "11756-450"
+  },
+  {
+    "rua": "Vinte e Quatro (Est Santana I)",
+    "cep": "11752-092"
+  },
+  {
+    "rua": "Vinte e Quatro (Jd Cunhambebe)",
+    "cep": "11748-152"
+  },
+  {
+    "rua": "Vinte e Quatro (Jd Diplomata)",
+    "cep": "11755-858"
+  },
+  {
+    "rua": "Vinte e Quatro (Jd Luizamar Mirim)",
+    "cep": "11754-538"
+  },
+  {
+    "rua": "Vinte e Quatro (Jd Magalhaes)",
+    "cep": "11743-600"
+  },
+  {
+    "rua": "Vinte e Quatro (Jd Rio Preto)",
+    "cep": "11747-654"
+  },
+  {
+    "rua": "Vinte e Seis",
+    "cep": "11743-606"
+  },
+  {
+    "rua": "Vinte e Quatro (Jd Ritamar)",
+    "cep": "11741-776"
+  },
+  {
+    "rua": "Vinte e Quatro (Pq Jequitiba)",
+    "cep": "11741-646"
+  },
+  {
+    "rua": "Vinte e Quatro (Rec Imigrantes)",
+    "cep": "11755-316"
+  },
+  {
+    "rua": "Vinte e Seis (Baln Beatriz)",
+    "cep": "11749-642"
+  },
+  {
+    "rua": "Vinte e Seis (Chac Bopiranga)",
+    "cep": "11757-758"
+  },
+  {
+    "rua": "Vinte e Seis (Chac Jamaica)",
+    "cep": "11756-454"
+  },
+  {
+    "rua": "Vinte e Seis (Jd Anchieta Itanhaem)",
+    "cep": "11751-586"
+  },
+  {
+    "rua": "Vinte e Seis (Jd Maramba)",
+    "cep": "11755-104"
+  },
+  {
+    "rua": "Vinte e Seis (Jd Palmeiras II)",
+    "cep": "11755-704"
+  },
+  {
+    "rua": "Vinte e Seis (Jd Paraiso)",
+    "cep": "11754-718"
+  },
+  {
+    "rua": "Vinte e Seis (Jd Ritamar)",
+    "cep": "11741-780"
+  },
+  {
+    "rua": "Vinte e Seis (Lot Res Guapurá)",
+    "cep": "11743-368"
+  },
+  {
+    "rua": "Vinte e Seis (Pq Jequitiba)",
+    "cep": "11741-650"
+  },
+  {
+    "rua": "Vinte e Seis (Pq Vergara)",
+    "cep": "11744-168"
+  },
+  {
+    "rua": "Vinte e Sete (Chac Bopiranga)",
+    "cep": "11757-760"
+  },
+  {
+    "rua": "Vinte e Sete (Chac Jamaica)",
+    "cep": "11756-456"
+  },
+  {
+    "rua": "Vinte e Sete (Jd Anchieta Itanhaem)",
+    "cep": "11751-588"
+  },
+  {
+    "rua": "Vinte e Sete (Jd Luizamar Mirim)",
+    "cep": "11754-544"
+  },
+  {
+    "rua": "Vinte e Sete (Jd Magalhaes)",
+    "cep": "11743-608"
+  },
+  {
+    "rua": "Vinte e Sete (Jd Maramba)",
+    "cep": "11755-106"
+  },
+  {
+    "rua": "Vinte e Sete (Jd Palmeiras II)",
+    "cep": "11755-706"
+  },
+  {
+    "rua": "Vinte e Sete (Jd Paraiso)",
+    "cep": "11754-720"
+  },
+  {
+    "rua": "Vinte e Sete (Jd Regina)",
+    "cep": "11756-668"
+  },
+  {
+    "rua": "Vinte e Sete (Jd Ritamar)",
+    "cep": "11741-782"
+  },
+  {
+    "rua": "Vinte e Sete (Lot Res Guapurá)",
+    "cep": "11743-420"
+  },
+  {
+    "rua": "Vinte e Sete (Pq Vergara)",
+    "cep": "11744-164"
+  },
+  {
+    "rua": "Vinte e Sete (Vl N Itanhaem)",
+    "cep": "11743-548"
+  },
+  {
+    "rua": "Vinte e Três (Baln California)",
+    "cep": "11754-296"
+  },
+  {
+    "rua": "Vinte e Três (Baln S Jorge)",
+    "cep": "11754-666"
+  },
+  {
+    "rua": "Vinte e Três (Chac Bopiranga)",
+    "cep": "11757-752"
+  },
+  {
+    "rua": "Vinte e Três (Chac Jamaica)",
+    "cep": "11756-448"
+  },
+  {
+    "rua": "Vinte e Três (Est Santana I)",
+    "cep": "11752-094"
+  },
+  {
+    "rua": "Vinte e Três (Jd Anchieta Itanhaem)",
+    "cep": "11751-604"
+  },
+  {
+    "rua": "Vinte e Três (Jd Diplomata)",
+    "cep": "11754-432"
+  },
+  {
+    "rua": "Vinte e Três (Jd Fenix)",
+    "cep": "11755-212"
+  },
+  {
+    "rua": "Vinte e Três (Jd Luizamar Mirim)",
+    "cep": "11754-536"
+  },
+  {
+    "rua": "Vinte e Três (Jd Maramba)",
+    "cep": "11755-098"
+  },
+  {
+    "rua": "Vinte e Três (Jd Primavera)",
+    "cep": "11752-264"
+  },
+  {
+    "rua": "Vinte e Três (Jd Rio Preto)",
+    "cep": "11747-642"
+  },
+  {
+    "rua": "Vinte e Três (Jd Ritamar)",
+    "cep": "11741-774"
+  },
+  {
+    "rua": "Vinte e Três (Jd Sta Terezinha)",
+    "cep": "11741-568"
+  },
+  {
+    "rua": "Vinte e Três (Pq Jequitiba)",
+    "cep": "11741-644"
+  },
+  {
+    "rua": "Vinte e Três (Pq Vergara)",
+    "cep": "11744-184"
+  },
+  {
+    "rua": "Vinte e Três (Rec Imigrantes)",
+    "cep": "11755-314"
+  },
+  {
+    "rua": "Vinte e Três (Rec Indaia)",
+    "cep": "11755-366"
+  },
+  {
+    "rua": "Vinte e Um",
+    "cep": "11742-476"
+  },
+  {
+    "rua": "Vinte e Um (Baln California)",
+    "cep": "11754-292"
+  },
+  {
+    "rua": "Vinte e Um (Baln J Atlântico)",
+    "cep": "11743-516"
+  },
+  {
+    "rua": "Vinte e Um (Chac Bopiranga)",
+    "cep": "11757-748"
+  },
+  {
+    "rua": "Vinte e Um (Chac Jamaica)",
+    "cep": "11756-440"
+  },
+  {
+    "rua": "Vinte e Um (Est Santana I)",
+    "cep": "11752-098"
+  },
+  {
+    "rua": "Vinte e Um (Jd Aguapeu)",
+    "cep": "11744-288"
+  },
+  {
+    "rua": "Vinte e Um (Jd Cunhambebe)",
+    "cep": "11748-144"
+  },
+  {
+    "rua": "Vinte e Um (Jd Edel)",
+    "cep": "11749-554"
+  },
+  {
+    "rua": "Vinte e Um (Jd Fenix)",
+    "cep": "11755-216"
+  },
+  {
+    "rua": "Vinte e Um (Jd Luizamar Mirim)",
+    "cep": "11754-534"
+  },
+  {
+    "rua": "Vinte e Um (Jd Maramba)",
+    "cep": "11755-094"
+  },
+  {
+    "rua": "Vinte e Um (Jd Primavera)",
+    "cep": "11752-260"
+  },
+  {
+    "rua": "Vinte e Um (Jd Rio Preto)",
+    "cep": "11747-602"
+  },
+  {
+    "rua": "Vinte e Um (Jd Ritamar)",
+    "cep": "11741-770"
+  },
+  {
+    "rua": "Vinte e Um (Jd S Fernando)",
+    "cep": "11749-864"
+  },
+  {
+    "rua": "Vinte e Um (Jd Sta Terezinha)",
+    "cep": "11741-564"
+  },
+  {
+    "rua": "Vinte e Um (Lot Res Guapurá)",
+    "cep": "11743-370"
+  },
+  {
+    "rua": "Vinte e Um (Pq Jequitiba)",
+    "cep": "11741-640"
+  },
+  {
+    "rua": "Vinte e Um (Pq Riomar)",
+    "cep": "11747-388"
+  },
+  {
+    "rua": "Vinte e Um (Pq Vergara)",
+    "cep": "11744-192"
+  },
+  {
+    "rua": "Vinte e Um (Rec Imigrantes)",
+    "cep": "11755-310"
+  },
+  {
+    "rua": "Vinte e Um (Rec Indaia)",
+    "cep": "11755-362"
+  },
+  {
+    "rua": "Virgilio Casella",
+    "cep": "11749-192"
+  },
+  {
+    "rua": "Vital Ferreira",
+    "cep": "11746-542"
+  },
+  {
+    "rua": "Vitoria",
+    "cep": "11754-586"
+  },
+  {
+    "rua": "Vitoria",
+    "cep": "11741-860"
+  },
+  {
+    "rua": "Vitoria",
+    "cep": "11742-426"
+  },
+  {
+    "rua": "Vitoria",
+    "cep": "11749-812"
+  },
+  {
+    "rua": "Vitoria",
+    "cep": "11749-810"
+  },
+  {
+    "rua": "W (Jd Jamaica)",
+    "cep": "11754-150"
+  },
+  {
+    "rua": "Wagner Bonfim",
+    "cep": "11744-272"
+  },
+  {
+    "rua": "Wagner Pereira da Silva",
+    "cep": "11749-254"
+  },
+  {
+    "rua": "Walda",
+    "cep": "11747-782"
+  },
+  {
+    "rua": "Waldemar Augusto Martins",
+    "cep": "11747-378"
+  },
+  {
+    "rua": "Waldemar Augusto Serra",
+    "cep": "11748-164"
+  },
+  {
+    "rua": "Waldemar Castilho",
+    "cep": "11747-350"
+  },
+  {
+    "rua": "Waldemar Felício",
+    "cep": "11751-322"
+  },
+  {
+    "rua": "Waldemar Magalhães",
+    "cep": "11742-582"
+  },
+  {
+    "rua": "Waldemar Magalhães",
+    "cep": "11740-538"
+  },
+  {
+    "rua": "Waldemar Magalhães",
+    "cep": "11743-518"
+  },
+  {
+    "rua": "Waldemar Silveira",
+    "cep": "11748-154"
+  },
+  {
+    "rua": "Waldemar Simoni de Dourado",
+    "cep": "11746-060"
+  },
+  {
+    "rua": "Waldir Gottsfritz",
+    "cep": "11748-178"
+  },
+  {
+    "rua": "Wallace Arthur Skerrat",
+    "cep": "11746-128"
+  },
+  {
+    "rua": "Walter Apelian",
+    "cep": "11754-672"
+  },
+  {
+    "rua": "Walter Arduini, Professor",
+    "cep": "11747-142"
+  },
+  {
+    "rua": "Walter Miranda",
+    "cep": "11742-558"
+  },
+  {
+    "rua": "Walter Francisco Castellan",
+    "cep": "11741-206"
+  },
+  {
+    "rua": "Walter Francisco Castellan",
+    "cep": "11741-362"
+  },
+  {
+    "rua": "Walter Miranda",
+    "cep": "11743-476"
+  },
+  {
+    "rua": "Walter Miranda",
+    "cep": "11740-542"
+  },
+  {
+    "rua": "Walter Miranda",
+    "cep": "11743-526"
+  },
+  {
+    "rua": "Walter Muller",
+    "cep": "11746-774"
+  },
+  {
+    "rua": "Wanderly da Cruz Abbasi",
+    "cep": "11741-488"
+  },
+  {
+    "rua": "Washington",
+    "cep": "11749-488"
+  },
+  {
+    "rua": "Washington Dia dos Santos",
+    "cep": "11749-674"
+  },
+  {
+    "rua": "Washington Luis",
+    "cep": "11748-504"
+  },
+  {
+    "rua": "Washington Luiz",
+    "cep": "11740-028"
+  },
+  {
+    "rua": "Washington Luiz",
+    "cep": "11740-030"
+  },
+  {
+    "rua": "Wilson Apelian",
+    "cep": "11741-784"
+  },
+  {
+    "rua": "Wilson de Moraes",
+    "cep": "11740-400"
+  },
+  {
+    "rua": "Wilson Flávio Chiereguini",
+    "cep": "11749-256"
+  },
+  {
+    "rua": "Wilton Paes de Almeida",
+    "cep": "11746-070"
+  },
+  {
+    "rua": "Xavantes , dos",
+    "cep": "11749-202"
+  },
+  {
+    "rua": "Xerentes",
+    "cep": "11749-142"
+  },
+  {
+    "rua": "Xingu",
+    "cep": "11749-150"
+  },
+  {
+    "rua": "Yara",
+    "cep": "11747-060"
+  },
+  {
+    "rua": "Yberaba",
+    "cep": "11740-584"
+  },
+  {
+    "rua": "Yma",
+    "cep": "11747-042"
+  },
+  {
+    "rua": "Ype",
+    "cep": "11749-372"
+  },
+  {
+    "rua": "Ype",
+    "cep": "11749-304"
+  },
+  {
+    "rua": "Z (Jd Lindomar)",
+    "cep": "11757-032"
+  },
+  {
+    "rua": "Zaragoza",
+    "cep": "11746-768"
+  },
+  {
+    "rua": "Zeferino da Costa",
+    "cep": "11746-672"
+  },
+  {
+    "rua": "Zeferino Soares",
+    "cep": "11740-026"
+  },
+  {
+    "rua": "Zenaide Meira Mayr",
+    "cep": "11754-248"
+  },
+  {
+    "rua": "13 de Maio",
+    "cep": "11744-004"
+  },
+  {
+    "rua": "20 de Janeiro",
+    "cep": "11741-898"
+  },
+  {
+    "rua": "22 de Abril",
+    "cep": "11740-016"
+  },
+  {
+    "rua": "24 de Maio",
+    "cep": "11756-728"
+  },
+  {
+    "rua": "7 de Setembro",
+    "cep": "11742-034"
+  },
+  {
+    "rua": "9 de Julho",
+    "cep": "11740-006"
+  }
 ];
 
 
@@ -39,4 +14248,5 @@ resultado.innerText = "CEP não encontrado na base local.";
 // Registro do Service Worker
 if ('serviceWorker' in navigator) {
 navigator.serviceWorker.register('service-worker.js');
+
 }
