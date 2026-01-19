@@ -3550,41 +3550,54 @@ function consultarCEP() {
   const textoDigitado = normalizar(inputEl.value);
   resultado.innerHTML = "";
 
-// Proteção para busca muito curta
-if (textoDigitado.replace(/\s/g, "").length < 3) {
-  resultado.innerHTML = "<small>Digite ao menos 3 letras úteis…</small>";
-  return;
+  // Proteção para busca muito curta
+  if (textoDigitado.replace(/\s/g, "").length < 3) {
+    resultado.innerHTML = "<small>Digite ao menos 3 letras úteis…</small>";
+    return;
+  }
+
+  const encontrados = enderecos.filter(e => {
+    const ruaNormalizada = normalizar(e.rua);
+
+    const palavras = textoDigitado
+      .split(" ")
+      .filter(p => p.length > 2); // ignora palavras curtas
+
+    if (palavras.length === 0) return false;
+
+    return palavras.every(palavra =>
+      ruaNormalizada.includes(palavra)
+    );
+  });
+
+  if (encontrados.length === 0) {
+    resultado.innerHTML = "CEP não encontrado.";
+    return;
+  }
+
+  // Mostra todos os resultados
+  encontrados.forEach(e => {
+    resultado.innerHTML += `
+      <div style="margin-top:10px">
+        <strong>${e.rua}</strong><br>
+        CEP: <strong>${e.cep}</strong><br>
+        ${e.faixa ? `<small>${e.faixa}</small>` : ""}
+        <hr>
+      </div>
+    `;
+  });
 }
 
-const encontrados = enderecos.filter(e => {
-  const ruaNormalizada = normalizar(e.rua);
-
-  const palavras = textoDigitado
-    .split(" ")
-    .filter(p => p.length > 2); // ignora palavras curtas
-
-// se não sobrar palavra válida, não busca
-  if (palavras.length === 0) return false;
-
-  return palavras.every(palavra =>
-    ruaNormalizada.includes(palavra)
-  );
-}); // ⬅️ FECHA O FILTER AQUI
-
-// ⬇️ A PARTIR DAQUI O CÓDIGO CONTINUA NORMALMENTE
-if (encontrados.length === 0) {
-  resultado.innerHTML = "CEP não encontrado.";
-  return;
+// Registro do Service Worker
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("service-worker.js")
+      .then(registration => {
+        console.log("Service Worker registrado com sucesso:", registration);
+      })
+      .catch(error => {
+        console.log("Falha ao registrar Service Worker:", error);
+      });
+  });
 }
-
-// ✅ MOSTRA TODOS OS RESULTADOS
-encontrados.forEach(e => {
-  resultado.innerHTML += `
-    <div style="margin-top:10px">
-      <strong>${e.rua}</strong><br>
-      CEP: <strong>${e.cep}</strong><br>
-      ${e.faixa ? `<small>${e.faixa}</small>` : ""}
-      <hr>
-    </div>
-  `;
-});
