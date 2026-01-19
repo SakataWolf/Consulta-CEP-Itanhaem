@@ -3533,7 +3533,6 @@ const enderecos = [
 { "rua": "9 de Julho", "cep": "11740-006", "faixa": "r - Centro" },
 ]
 
-// Normaliza texto (remove acentos, maiúsculas etc) - VERSÃO ÚNICA
 function normalizar(texto = "") {
   return texto
     .toString()
@@ -3544,7 +3543,6 @@ function normalizar(texto = "") {
     .trim();
 }
 
-
 function consultarCEP() {
   const inputEl = document.getElementById("endereco");
   const resultado = document.getElementById("resultado");
@@ -3552,9 +3550,9 @@ function consultarCEP() {
   const textoDigitado = normalizar(inputEl.value);
   resultado.innerHTML = "";
 
-  // 🔐 Proteção: evita sumir tudo com 1 letra
-  if (textoDigitado.length < 3) {
-    resultado.innerHTML = "<small>Digite ao menos 3 letras…</small>";
+  // Proteção para busca muito curta
+  if (textoDigitado.length < 2) {
+    resultado.innerHTML = "<small>Digite ao menos 2 letras…</small>";
     return;
   }
 
@@ -3567,6 +3565,7 @@ function consultarCEP() {
     return;
   }
 
+  // ✅ MOSTRA TODOS OS RESULTADOS
   encontrados.forEach(e => {
     resultado.innerHTML += `
       <div style="margin-top:10px">
@@ -3576,20 +3575,6 @@ function consultarCEP() {
         <hr>
       </div>
     `;
-  });
-}
-
-  // Mostra TODOS os CEPs encontrados
-  encontrados.forEach(e => {
-    const div = document.createElement("div");
-    div.style.marginTop = "10px";
-    div.innerHTML = `
-      <strong>${e.rua}</strong><br>
-      CEP: <strong>${e.cep}</strong><br>
-      ${e.faixa ? `<small>${e.faixa}</small>` : ""}
-      <hr>
-    `;
-    resultado.appendChild(div);
   });
 }
 
@@ -3605,7 +3590,3 @@ if ("serviceWorker" in navigator) {
       });
   });
 }
-
-
-
-
