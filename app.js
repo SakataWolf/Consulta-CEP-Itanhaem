@@ -3533,37 +3533,50 @@ const enderecos = [
 { "rua": "9 de Julho", "cep": "11740-006", "faixa": "r - Centro" },
 
 // Normaliza texto (remove acentos, maiúsculas etc) - VERSÃO ÚNICA
-function normalizar(texto) {
+function normalizar(texto = "") {
   return texto
+    .toString()
     .toLowerCase()
-    .normalize("NFD")                 // separa letras e acentos
-    .replace(/[\u0300-\u036f]/g, "") // remove acentos
-    .replace(/[^a-z0-9 ]/g, "")      // remove caracteres especiais
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9 ]/g, "")
     .trim();
 }
 
+
 function consultarCEP() {
-  const input = document.getElementById("endereco").value;
+  const inputEl = document.getElementById("endereco");
   const resultado = document.getElementById("resultado");
 
+  const textoDigitado = normalizar(inputEl.value);
   resultado.innerHTML = "";
 
-  if (!input) {
-    resultado.innerText = "Digite um endereço.";
+  // 🔐 Proteção: evita sumir tudo com 1 letra
+  if (textoDigitado.length < 3) {
+    resultado.innerHTML = "<small>Digite ao menos 3 letras…</small>";
     return;
   }
 
-  const busca = normalizar(input);
-
-  // Busca no array de endereços
-  const encontrados = enderecos.filter(e => 
-    normalizar(e.rua).includes(busca)
+  const encontrados = enderecos.filter(e =>
+    normalizar(e.rua).includes(textoDigitado)
   );
 
   if (encontrados.length === 0) {
-    resultado.innerText = "CEP não encontrado na base local.";
+    resultado.innerHTML = "CEP não encontrado.";
     return;
   }
+
+  encontrados.forEach(e => {
+    resultado.innerHTML += `
+      <div style="margin-top:10px">
+        <strong>${e.rua}</strong><br>
+        CEP: <strong>${e.cep}</strong><br>
+        ${e.faixa ? `<small>${e.faixa}</small>` : ""}
+        <hr>
+      </div>
+    `;
+  });
+}
 
   // Mostra TODOS os CEPs encontrados
   encontrados.forEach(e => {
@@ -3591,5 +3604,6 @@ if ("serviceWorker" in navigator) {
       });
   });
 }
+
 
 
