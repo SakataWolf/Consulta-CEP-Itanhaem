@@ -3534,12 +3534,11 @@ const enderecos = [
 
 // Normaliza texto (remove acentos, maiúsculas etc) - VERSÃO ÚNICA
 function normalizar(texto) {
-  if (!texto) return "";
   return texto
     .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-z0-9 ]/g, "")
+    .normalize("NFD")                 // separa letras e acentos
+    .replace(/[\u0300-\u036f]/g, "") // remove acentos
+    .replace(/[^a-z0-9 ]/g, "")      // remove caracteres especiais
     .trim();
 }
 
@@ -3592,4 +3591,5 @@ if ("serviceWorker" in navigator) {
       });
   });
 }
+
 
