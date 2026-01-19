@@ -3605,3 +3605,15 @@ function consultarCEP() {
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("service-worker.js");
 }
+
+//Corrigir caracteres
+function normalizar(texto) {
+  return texto
+    .toLowerCase()
+    .normalize("NFD")                 // separa letras e acentos
+    .replace(/[\u0300-\u036f]/g, "") // remove acentos
+    .replace(/[^a-z0-9 ]/g, "")      // remove caracteres especiais
+    .trim();
+}
+
+
