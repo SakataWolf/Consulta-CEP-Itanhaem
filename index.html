@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Consulta CEP - Itanhaém</title>
-<link rel="stylesheet" href="style.css" />
-<link rel="manifest" href="manifest.json" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Consulta CEP - Itanhaém</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
 </head>
+
 <body>
-<div class="container">
-<h1>Consulta CEP - Itanhaém</h1>
-<p>Digite o nome da rua (com ou sem número)</p>
+  <div class="container">
+    <h1>Consulta CEP - Itanhaém</h1>
+    <p>Digite o nome da rua (com ou sem número)</p>
 
+    <label for="endereco" class="sr-only">Endereço</label>
+    <input
+      type="text"
+      id="endereco"
+      placeholder="Ex: Av. Rui Barbosa 123"
+      autocomplete="off"
+      oninput="consultarCEP()"
+    />
 
+    <!-- Botão opcional -->
+    <button type="button" onclick="consultarCEP()">
+      Consultar CEP
+    </button>
 
-<input type="text" id="endereco" placeholder="Ex: Av. Rui Barbosa 123" oninput="consultarCEP()"/>
-<button onclick="consultarCEP()">Consultar CEP</button>
+    <div id="resultado"></div>
+  </div>
 
-
-<div id="resultado"></div>
-</div>
-
-
-<script src="app.js"></script>
+  <!-- JS carregado corretamente -->
+  <script src="app.js" defer></script>
 </body>
-
 </html>
