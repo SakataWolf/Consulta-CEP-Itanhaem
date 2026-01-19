@@ -3556,9 +3556,18 @@ function consultarCEP() {
     return;
   }
 
-  const encontrados = enderecos.filter(e =>
-    normalizar(e.rua).includes(textoDigitado)
+  const encontrados = enderecos.filter(e => {
+  const ruaNormalizada = normalizar(e.rua);
+
+  // quebra o texto digitado em palavras
+  const palavras = textoDigitado.split(" ");
+
+  // todas as palavras digitadas precisam existir na rua
+  return palavras.every(palavra =>
+    ruaNormalizada.includes(palavra)
   );
+});
+
 
   if (encontrados.length === 0) {
     resultado.innerHTML = "CEP não encontrado.";
@@ -3590,3 +3599,4 @@ if ("serviceWorker" in navigator) {
       });
   });
 }
+
